@@ -7,7 +7,11 @@
     -- src/pro3_05_chartype.cpp will be compiled to bin/pro3_05_chartype
     -- src/pro3_06_morechar.cpp will be compiled to bin/pro3_06_morechar
     -- src/pro3_07_bondini.cpp will be compiled to bin/pro3_07_bondini
-    -- src/test.cpp will be compiled to bin/test
+    -- src/pro3_08_floatnum.cpp will be compiled to bin/pro3_08_floatnum
+    -- src/pro3_09_fltadd.cpp will be compiled to bin/pro3_09_fltadd
+    -- src/pro3_10_arith.cpp will be compiled to bin/pro3_10_arith
+    -- src/pro3_11_divide.cpp will be compiled to bin/pro3_11_divide
+    -- src/pro3_12_modulus.cpp will be compiled to bin/pro3_12_modulus
     -- src/CMakeCXXCompilerId.cpp will be compiled to bin/CMakeCXXCompilerId
     -- src/main.cpp will be compiled to bin/main
 -- Configuring done
