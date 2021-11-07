@@ -1,0 +1,15 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/guiru/CLionProjects/cplusplus-primer
+    -- src/ex1_09.cpp will be compiled to bin/ex1_09
+    -- src/ex1_10.cpp will be compiled to bin/ex1_10
+    -- src/pro3_02_exceed.cpp will be compiled to bin/pro3_02_exceed
+    -- src/pro3_03_hexoct.cpp will be compiled to bin/pro3_03_hexoct
+    -- src/pro3_04_hexoct2.cpp will be compiled to bin/pro3_04_hexoct2
+    -- src/pro3_05_chartype.cpp will be compiled to bin/pro3_05_chartype
+    -- src/pro3_06_morechar.cpp will be compiled to bin/pro3_06_morechar
+    -- src/pro3_07_bondini.cpp will be compiled to bin/pro3_07_bondini
+    -- src/test.cpp will be compiled to bin/test
+    -- src/CMakeCXXCompilerId.cpp will be compiled to bin/CMakeCXXCompilerId
+    -- src/main.cpp will be compiled to bin/main
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug
