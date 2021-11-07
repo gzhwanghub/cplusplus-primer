@@ -1,6 +1,7 @@
 /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/guiru/CLionProjects/cplusplus-primer
     -- src/ex1_09.cpp will be compiled to bin/ex1_09
     -- src/ex1_10.cpp will be compiled to bin/ex1_10
+    -- src/exe3_01.cpp will be compiled to bin/exe3_01
     -- src/pro3_02_exceed.cpp will be compiled to bin/pro3_02_exceed
     -- src/pro3_03_hexoct.cpp will be compiled to bin/pro3_03_hexoct
     -- src/pro3_04_hexoct2.cpp will be compiled to bin/pro3_04_hexoct2
@@ -12,6 +13,9 @@
     -- src/pro3_10_arith.cpp will be compiled to bin/pro3_10_arith
     -- src/pro3_11_divide.cpp will be compiled to bin/pro3_11_divide
     -- src/pro3_12_modulus.cpp will be compiled to bin/pro3_12_modulus
+    -- src/pro3_13_assign.cpp will be compiled to bin/pro3_13_assign
+    -- src/pro3_14_typecast.cpp will be compiled to bin/pro3_14_typecast
+    -- src/pro4_01_arrayone.cpp will be compiled to bin/pro4_01_arrayone
     -- src/CMakeCXXCompilerId.cpp will be compiled to bin/CMakeCXXCompilerId
     -- src/main.cpp will be compiled to bin/main
 -- Configuring done

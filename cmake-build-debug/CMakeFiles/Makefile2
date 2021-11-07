@@ -55,20 +55,24 @@ CMAKE_BINARY_DIR = /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug
 # The main recursive "all" target.
 all: CMakeFiles/cplusplus_primer.dir/all
 all: CMakeFiles/CMakeCXXCompilerId.dir/all
-all: CMakeFiles/pro3_09_fltadd.dir/all
+all: CMakeFiles/pro4_01_arrayone.dir/all
+all: CMakeFiles/pro3_14_typecast.dir/all
+all: CMakeFiles/pro3_13_assign.dir/all
 all: CMakeFiles/pro3_12_modulus.dir/all
+all: CMakeFiles/exe3_01.dir/all
 all: CMakeFiles/pro3_07_bondini.dir/all
 all: CMakeFiles/pro3_06_morechar.dir/all
 all: CMakeFiles/ex1_10.dir/all
 all: CMakeFiles/pro3_05_chartype.dir/all
-all: CMakeFiles/ex1_09.dir/all
-all: CMakeFiles/main.dir/all
-all: CMakeFiles/pro3_11_divide.dir/all
-all: CMakeFiles/pro3_04_hexoct2.dir/all
-all: CMakeFiles/pro3_10_arith.dir/all
 all: CMakeFiles/pro3_08_floatnum.dir/all
 all: CMakeFiles/pro3_02_exceed.dir/all
+all: CMakeFiles/pro3_09_fltadd.dir/all
 all: CMakeFiles/pro3_03_hexoct.dir/all
+all: CMakeFiles/main.dir/all
+all: CMakeFiles/pro3_11_divide.dir/all
+all: CMakeFiles/pro3_10_arith.dir/all
+all: CMakeFiles/pro3_04_hexoct2.dir/all
+all: CMakeFiles/ex1_09.dir/all
 
 .PHONY : all
 
@@ -80,20 +84,24 @@ preinstall:
 # The main recursive "clean" target.
 clean: CMakeFiles/cplusplus_primer.dir/clean
 clean: CMakeFiles/CMakeCXXCompilerId.dir/clean
-clean: CMakeFiles/pro3_09_fltadd.dir/clean
+clean: CMakeFiles/pro4_01_arrayone.dir/clean
+clean: CMakeFiles/pro3_14_typecast.dir/clean
+clean: CMakeFiles/pro3_13_assign.dir/clean
 clean: CMakeFiles/pro3_12_modulus.dir/clean
+clean: CMakeFiles/exe3_01.dir/clean
 clean: CMakeFiles/pro3_07_bondini.dir/clean
 clean: CMakeFiles/pro3_06_morechar.dir/clean
 clean: CMakeFiles/ex1_10.dir/clean
 clean: CMakeFiles/pro3_05_chartype.dir/clean
-clean: CMakeFiles/ex1_09.dir/clean
-clean: CMakeFiles/main.dir/clean
-clean: CMakeFiles/pro3_11_divide.dir/clean
-clean: CMakeFiles/pro3_04_hexoct2.dir/clean
-clean: CMakeFiles/pro3_10_arith.dir/clean
 clean: CMakeFiles/pro3_08_floatnum.dir/clean
 clean: CMakeFiles/pro3_02_exceed.dir/clean
+clean: CMakeFiles/pro3_09_fltadd.dir/clean
 clean: CMakeFiles/pro3_03_hexoct.dir/clean
+clean: CMakeFiles/main.dir/clean
+clean: CMakeFiles/pro3_11_divide.dir/clean
+clean: CMakeFiles/pro3_10_arith.dir/clean
+clean: CMakeFiles/pro3_04_hexoct2.dir/clean
+clean: CMakeFiles/ex1_09.dir/clean
 
 .PHONY : clean
 
@@ -152,31 +160,85 @@ CMakeFiles/CMakeCXXCompilerId.dir/clean:
 .PHONY : CMakeFiles/CMakeCXXCompilerId.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/pro3_09_fltadd.dir
+# Target rules for target CMakeFiles/pro4_01_arrayone.dir
 
 # All Build rule for target.
-CMakeFiles/pro3_09_fltadd.dir/all:
-	$(MAKE) -f CMakeFiles/pro3_09_fltadd.dir/build.make CMakeFiles/pro3_09_fltadd.dir/depend
-	$(MAKE) -f CMakeFiles/pro3_09_fltadd.dir/build.make CMakeFiles/pro3_09_fltadd.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=25,26 "Built target pro3_09_fltadd"
-.PHONY : CMakeFiles/pro3_09_fltadd.dir/all
+CMakeFiles/pro4_01_arrayone.dir/all:
+	$(MAKE) -f CMakeFiles/pro4_01_arrayone.dir/build.make CMakeFiles/pro4_01_arrayone.dir/depend
+	$(MAKE) -f CMakeFiles/pro4_01_arrayone.dir/build.make CMakeFiles/pro4_01_arrayone.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=39,40 "Built target pro4_01_arrayone"
+.PHONY : CMakeFiles/pro4_01_arrayone.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/pro3_09_fltadd.dir/rule: cmake_check_build_system
+CMakeFiles/pro4_01_arrayone.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/pro3_09_fltadd.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/pro4_01_arrayone.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/pro3_09_fltadd.dir/rule
+.PHONY : CMakeFiles/pro4_01_arrayone.dir/rule
 
 # Convenience name for target.
-pro3_09_fltadd: CMakeFiles/pro3_09_fltadd.dir/rule
+pro4_01_arrayone: CMakeFiles/pro4_01_arrayone.dir/rule
 
-.PHONY : pro3_09_fltadd
+.PHONY : pro4_01_arrayone
 
 # clean rule for target.
-CMakeFiles/pro3_09_fltadd.dir/clean:
-	$(MAKE) -f CMakeFiles/pro3_09_fltadd.dir/build.make CMakeFiles/pro3_09_fltadd.dir/clean
-.PHONY : CMakeFiles/pro3_09_fltadd.dir/clean
+CMakeFiles/pro4_01_arrayone.dir/clean:
+	$(MAKE) -f CMakeFiles/pro4_01_arrayone.dir/build.make CMakeFiles/pro4_01_arrayone.dir/clean
+.PHONY : CMakeFiles/pro4_01_arrayone.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/pro3_14_typecast.dir
+
+# All Build rule for target.
+CMakeFiles/pro3_14_typecast.dir/all:
+	$(MAKE) -f CMakeFiles/pro3_14_typecast.dir/build.make CMakeFiles/pro3_14_typecast.dir/depend
+	$(MAKE) -f CMakeFiles/pro3_14_typecast.dir/build.make CMakeFiles/pro3_14_typecast.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=37,38 "Built target pro3_14_typecast"
+.PHONY : CMakeFiles/pro3_14_typecast.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/pro3_14_typecast.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/pro3_14_typecast.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/pro3_14_typecast.dir/rule
+
+# Convenience name for target.
+pro3_14_typecast: CMakeFiles/pro3_14_typecast.dir/rule
+
+.PHONY : pro3_14_typecast
+
+# clean rule for target.
+CMakeFiles/pro3_14_typecast.dir/clean:
+	$(MAKE) -f CMakeFiles/pro3_14_typecast.dir/build.make CMakeFiles/pro3_14_typecast.dir/clean
+.PHONY : CMakeFiles/pro3_14_typecast.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/pro3_13_assign.dir
+
+# All Build rule for target.
+CMakeFiles/pro3_13_assign.dir/all:
+	$(MAKE) -f CMakeFiles/pro3_13_assign.dir/build.make CMakeFiles/pro3_13_assign.dir/depend
+	$(MAKE) -f CMakeFiles/pro3_13_assign.dir/build.make CMakeFiles/pro3_13_assign.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=35,36 "Built target pro3_13_assign"
+.PHONY : CMakeFiles/pro3_13_assign.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/pro3_13_assign.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/pro3_13_assign.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/pro3_13_assign.dir/rule
+
+# Convenience name for target.
+pro3_13_assign: CMakeFiles/pro3_13_assign.dir/rule
+
+.PHONY : pro3_13_assign
+
+# clean rule for target.
+CMakeFiles/pro3_13_assign.dir/clean:
+	$(MAKE) -f CMakeFiles/pro3_13_assign.dir/build.make CMakeFiles/pro3_13_assign.dir/clean
+.PHONY : CMakeFiles/pro3_13_assign.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/pro3_12_modulus.dir
@@ -185,7 +247,7 @@ CMakeFiles/pro3_09_fltadd.dir/clean:
 CMakeFiles/pro3_12_modulus.dir/all:
 	$(MAKE) -f CMakeFiles/pro3_12_modulus.dir/build.make CMakeFiles/pro3_12_modulus.dir/depend
 	$(MAKE) -f CMakeFiles/pro3_12_modulus.dir/build.make CMakeFiles/pro3_12_modulus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=31,32 "Built target pro3_12_modulus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=33,34 "Built target pro3_12_modulus"
 .PHONY : CMakeFiles/pro3_12_modulus.dir/all
 
 # Build rule for subdir invocation for target.
@@ -206,13 +268,40 @@ CMakeFiles/pro3_12_modulus.dir/clean:
 .PHONY : CMakeFiles/pro3_12_modulus.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/exe3_01.dir
+
+# All Build rule for target.
+CMakeFiles/exe3_01.dir/all:
+	$(MAKE) -f CMakeFiles/exe3_01.dir/build.make CMakeFiles/exe3_01.dir/depend
+	$(MAKE) -f CMakeFiles/exe3_01.dir/build.make CMakeFiles/exe3_01.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target exe3_01"
+.PHONY : CMakeFiles/exe3_01.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/exe3_01.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/exe3_01.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/exe3_01.dir/rule
+
+# Convenience name for target.
+exe3_01: CMakeFiles/exe3_01.dir/rule
+
+.PHONY : exe3_01
+
+# clean rule for target.
+CMakeFiles/exe3_01.dir/clean:
+	$(MAKE) -f CMakeFiles/exe3_01.dir/build.make CMakeFiles/exe3_01.dir/clean
+.PHONY : CMakeFiles/exe3_01.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/pro3_07_bondini.dir
 
 # All Build rule for target.
 CMakeFiles/pro3_07_bondini.dir/all:
 	$(MAKE) -f CMakeFiles/pro3_07_bondini.dir/build.make CMakeFiles/pro3_07_bondini.dir/depend
 	$(MAKE) -f CMakeFiles/pro3_07_bondini.dir/build.make CMakeFiles/pro3_07_bondini.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target pro3_07_bondini"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target pro3_07_bondini"
 .PHONY : CMakeFiles/pro3_07_bondini.dir/all
 
 # Build rule for subdir invocation for target.
@@ -239,7 +328,7 @@ CMakeFiles/pro3_07_bondini.dir/clean:
 CMakeFiles/pro3_06_morechar.dir/all:
 	$(MAKE) -f CMakeFiles/pro3_06_morechar.dir/build.make CMakeFiles/pro3_06_morechar.dir/depend
 	$(MAKE) -f CMakeFiles/pro3_06_morechar.dir/build.make CMakeFiles/pro3_06_morechar.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target pro3_06_morechar"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target pro3_06_morechar"
 .PHONY : CMakeFiles/pro3_06_morechar.dir/all
 
 # Build rule for subdir invocation for target.
@@ -293,7 +382,7 @@ CMakeFiles/ex1_10.dir/clean:
 CMakeFiles/pro3_05_chartype.dir/all:
 	$(MAKE) -f CMakeFiles/pro3_05_chartype.dir/build.make CMakeFiles/pro3_05_chartype.dir/depend
 	$(MAKE) -f CMakeFiles/pro3_05_chartype.dir/build.make CMakeFiles/pro3_05_chartype.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target pro3_05_chartype"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target pro3_05_chartype"
 .PHONY : CMakeFiles/pro3_05_chartype.dir/all
 
 # Build rule for subdir invocation for target.
@@ -312,6 +401,222 @@ pro3_05_chartype: CMakeFiles/pro3_05_chartype.dir/rule
 CMakeFiles/pro3_05_chartype.dir/clean:
 	$(MAKE) -f CMakeFiles/pro3_05_chartype.dir/build.make CMakeFiles/pro3_05_chartype.dir/clean
 .PHONY : CMakeFiles/pro3_05_chartype.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/pro3_08_floatnum.dir
+
+# All Build rule for target.
+CMakeFiles/pro3_08_floatnum.dir/all:
+	$(MAKE) -f CMakeFiles/pro3_08_floatnum.dir/build.make CMakeFiles/pro3_08_floatnum.dir/depend
+	$(MAKE) -f CMakeFiles/pro3_08_floatnum.dir/build.make CMakeFiles/pro3_08_floatnum.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=25,26 "Built target pro3_08_floatnum"
+.PHONY : CMakeFiles/pro3_08_floatnum.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/pro3_08_floatnum.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/pro3_08_floatnum.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/pro3_08_floatnum.dir/rule
+
+# Convenience name for target.
+pro3_08_floatnum: CMakeFiles/pro3_08_floatnum.dir/rule
+
+.PHONY : pro3_08_floatnum
+
+# clean rule for target.
+CMakeFiles/pro3_08_floatnum.dir/clean:
+	$(MAKE) -f CMakeFiles/pro3_08_floatnum.dir/build.make CMakeFiles/pro3_08_floatnum.dir/clean
+.PHONY : CMakeFiles/pro3_08_floatnum.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/pro3_02_exceed.dir
+
+# All Build rule for target.
+CMakeFiles/pro3_02_exceed.dir/all:
+	$(MAKE) -f CMakeFiles/pro3_02_exceed.dir/build.make CMakeFiles/pro3_02_exceed.dir/depend
+	$(MAKE) -f CMakeFiles/pro3_02_exceed.dir/build.make CMakeFiles/pro3_02_exceed.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target pro3_02_exceed"
+.PHONY : CMakeFiles/pro3_02_exceed.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/pro3_02_exceed.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/pro3_02_exceed.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/pro3_02_exceed.dir/rule
+
+# Convenience name for target.
+pro3_02_exceed: CMakeFiles/pro3_02_exceed.dir/rule
+
+.PHONY : pro3_02_exceed
+
+# clean rule for target.
+CMakeFiles/pro3_02_exceed.dir/clean:
+	$(MAKE) -f CMakeFiles/pro3_02_exceed.dir/build.make CMakeFiles/pro3_02_exceed.dir/clean
+.PHONY : CMakeFiles/pro3_02_exceed.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/pro3_09_fltadd.dir
+
+# All Build rule for target.
+CMakeFiles/pro3_09_fltadd.dir/all:
+	$(MAKE) -f CMakeFiles/pro3_09_fltadd.dir/build.make CMakeFiles/pro3_09_fltadd.dir/depend
+	$(MAKE) -f CMakeFiles/pro3_09_fltadd.dir/build.make CMakeFiles/pro3_09_fltadd.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=27,28 "Built target pro3_09_fltadd"
+.PHONY : CMakeFiles/pro3_09_fltadd.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/pro3_09_fltadd.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/pro3_09_fltadd.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/pro3_09_fltadd.dir/rule
+
+# Convenience name for target.
+pro3_09_fltadd: CMakeFiles/pro3_09_fltadd.dir/rule
+
+.PHONY : pro3_09_fltadd
+
+# clean rule for target.
+CMakeFiles/pro3_09_fltadd.dir/clean:
+	$(MAKE) -f CMakeFiles/pro3_09_fltadd.dir/build.make CMakeFiles/pro3_09_fltadd.dir/clean
+.PHONY : CMakeFiles/pro3_09_fltadd.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/pro3_03_hexoct.dir
+
+# All Build rule for target.
+CMakeFiles/pro3_03_hexoct.dir/all:
+	$(MAKE) -f CMakeFiles/pro3_03_hexoct.dir/build.make CMakeFiles/pro3_03_hexoct.dir/depend
+	$(MAKE) -f CMakeFiles/pro3_03_hexoct.dir/build.make CMakeFiles/pro3_03_hexoct.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target pro3_03_hexoct"
+.PHONY : CMakeFiles/pro3_03_hexoct.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/pro3_03_hexoct.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/pro3_03_hexoct.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/pro3_03_hexoct.dir/rule
+
+# Convenience name for target.
+pro3_03_hexoct: CMakeFiles/pro3_03_hexoct.dir/rule
+
+.PHONY : pro3_03_hexoct
+
+# clean rule for target.
+CMakeFiles/pro3_03_hexoct.dir/clean:
+	$(MAKE) -f CMakeFiles/pro3_03_hexoct.dir/build.make CMakeFiles/pro3_03_hexoct.dir/clean
+.PHONY : CMakeFiles/pro3_03_hexoct.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/main.dir
+
+# All Build rule for target.
+CMakeFiles/main.dir/all:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/depend
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target main"
+.PHONY : CMakeFiles/main.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/main.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/main.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/main.dir/rule
+
+# Convenience name for target.
+main: CMakeFiles/main.dir/rule
+
+.PHONY : main
+
+# clean rule for target.
+CMakeFiles/main.dir/clean:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/clean
+.PHONY : CMakeFiles/main.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/pro3_11_divide.dir
+
+# All Build rule for target.
+CMakeFiles/pro3_11_divide.dir/all:
+	$(MAKE) -f CMakeFiles/pro3_11_divide.dir/build.make CMakeFiles/pro3_11_divide.dir/depend
+	$(MAKE) -f CMakeFiles/pro3_11_divide.dir/build.make CMakeFiles/pro3_11_divide.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=31,32 "Built target pro3_11_divide"
+.PHONY : CMakeFiles/pro3_11_divide.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/pro3_11_divide.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/pro3_11_divide.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/pro3_11_divide.dir/rule
+
+# Convenience name for target.
+pro3_11_divide: CMakeFiles/pro3_11_divide.dir/rule
+
+.PHONY : pro3_11_divide
+
+# clean rule for target.
+CMakeFiles/pro3_11_divide.dir/clean:
+	$(MAKE) -f CMakeFiles/pro3_11_divide.dir/build.make CMakeFiles/pro3_11_divide.dir/clean
+.PHONY : CMakeFiles/pro3_11_divide.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/pro3_10_arith.dir
+
+# All Build rule for target.
+CMakeFiles/pro3_10_arith.dir/all:
+	$(MAKE) -f CMakeFiles/pro3_10_arith.dir/build.make CMakeFiles/pro3_10_arith.dir/depend
+	$(MAKE) -f CMakeFiles/pro3_10_arith.dir/build.make CMakeFiles/pro3_10_arith.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=29,30 "Built target pro3_10_arith"
+.PHONY : CMakeFiles/pro3_10_arith.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/pro3_10_arith.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/pro3_10_arith.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/pro3_10_arith.dir/rule
+
+# Convenience name for target.
+pro3_10_arith: CMakeFiles/pro3_10_arith.dir/rule
+
+.PHONY : pro3_10_arith
+
+# clean rule for target.
+CMakeFiles/pro3_10_arith.dir/clean:
+	$(MAKE) -f CMakeFiles/pro3_10_arith.dir/build.make CMakeFiles/pro3_10_arith.dir/clean
+.PHONY : CMakeFiles/pro3_10_arith.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/pro3_04_hexoct2.dir
+
+# All Build rule for target.
+CMakeFiles/pro3_04_hexoct2.dir/all:
+	$(MAKE) -f CMakeFiles/pro3_04_hexoct2.dir/build.make CMakeFiles/pro3_04_hexoct2.dir/depend
+	$(MAKE) -f CMakeFiles/pro3_04_hexoct2.dir/build.make CMakeFiles/pro3_04_hexoct2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target pro3_04_hexoct2"
+.PHONY : CMakeFiles/pro3_04_hexoct2.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/pro3_04_hexoct2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/pro3_04_hexoct2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/pro3_04_hexoct2.dir/rule
+
+# Convenience name for target.
+pro3_04_hexoct2: CMakeFiles/pro3_04_hexoct2.dir/rule
+
+.PHONY : pro3_04_hexoct2
+
+# clean rule for target.
+CMakeFiles/pro3_04_hexoct2.dir/clean:
+	$(MAKE) -f CMakeFiles/pro3_04_hexoct2.dir/build.make CMakeFiles/pro3_04_hexoct2.dir/clean
+.PHONY : CMakeFiles/pro3_04_hexoct2.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/ex1_09.dir
@@ -339,195 +644,6 @@ ex1_09: CMakeFiles/ex1_09.dir/rule
 CMakeFiles/ex1_09.dir/clean:
 	$(MAKE) -f CMakeFiles/ex1_09.dir/build.make CMakeFiles/ex1_09.dir/clean
 .PHONY : CMakeFiles/ex1_09.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/main.dir
-
-# All Build rule for target.
-CMakeFiles/main.dir/all:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/depend
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target main"
-.PHONY : CMakeFiles/main.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/main.dir/rule
-
-# Convenience name for target.
-main: CMakeFiles/main.dir/rule
-
-.PHONY : main
-
-# clean rule for target.
-CMakeFiles/main.dir/clean:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/clean
-.PHONY : CMakeFiles/main.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/pro3_11_divide.dir
-
-# All Build rule for target.
-CMakeFiles/pro3_11_divide.dir/all:
-	$(MAKE) -f CMakeFiles/pro3_11_divide.dir/build.make CMakeFiles/pro3_11_divide.dir/depend
-	$(MAKE) -f CMakeFiles/pro3_11_divide.dir/build.make CMakeFiles/pro3_11_divide.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=29,30 "Built target pro3_11_divide"
-.PHONY : CMakeFiles/pro3_11_divide.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/pro3_11_divide.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/pro3_11_divide.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/pro3_11_divide.dir/rule
-
-# Convenience name for target.
-pro3_11_divide: CMakeFiles/pro3_11_divide.dir/rule
-
-.PHONY : pro3_11_divide
-
-# clean rule for target.
-CMakeFiles/pro3_11_divide.dir/clean:
-	$(MAKE) -f CMakeFiles/pro3_11_divide.dir/build.make CMakeFiles/pro3_11_divide.dir/clean
-.PHONY : CMakeFiles/pro3_11_divide.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/pro3_04_hexoct2.dir
-
-# All Build rule for target.
-CMakeFiles/pro3_04_hexoct2.dir/all:
-	$(MAKE) -f CMakeFiles/pro3_04_hexoct2.dir/build.make CMakeFiles/pro3_04_hexoct2.dir/depend
-	$(MAKE) -f CMakeFiles/pro3_04_hexoct2.dir/build.make CMakeFiles/pro3_04_hexoct2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target pro3_04_hexoct2"
-.PHONY : CMakeFiles/pro3_04_hexoct2.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/pro3_04_hexoct2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/pro3_04_hexoct2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/pro3_04_hexoct2.dir/rule
-
-# Convenience name for target.
-pro3_04_hexoct2: CMakeFiles/pro3_04_hexoct2.dir/rule
-
-.PHONY : pro3_04_hexoct2
-
-# clean rule for target.
-CMakeFiles/pro3_04_hexoct2.dir/clean:
-	$(MAKE) -f CMakeFiles/pro3_04_hexoct2.dir/build.make CMakeFiles/pro3_04_hexoct2.dir/clean
-.PHONY : CMakeFiles/pro3_04_hexoct2.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/pro3_10_arith.dir
-
-# All Build rule for target.
-CMakeFiles/pro3_10_arith.dir/all:
-	$(MAKE) -f CMakeFiles/pro3_10_arith.dir/build.make CMakeFiles/pro3_10_arith.dir/depend
-	$(MAKE) -f CMakeFiles/pro3_10_arith.dir/build.make CMakeFiles/pro3_10_arith.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=27,28 "Built target pro3_10_arith"
-.PHONY : CMakeFiles/pro3_10_arith.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/pro3_10_arith.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/pro3_10_arith.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/pro3_10_arith.dir/rule
-
-# Convenience name for target.
-pro3_10_arith: CMakeFiles/pro3_10_arith.dir/rule
-
-.PHONY : pro3_10_arith
-
-# clean rule for target.
-CMakeFiles/pro3_10_arith.dir/clean:
-	$(MAKE) -f CMakeFiles/pro3_10_arith.dir/build.make CMakeFiles/pro3_10_arith.dir/clean
-.PHONY : CMakeFiles/pro3_10_arith.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/pro3_08_floatnum.dir
-
-# All Build rule for target.
-CMakeFiles/pro3_08_floatnum.dir/all:
-	$(MAKE) -f CMakeFiles/pro3_08_floatnum.dir/build.make CMakeFiles/pro3_08_floatnum.dir/depend
-	$(MAKE) -f CMakeFiles/pro3_08_floatnum.dir/build.make CMakeFiles/pro3_08_floatnum.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target pro3_08_floatnum"
-.PHONY : CMakeFiles/pro3_08_floatnum.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/pro3_08_floatnum.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/pro3_08_floatnum.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/pro3_08_floatnum.dir/rule
-
-# Convenience name for target.
-pro3_08_floatnum: CMakeFiles/pro3_08_floatnum.dir/rule
-
-.PHONY : pro3_08_floatnum
-
-# clean rule for target.
-CMakeFiles/pro3_08_floatnum.dir/clean:
-	$(MAKE) -f CMakeFiles/pro3_08_floatnum.dir/build.make CMakeFiles/pro3_08_floatnum.dir/clean
-.PHONY : CMakeFiles/pro3_08_floatnum.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/pro3_02_exceed.dir
-
-# All Build rule for target.
-CMakeFiles/pro3_02_exceed.dir/all:
-	$(MAKE) -f CMakeFiles/pro3_02_exceed.dir/build.make CMakeFiles/pro3_02_exceed.dir/depend
-	$(MAKE) -f CMakeFiles/pro3_02_exceed.dir/build.make CMakeFiles/pro3_02_exceed.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target pro3_02_exceed"
-.PHONY : CMakeFiles/pro3_02_exceed.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/pro3_02_exceed.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/pro3_02_exceed.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/pro3_02_exceed.dir/rule
-
-# Convenience name for target.
-pro3_02_exceed: CMakeFiles/pro3_02_exceed.dir/rule
-
-.PHONY : pro3_02_exceed
-
-# clean rule for target.
-CMakeFiles/pro3_02_exceed.dir/clean:
-	$(MAKE) -f CMakeFiles/pro3_02_exceed.dir/build.make CMakeFiles/pro3_02_exceed.dir/clean
-.PHONY : CMakeFiles/pro3_02_exceed.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/pro3_03_hexoct.dir
-
-# All Build rule for target.
-CMakeFiles/pro3_03_hexoct.dir/all:
-	$(MAKE) -f CMakeFiles/pro3_03_hexoct.dir/build.make CMakeFiles/pro3_03_hexoct.dir/depend
-	$(MAKE) -f CMakeFiles/pro3_03_hexoct.dir/build.make CMakeFiles/pro3_03_hexoct.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target pro3_03_hexoct"
-.PHONY : CMakeFiles/pro3_03_hexoct.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/pro3_03_hexoct.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/pro3_03_hexoct.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/pro3_03_hexoct.dir/rule
-
-# Convenience name for target.
-pro3_03_hexoct: CMakeFiles/pro3_03_hexoct.dir/rule
-
-.PHONY : pro3_03_hexoct
-
-# clean rule for target.
-CMakeFiles/pro3_03_hexoct.dir/clean:
-	$(MAKE) -f CMakeFiles/pro3_03_hexoct.dir/build.make CMakeFiles/pro3_03_hexoct.dir/clean
-.PHONY : CMakeFiles/pro3_03_hexoct.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

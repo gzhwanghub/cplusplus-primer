@@ -137,17 +137,43 @@ CMakeCXXCompilerId/fast:
 .PHONY : CMakeCXXCompilerId/fast
 
 #=============================================================================
-# Target rules for targets named pro3_09_fltadd
+# Target rules for targets named pro4_01_arrayone
 
 # Build rule for target.
-pro3_09_fltadd: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pro3_09_fltadd
-.PHONY : pro3_09_fltadd
+pro4_01_arrayone: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pro4_01_arrayone
+.PHONY : pro4_01_arrayone
 
 # fast build rule for target.
-pro3_09_fltadd/fast:
-	$(MAKE) -f CMakeFiles/pro3_09_fltadd.dir/build.make CMakeFiles/pro3_09_fltadd.dir/build
-.PHONY : pro3_09_fltadd/fast
+pro4_01_arrayone/fast:
+	$(MAKE) -f CMakeFiles/pro4_01_arrayone.dir/build.make CMakeFiles/pro4_01_arrayone.dir/build
+.PHONY : pro4_01_arrayone/fast
+
+#=============================================================================
+# Target rules for targets named pro3_14_typecast
+
+# Build rule for target.
+pro3_14_typecast: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pro3_14_typecast
+.PHONY : pro3_14_typecast
+
+# fast build rule for target.
+pro3_14_typecast/fast:
+	$(MAKE) -f CMakeFiles/pro3_14_typecast.dir/build.make CMakeFiles/pro3_14_typecast.dir/build
+.PHONY : pro3_14_typecast/fast
+
+#=============================================================================
+# Target rules for targets named pro3_13_assign
+
+# Build rule for target.
+pro3_13_assign: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pro3_13_assign
+.PHONY : pro3_13_assign
+
+# fast build rule for target.
+pro3_13_assign/fast:
+	$(MAKE) -f CMakeFiles/pro3_13_assign.dir/build.make CMakeFiles/pro3_13_assign.dir/build
+.PHONY : pro3_13_assign/fast
 
 #=============================================================================
 # Target rules for targets named pro3_12_modulus
@@ -161,6 +187,19 @@ pro3_12_modulus: cmake_check_build_system
 pro3_12_modulus/fast:
 	$(MAKE) -f CMakeFiles/pro3_12_modulus.dir/build.make CMakeFiles/pro3_12_modulus.dir/build
 .PHONY : pro3_12_modulus/fast
+
+#=============================================================================
+# Target rules for targets named exe3_01
+
+# Build rule for target.
+exe3_01: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 exe3_01
+.PHONY : exe3_01
+
+# fast build rule for target.
+exe3_01/fast:
+	$(MAKE) -f CMakeFiles/exe3_01.dir/build.make CMakeFiles/exe3_01.dir/build
+.PHONY : exe3_01/fast
 
 #=============================================================================
 # Target rules for targets named pro3_07_bondini
@@ -215,17 +254,56 @@ pro3_05_chartype/fast:
 .PHONY : pro3_05_chartype/fast
 
 #=============================================================================
-# Target rules for targets named ex1_09
+# Target rules for targets named pro3_08_floatnum
 
 # Build rule for target.
-ex1_09: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ex1_09
-.PHONY : ex1_09
+pro3_08_floatnum: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pro3_08_floatnum
+.PHONY : pro3_08_floatnum
 
 # fast build rule for target.
-ex1_09/fast:
-	$(MAKE) -f CMakeFiles/ex1_09.dir/build.make CMakeFiles/ex1_09.dir/build
-.PHONY : ex1_09/fast
+pro3_08_floatnum/fast:
+	$(MAKE) -f CMakeFiles/pro3_08_floatnum.dir/build.make CMakeFiles/pro3_08_floatnum.dir/build
+.PHONY : pro3_08_floatnum/fast
+
+#=============================================================================
+# Target rules for targets named pro3_02_exceed
+
+# Build rule for target.
+pro3_02_exceed: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pro3_02_exceed
+.PHONY : pro3_02_exceed
+
+# fast build rule for target.
+pro3_02_exceed/fast:
+	$(MAKE) -f CMakeFiles/pro3_02_exceed.dir/build.make CMakeFiles/pro3_02_exceed.dir/build
+.PHONY : pro3_02_exceed/fast
+
+#=============================================================================
+# Target rules for targets named pro3_09_fltadd
+
+# Build rule for target.
+pro3_09_fltadd: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pro3_09_fltadd
+.PHONY : pro3_09_fltadd
+
+# fast build rule for target.
+pro3_09_fltadd/fast:
+	$(MAKE) -f CMakeFiles/pro3_09_fltadd.dir/build.make CMakeFiles/pro3_09_fltadd.dir/build
+.PHONY : pro3_09_fltadd/fast
+
+#=============================================================================
+# Target rules for targets named pro3_03_hexoct
+
+# Build rule for target.
+pro3_03_hexoct: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pro3_03_hexoct
+.PHONY : pro3_03_hexoct
+
+# fast build rule for target.
+pro3_03_hexoct/fast:
+	$(MAKE) -f CMakeFiles/pro3_03_hexoct.dir/build.make CMakeFiles/pro3_03_hexoct.dir/build
+.PHONY : pro3_03_hexoct/fast
 
 #=============================================================================
 # Target rules for targets named main
@@ -254,19 +332,6 @@ pro3_11_divide/fast:
 .PHONY : pro3_11_divide/fast
 
 #=============================================================================
-# Target rules for targets named pro3_04_hexoct2
-
-# Build rule for target.
-pro3_04_hexoct2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pro3_04_hexoct2
-.PHONY : pro3_04_hexoct2
-
-# fast build rule for target.
-pro3_04_hexoct2/fast:
-	$(MAKE) -f CMakeFiles/pro3_04_hexoct2.dir/build.make CMakeFiles/pro3_04_hexoct2.dir/build
-.PHONY : pro3_04_hexoct2/fast
-
-#=============================================================================
 # Target rules for targets named pro3_10_arith
 
 # Build rule for target.
@@ -280,43 +345,30 @@ pro3_10_arith/fast:
 .PHONY : pro3_10_arith/fast
 
 #=============================================================================
-# Target rules for targets named pro3_08_floatnum
+# Target rules for targets named pro3_04_hexoct2
 
 # Build rule for target.
-pro3_08_floatnum: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pro3_08_floatnum
-.PHONY : pro3_08_floatnum
+pro3_04_hexoct2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pro3_04_hexoct2
+.PHONY : pro3_04_hexoct2
 
 # fast build rule for target.
-pro3_08_floatnum/fast:
-	$(MAKE) -f CMakeFiles/pro3_08_floatnum.dir/build.make CMakeFiles/pro3_08_floatnum.dir/build
-.PHONY : pro3_08_floatnum/fast
+pro3_04_hexoct2/fast:
+	$(MAKE) -f CMakeFiles/pro3_04_hexoct2.dir/build.make CMakeFiles/pro3_04_hexoct2.dir/build
+.PHONY : pro3_04_hexoct2/fast
 
 #=============================================================================
-# Target rules for targets named pro3_02_exceed
+# Target rules for targets named ex1_09
 
 # Build rule for target.
-pro3_02_exceed: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pro3_02_exceed
-.PHONY : pro3_02_exceed
+ex1_09: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ex1_09
+.PHONY : ex1_09
 
 # fast build rule for target.
-pro3_02_exceed/fast:
-	$(MAKE) -f CMakeFiles/pro3_02_exceed.dir/build.make CMakeFiles/pro3_02_exceed.dir/build
-.PHONY : pro3_02_exceed/fast
-
-#=============================================================================
-# Target rules for targets named pro3_03_hexoct
-
-# Build rule for target.
-pro3_03_hexoct: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pro3_03_hexoct
-.PHONY : pro3_03_hexoct
-
-# fast build rule for target.
-pro3_03_hexoct/fast:
-	$(MAKE) -f CMakeFiles/pro3_03_hexoct.dir/build.make CMakeFiles/pro3_03_hexoct.dir/build
-.PHONY : pro3_03_hexoct/fast
+ex1_09/fast:
+	$(MAKE) -f CMakeFiles/ex1_09.dir/build.make CMakeFiles/ex1_09.dir/build
+.PHONY : ex1_09/fast
 
 CMakeFiles/3.16.5/CompilerIdCXX/CMakeCXXCompilerId.o: CMakeFiles/3.16.5/CompilerIdCXX/CMakeCXXCompilerId.cpp.o
 
@@ -398,6 +450,33 @@ ch01/ex1_10.s: ch01/ex1_10.cpp.s
 ch01/ex1_10.cpp.s:
 	$(MAKE) -f CMakeFiles/ex1_10.dir/build.make CMakeFiles/ex1_10.dir/ch01/ex1_10.cpp.s
 .PHONY : ch01/ex1_10.cpp.s
+
+ch3/exe3_01.o: ch3/exe3_01.cpp.o
+
+.PHONY : ch3/exe3_01.o
+
+# target to build an object file
+ch3/exe3_01.cpp.o:
+	$(MAKE) -f CMakeFiles/exe3_01.dir/build.make CMakeFiles/exe3_01.dir/ch3/exe3_01.cpp.o
+.PHONY : ch3/exe3_01.cpp.o
+
+ch3/exe3_01.i: ch3/exe3_01.cpp.i
+
+.PHONY : ch3/exe3_01.i
+
+# target to preprocess a source file
+ch3/exe3_01.cpp.i:
+	$(MAKE) -f CMakeFiles/exe3_01.dir/build.make CMakeFiles/exe3_01.dir/ch3/exe3_01.cpp.i
+.PHONY : ch3/exe3_01.cpp.i
+
+ch3/exe3_01.s: ch3/exe3_01.cpp.s
+
+.PHONY : ch3/exe3_01.s
+
+# target to generate assembly for a file
+ch3/exe3_01.cpp.s:
+	$(MAKE) -f CMakeFiles/exe3_01.dir/build.make CMakeFiles/exe3_01.dir/ch3/exe3_01.cpp.s
+.PHONY : ch3/exe3_01.cpp.s
 
 ch3/pro3_02_exceed.o: ch3/pro3_02_exceed.cpp.o
 
@@ -696,6 +775,87 @@ ch3/pro3_12_modulus.cpp.s:
 	$(MAKE) -f CMakeFiles/pro3_12_modulus.dir/build.make CMakeFiles/pro3_12_modulus.dir/ch3/pro3_12_modulus.cpp.s
 .PHONY : ch3/pro3_12_modulus.cpp.s
 
+ch3/pro3_13_assign.o: ch3/pro3_13_assign.cpp.o
+
+.PHONY : ch3/pro3_13_assign.o
+
+# target to build an object file
+ch3/pro3_13_assign.cpp.o:
+	$(MAKE) -f CMakeFiles/pro3_13_assign.dir/build.make CMakeFiles/pro3_13_assign.dir/ch3/pro3_13_assign.cpp.o
+.PHONY : ch3/pro3_13_assign.cpp.o
+
+ch3/pro3_13_assign.i: ch3/pro3_13_assign.cpp.i
+
+.PHONY : ch3/pro3_13_assign.i
+
+# target to preprocess a source file
+ch3/pro3_13_assign.cpp.i:
+	$(MAKE) -f CMakeFiles/pro3_13_assign.dir/build.make CMakeFiles/pro3_13_assign.dir/ch3/pro3_13_assign.cpp.i
+.PHONY : ch3/pro3_13_assign.cpp.i
+
+ch3/pro3_13_assign.s: ch3/pro3_13_assign.cpp.s
+
+.PHONY : ch3/pro3_13_assign.s
+
+# target to generate assembly for a file
+ch3/pro3_13_assign.cpp.s:
+	$(MAKE) -f CMakeFiles/pro3_13_assign.dir/build.make CMakeFiles/pro3_13_assign.dir/ch3/pro3_13_assign.cpp.s
+.PHONY : ch3/pro3_13_assign.cpp.s
+
+ch3/pro3_14_typecast.o: ch3/pro3_14_typecast.cpp.o
+
+.PHONY : ch3/pro3_14_typecast.o
+
+# target to build an object file
+ch3/pro3_14_typecast.cpp.o:
+	$(MAKE) -f CMakeFiles/pro3_14_typecast.dir/build.make CMakeFiles/pro3_14_typecast.dir/ch3/pro3_14_typecast.cpp.o
+.PHONY : ch3/pro3_14_typecast.cpp.o
+
+ch3/pro3_14_typecast.i: ch3/pro3_14_typecast.cpp.i
+
+.PHONY : ch3/pro3_14_typecast.i
+
+# target to preprocess a source file
+ch3/pro3_14_typecast.cpp.i:
+	$(MAKE) -f CMakeFiles/pro3_14_typecast.dir/build.make CMakeFiles/pro3_14_typecast.dir/ch3/pro3_14_typecast.cpp.i
+.PHONY : ch3/pro3_14_typecast.cpp.i
+
+ch3/pro3_14_typecast.s: ch3/pro3_14_typecast.cpp.s
+
+.PHONY : ch3/pro3_14_typecast.s
+
+# target to generate assembly for a file
+ch3/pro3_14_typecast.cpp.s:
+	$(MAKE) -f CMakeFiles/pro3_14_typecast.dir/build.make CMakeFiles/pro3_14_typecast.dir/ch3/pro3_14_typecast.cpp.s
+.PHONY : ch3/pro3_14_typecast.cpp.s
+
+ch4/pro4_01_arrayone.o: ch4/pro4_01_arrayone.cpp.o
+
+.PHONY : ch4/pro4_01_arrayone.o
+
+# target to build an object file
+ch4/pro4_01_arrayone.cpp.o:
+	$(MAKE) -f CMakeFiles/pro4_01_arrayone.dir/build.make CMakeFiles/pro4_01_arrayone.dir/ch4/pro4_01_arrayone.cpp.o
+.PHONY : ch4/pro4_01_arrayone.cpp.o
+
+ch4/pro4_01_arrayone.i: ch4/pro4_01_arrayone.cpp.i
+
+.PHONY : ch4/pro4_01_arrayone.i
+
+# target to preprocess a source file
+ch4/pro4_01_arrayone.cpp.i:
+	$(MAKE) -f CMakeFiles/pro4_01_arrayone.dir/build.make CMakeFiles/pro4_01_arrayone.dir/ch4/pro4_01_arrayone.cpp.i
+.PHONY : ch4/pro4_01_arrayone.cpp.i
+
+ch4/pro4_01_arrayone.s: ch4/pro4_01_arrayone.cpp.s
+
+.PHONY : ch4/pro4_01_arrayone.s
+
+# target to generate assembly for a file
+ch4/pro4_01_arrayone.cpp.s:
+	$(MAKE) -f CMakeFiles/pro4_01_arrayone.dir/build.make CMakeFiles/pro4_01_arrayone.dir/ch4/pro4_01_arrayone.cpp.s
+.PHONY : ch4/pro4_01_arrayone.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -736,20 +896,24 @@ help:
 	@echo "... edit_cache"
 	@echo "... cplusplus_primer"
 	@echo "... CMakeCXXCompilerId"
-	@echo "... pro3_09_fltadd"
+	@echo "... pro4_01_arrayone"
+	@echo "... pro3_14_typecast"
+	@echo "... pro3_13_assign"
 	@echo "... pro3_12_modulus"
+	@echo "... exe3_01"
 	@echo "... pro3_07_bondini"
 	@echo "... pro3_06_morechar"
 	@echo "... ex1_10"
 	@echo "... pro3_05_chartype"
-	@echo "... ex1_09"
-	@echo "... main"
-	@echo "... pro3_11_divide"
-	@echo "... pro3_04_hexoct2"
-	@echo "... pro3_10_arith"
 	@echo "... pro3_08_floatnum"
 	@echo "... pro3_02_exceed"
+	@echo "... pro3_09_fltadd"
 	@echo "... pro3_03_hexoct"
+	@echo "... main"
+	@echo "... pro3_11_divide"
+	@echo "... pro3_10_arith"
+	@echo "... pro3_04_hexoct2"
+	@echo "... ex1_09"
 	@echo "... CMakeFiles/3.16.5/CompilerIdCXX/CMakeCXXCompilerId.o"
 	@echo "... CMakeFiles/3.16.5/CompilerIdCXX/CMakeCXXCompilerId.i"
 	@echo "... CMakeFiles/3.16.5/CompilerIdCXX/CMakeCXXCompilerId.s"
@@ -759,6 +923,9 @@ help:
 	@echo "... ch01/ex1_10.o"
 	@echo "... ch01/ex1_10.i"
 	@echo "... ch01/ex1_10.s"
+	@echo "... ch3/exe3_01.o"
+	@echo "... ch3/exe3_01.i"
+	@echo "... ch3/exe3_01.s"
 	@echo "... ch3/pro3_02_exceed.o"
 	@echo "... ch3/pro3_02_exceed.i"
 	@echo "... ch3/pro3_02_exceed.s"
@@ -792,6 +959,15 @@ help:
 	@echo "... ch3/pro3_12_modulus.o"
 	@echo "... ch3/pro3_12_modulus.i"
 	@echo "... ch3/pro3_12_modulus.s"
+	@echo "... ch3/pro3_13_assign.o"
+	@echo "... ch3/pro3_13_assign.i"
+	@echo "... ch3/pro3_13_assign.s"
+	@echo "... ch3/pro3_14_typecast.o"
+	@echo "... ch3/pro3_14_typecast.i"
+	@echo "... ch3/pro3_14_typecast.s"
+	@echo "... ch4/pro4_01_arrayone.o"
+	@echo "... ch4/pro4_01_arrayone.i"
+	@echo "... ch4/pro4_01_arrayone.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
