@@ -19,6 +19,11 @@ int main(){
 
     cout << "Total yams = ";
     cout << "yams[0] + yams[1] + yams[2]" << endl;
+    cout << sizeof(yams) << " " << sizeof(yams[0]) << endl;
+    cout << "I'd give my right arm to be" " a great violinist.\n";
+    cout << "I'd give my right arm to be a great violinist.\n";
+    cout << "I'd give my right ar"
+            "m to be a great violinist.\n";
 
 }
 

@@ -15,7 +15,25 @@
     -- src/pro3_12_modulus.cpp will be compiled to bin/pro3_12_modulus
     -- src/pro3_13_assign.cpp will be compiled to bin/pro3_13_assign
     -- src/pro3_14_typecast.cpp will be compiled to bin/pro3_14_typecast
+    -- src/addpntrs.cpp will be compiled to bin/addpntrs
+    -- src/address.cpp will be compiled to bin/address
+    -- src/arraynew.cpp will be compiled to bin/arraynew
+    -- src/arrstruc.cpp will be compiled to bin/arrstruc
+    -- src/assgn_st.cpp will be compiled to bin/assgn_st
+    -- src/init_ptr.cpp will be compiled to bin/init_ptr
+    -- src/pointer.cpp will be compiled to bin/pointer
     -- src/pro4_01_arrayone.cpp will be compiled to bin/pro4_01_arrayone
+    -- src/pro4_02_string.cpp will be compiled to bin/pro4_02_string
+    -- src/pro4_03_instr1.cpp will be compiled to bin/pro4_03_instr1
+    -- src/pro4_04_instr2.cpp will be compiled to bin/pro4_04_instr2
+    -- src/pro4_05_instr3.cpp will be compiled to bin/pro4_05_instr3
+    -- src/pro4_06_numstr.cpp will be compiled to bin/pro4_06_numstr
+    -- src/pro4_07_strtype1.cpp will be compiled to bin/pro4_07_strtype1
+    -- src/pro4_08_strtype2.cpp will be compiled to bin/pro4_08_strtype2
+    -- src/pro4_09_strtype3.cpp will be compiled to bin/pro4_09_strtype3
+    -- src/pro4_10_strtype4.cpp will be compiled to bin/pro4_10_strtype4
+    -- src/structur.cpp will be compiled to bin/structur
+    -- src/use_new.cpp will be compiled to bin/use_new
     -- src/CMakeCXXCompilerId.cpp will be compiled to bin/CMakeCXXCompilerId
     -- src/main.cpp will be compiled to bin/main
 -- Configuring done

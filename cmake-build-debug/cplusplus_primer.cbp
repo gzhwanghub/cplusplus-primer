@@ -17,28 +17,8 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="cplusplus_primer">
-				<Option output="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/cplusplus_primer" prefix_auto="0" extension_auto="0"/>
+			<Target title="use_new">
+				<Option output="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/use_new" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -51,14 +31,14 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 cplusplus_primer"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 use_new"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="cplusplus_primer/fast">
-				<Option output="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/cplusplus_primer" prefix_auto="0" extension_auto="0"/>
+			<Target title="use_new/fast">
+				<Option output="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/use_new" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -71,14 +51,14 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 cplusplus_primer/fast"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 use_new/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="CMakeCXXCompilerId">
-				<Option output="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeCXXCompilerId" prefix_auto="0" extension_auto="0"/>
+			<Target title="pro4_09_strtype3">
+				<Option output="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/pro4_09_strtype3" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -91,14 +71,14 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 CMakeCXXCompilerId"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 pro4_09_strtype3"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="CMakeCXXCompilerId/fast">
-				<Option output="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeCXXCompilerId" prefix_auto="0" extension_auto="0"/>
+			<Target title="pro4_09_strtype3/fast">
+				<Option output="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/pro4_09_strtype3" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -111,7 +91,247 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 CMakeCXXCompilerId/fast"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 pro4_09_strtype3/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pro4_06_numstr">
+				<Option output="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/pro4_06_numstr" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 pro4_06_numstr"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pro4_06_numstr/fast">
+				<Option output="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/pro4_06_numstr" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 pro4_06_numstr/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pro4_10_strtype4">
+				<Option output="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/pro4_10_strtype4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 pro4_10_strtype4"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pro4_10_strtype4/fast">
+				<Option output="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/pro4_10_strtype4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 pro4_10_strtype4/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pro4_05_instr3">
+				<Option output="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/pro4_05_instr3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 pro4_05_instr3"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pro4_05_instr3/fast">
+				<Option output="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/pro4_05_instr3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 pro4_05_instr3/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pro4_04_instr2">
+				<Option output="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/pro4_04_instr2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 pro4_04_instr2"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pro4_04_instr2/fast">
+				<Option output="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/pro4_04_instr2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 pro4_04_instr2/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pro4_03_instr1">
+				<Option output="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/pro4_03_instr1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 pro4_03_instr1"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pro4_03_instr1/fast">
+				<Option output="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/pro4_03_instr1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 pro4_03_instr1/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pro4_02_string">
+				<Option output="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/pro4_02_string" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 pro4_02_string"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pro4_02_string/fast">
+				<Option output="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/pro4_02_string" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 pro4_02_string/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -157,6 +377,216 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="assgn_st">
+				<Option output="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/assgn_st" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 assgn_st"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="assgn_st/fast">
+				<Option output="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/assgn_st" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 assgn_st/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cplusplus_primer">
+				<Option output="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/cplusplus_primer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 cplusplus_primer"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cplusplus_primer/fast">
+				<Option output="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/cplusplus_primer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 cplusplus_primer/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="arrstruc">
+				<Option output="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/arrstruc" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 arrstruc"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="arrstruc/fast">
+				<Option output="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/arrstruc" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 arrstruc/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="address">
+				<Option output="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/address" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 address"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="address/fast">
+				<Option output="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/address" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 address/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="arraynew">
+				<Option output="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/arraynew" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 arraynew"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="arraynew/fast">
+				<Option output="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/arraynew" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 arraynew/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="pro3_14_typecast">
 				<Option output="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/pro3_14_typecast" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug"/>
@@ -197,6 +627,46 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="CMakeCXXCompilerId">
+				<Option output="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeCXXCompilerId" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 CMakeCXXCompilerId"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CMakeCXXCompilerId/fast">
+				<Option output="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeCXXCompilerId" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 CMakeCXXCompilerId/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="pro3_13_assign">
 				<Option output="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/pro3_13_assign" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug"/>
@@ -232,6 +702,86 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 pro3_13_assign/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pro4_07_strtype1">
+				<Option output="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/pro4_07_strtype1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 pro4_07_strtype1"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pro4_07_strtype1/fast">
+				<Option output="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/pro4_07_strtype1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 pro4_07_strtype1/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pro3_08_floatnum">
+				<Option output="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/pro3_08_floatnum" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 pro3_08_floatnum"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pro3_08_floatnum/fast">
+				<Option output="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/pro3_08_floatnum" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 pro3_08_floatnum/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -317,6 +867,46 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="pro3_03_hexoct">
+				<Option output="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/pro3_03_hexoct" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 pro3_03_hexoct"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pro3_03_hexoct/fast">
+				<Option output="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/pro3_03_hexoct" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 pro3_03_hexoct/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="pro3_07_bondini">
 				<Option output="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/pro3_07_bondini" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug"/>
@@ -352,6 +942,46 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 pro3_07_bondini/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pro4_08_strtype2">
+				<Option output="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/pro4_08_strtype2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 pro4_08_strtype2"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pro4_08_strtype2/fast">
+				<Option output="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/pro4_08_strtype2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 pro4_08_strtype2/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -397,8 +1027,8 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="ex1_10">
-				<Option output="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/ex1_10" prefix_auto="0" extension_auto="0"/>
+			<Target title="init_ptr">
+				<Option output="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/init_ptr" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -411,14 +1041,14 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex1_10"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 init_ptr"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="ex1_10/fast">
-				<Option output="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/ex1_10" prefix_auto="0" extension_auto="0"/>
+			<Target title="init_ptr/fast">
+				<Option output="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/init_ptr" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -431,127 +1061,7 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex1_10/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="pro3_05_chartype">
-				<Option output="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/pro3_05_chartype" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 pro3_05_chartype"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="pro3_05_chartype/fast">
-				<Option output="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/pro3_05_chartype" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 pro3_05_chartype/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="pro3_08_floatnum">
-				<Option output="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/pro3_08_floatnum" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 pro3_08_floatnum"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="pro3_08_floatnum/fast">
-				<Option output="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/pro3_08_floatnum" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 pro3_08_floatnum/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="pro3_02_exceed">
-				<Option output="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/pro3_02_exceed" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 pro3_02_exceed"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="pro3_02_exceed/fast">
-				<Option output="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/pro3_02_exceed" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 pro3_02_exceed/fast"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 init_ptr/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -597,8 +1107,8 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="pro3_03_hexoct">
-				<Option output="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/pro3_03_hexoct" prefix_auto="0" extension_auto="0"/>
+			<Target title="ex1_10">
+				<Option output="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/ex1_10" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -611,14 +1121,14 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 pro3_03_hexoct"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex1_10"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="pro3_03_hexoct/fast">
-				<Option output="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/pro3_03_hexoct" prefix_auto="0" extension_auto="0"/>
+			<Target title="ex1_10/fast">
+				<Option output="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/ex1_10" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -631,7 +1141,137 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 pro3_03_hexoct/fast"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex1_10/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pro3_05_chartype">
+				<Option output="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/pro3_05_chartype" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 pro3_05_chartype"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pro3_05_chartype/fast">
+				<Option output="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/pro3_05_chartype" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 pro3_05_chartype/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="addpntrs">
+				<Option output="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/addpntrs" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 addpntrs"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="addpntrs/fast">
+				<Option output="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/addpntrs" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 addpntrs/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pro3_02_exceed">
+				<Option output="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/pro3_02_exceed" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 pro3_02_exceed"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pro3_02_exceed/fast">
+				<Option output="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/pro3_02_exceed" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 pro3_02_exceed/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -672,6 +1312,46 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 main/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="structur">
+				<Option output="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/structur" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 structur"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="structur/fast">
+				<Option output="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/structur" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 structur/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -797,6 +1477,46 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="pointer">
+				<Option output="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/pointer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 pointer"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pointer/fast">
+				<Option output="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/pointer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 pointer/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="ex1_09">
 				<Option output="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/ex1_09" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug"/>
@@ -886,8 +1606,62 @@
 		<Unit filename="/Users/guiru/CLionProjects/cplusplus-primer/ch3/pro3_14_typecast.cpp">
 			<Option target="pro3_14_typecast"/>
 		</Unit>
+		<Unit filename="/Users/guiru/CLionProjects/cplusplus-primer/ch4/addpntrs.cpp">
+			<Option target="addpntrs"/>
+		</Unit>
+		<Unit filename="/Users/guiru/CLionProjects/cplusplus-primer/ch4/address.cpp">
+			<Option target="address"/>
+		</Unit>
+		<Unit filename="/Users/guiru/CLionProjects/cplusplus-primer/ch4/arraynew.cpp">
+			<Option target="arraynew"/>
+		</Unit>
+		<Unit filename="/Users/guiru/CLionProjects/cplusplus-primer/ch4/arrstruc.cpp">
+			<Option target="arrstruc"/>
+		</Unit>
+		<Unit filename="/Users/guiru/CLionProjects/cplusplus-primer/ch4/assgn_st.cpp">
+			<Option target="assgn_st"/>
+		</Unit>
+		<Unit filename="/Users/guiru/CLionProjects/cplusplus-primer/ch4/init_ptr.cpp">
+			<Option target="init_ptr"/>
+		</Unit>
+		<Unit filename="/Users/guiru/CLionProjects/cplusplus-primer/ch4/pointer.cpp">
+			<Option target="pointer"/>
+		</Unit>
 		<Unit filename="/Users/guiru/CLionProjects/cplusplus-primer/ch4/pro4_01_arrayone.cpp">
 			<Option target="pro4_01_arrayone"/>
+		</Unit>
+		<Unit filename="/Users/guiru/CLionProjects/cplusplus-primer/ch4/pro4_02_string.cpp">
+			<Option target="pro4_02_string"/>
+		</Unit>
+		<Unit filename="/Users/guiru/CLionProjects/cplusplus-primer/ch4/pro4_03_instr1.cpp">
+			<Option target="pro4_03_instr1"/>
+		</Unit>
+		<Unit filename="/Users/guiru/CLionProjects/cplusplus-primer/ch4/pro4_04_instr2.cpp">
+			<Option target="pro4_04_instr2"/>
+		</Unit>
+		<Unit filename="/Users/guiru/CLionProjects/cplusplus-primer/ch4/pro4_05_instr3.cpp">
+			<Option target="pro4_05_instr3"/>
+		</Unit>
+		<Unit filename="/Users/guiru/CLionProjects/cplusplus-primer/ch4/pro4_06_numstr.cpp">
+			<Option target="pro4_06_numstr"/>
+		</Unit>
+		<Unit filename="/Users/guiru/CLionProjects/cplusplus-primer/ch4/pro4_07_strtype1.cpp">
+			<Option target="pro4_07_strtype1"/>
+		</Unit>
+		<Unit filename="/Users/guiru/CLionProjects/cplusplus-primer/ch4/pro4_08_strtype2.cpp">
+			<Option target="pro4_08_strtype2"/>
+		</Unit>
+		<Unit filename="/Users/guiru/CLionProjects/cplusplus-primer/ch4/pro4_09_strtype3.cpp">
+			<Option target="pro4_09_strtype3"/>
+		</Unit>
+		<Unit filename="/Users/guiru/CLionProjects/cplusplus-primer/ch4/pro4_10_strtype4.cpp">
+			<Option target="pro4_10_strtype4"/>
+		</Unit>
+		<Unit filename="/Users/guiru/CLionProjects/cplusplus-primer/ch4/structur.cpp">
+			<Option target="structur"/>
+		</Unit>
+		<Unit filename="/Users/guiru/CLionProjects/cplusplus-primer/ch4/use_new.cpp">
+			<Option target="use_new"/>
 		</Unit>
 		<Unit filename="/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdCXX/CMakeCXXCompilerId.cpp">
 			<Option target="CMakeCXXCompilerId"/>
