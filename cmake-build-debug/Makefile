@@ -111,6 +111,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named pra4_07_strtype1
+
+# Build rule for target.
+pra4_07_strtype1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pra4_07_strtype1
+.PHONY : pra4_07_strtype1
+
+# fast build rule for target.
+pra4_07_strtype1/fast:
+	$(MAKE) -f CMakeFiles/pra4_07_strtype1.dir/build.make CMakeFiles/pra4_07_strtype1.dir/build
+.PHONY : pra4_07_strtype1/fast
+
+#=============================================================================
+# Target rules for targets named pra5_03_express
+
+# Build rule for target.
+pra5_03_express: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pra5_03_express
+.PHONY : pra5_03_express
+
+# fast build rule for target.
+pra5_03_express/fast:
+	$(MAKE) -f CMakeFiles/pra5_03_express.dir/build.make CMakeFiles/pra5_03_express.dir/build
+.PHONY : pra5_03_express/fast
+
+#=============================================================================
 # Target rules for targets named CMakeCXXCompilerId
 
 # Build rule for target.
@@ -124,69 +150,329 @@ CMakeCXXCompilerId/fast:
 .PHONY : CMakeCXXCompilerId/fast
 
 #=============================================================================
-# Target rules for targets named or
+# Target rules for targets named twoarg
 
 # Build rule for target.
-or: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 or
-.PHONY : or
+twoarg: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 twoarg
+.PHONY : twoarg
 
 # fast build rule for target.
-or/fast:
-	$(MAKE) -f CMakeFiles/or.dir/build.make CMakeFiles/or.dir/build
-.PHONY : or/fast
+twoarg/fast:
+	$(MAKE) -f CMakeFiles/twoarg.dir/build.make CMakeFiles/twoarg.dir/build
+.PHONY : twoarg/fast
 
 #=============================================================================
-# Target rules for targets named not
+# Target rules for targets named strgback
 
 # Build rule for target.
-not: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 not
-.PHONY : not
+strgback: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 strgback
+.PHONY : strgback
 
 # fast build rule for target.
-not/fast:
-	$(MAKE) -f CMakeFiles/not.dir/build.make CMakeFiles/not.dir/build
-.PHONY : not/fast
+strgback/fast:
+	$(MAKE) -f CMakeFiles/strgback.dir/build.make CMakeFiles/strgback.dir/build
+.PHONY : strgback/fast
 
 #=============================================================================
-# Target rules for targets named ifelse
+# Target rules for targets named main
 
 # Build rule for target.
-ifelse: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ifelse
-.PHONY : ifelse
+main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 main
+.PHONY : main
 
 # fast build rule for target.
-ifelse/fast:
-	$(MAKE) -f CMakeFiles/ifelse.dir/build.make CMakeFiles/ifelse.dir/build
-.PHONY : ifelse/fast
+main/fast:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
+.PHONY : main/fast
 
 #=============================================================================
-# Target rules for targets named if
+# Target rules for targets named strctptr
 
 # Build rule for target.
-if: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 if
-.PHONY : if
+strctptr: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 strctptr
+.PHONY : strctptr
 
 # fast build rule for target.
-if/fast:
-	$(MAKE) -f CMakeFiles/if.dir/build.make CMakeFiles/if.dir/build
-.PHONY : if/fast
+strctptr/fast:
+	$(MAKE) -f CMakeFiles/strctptr.dir/build.make CMakeFiles/strctptr.dir/build
+.PHONY : strctptr/fast
 
 #=============================================================================
-# Target rules for targets named cctypes
+# Target rules for targets named ruler
 
 # Build rule for target.
-cctypes: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 cctypes
-.PHONY : cctypes
+ruler: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ruler
+.PHONY : ruler
 
 # fast build rule for target.
-cctypes/fast:
-	$(MAKE) -f CMakeFiles/cctypes.dir/build.make CMakeFiles/cctypes.dir/build
-.PHONY : cctypes/fast
+ruler/fast:
+	$(MAKE) -f CMakeFiles/ruler.dir/build.make CMakeFiles/ruler.dir/build
+.PHONY : ruler/fast
+
+#=============================================================================
+# Target rules for targets named protos
+
+# Build rule for target.
+protos: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 protos
+.PHONY : protos
+
+# fast build rule for target.
+protos/fast:
+	$(MAKE) -f CMakeFiles/protos.dir/build.make CMakeFiles/protos.dir/build
+.PHONY : protos/fast
+
+#=============================================================================
+# Target rules for targets named pra4_19_addpntrs
+
+# Build rule for target.
+pra4_19_addpntrs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pra4_19_addpntrs
+.PHONY : pra4_19_addpntrs
+
+# fast build rule for target.
+pra4_19_addpntrs/fast:
+	$(MAKE) -f CMakeFiles/pra4_19_addpntrs.dir/build.make CMakeFiles/pra4_19_addpntrs.dir/build
+.PHONY : pra4_19_addpntrs/fast
+
+#=============================================================================
+# Target rules for targets named arrfun4
+
+# Build rule for target.
+arrfun4: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 arrfun4
+.PHONY : arrfun4
+
+# fast build rule for target.
+arrfun4/fast:
+	$(MAKE) -f CMakeFiles/arrfun4.dir/build.make CMakeFiles/arrfun4.dir/build
+.PHONY : arrfun4/fast
+
+#=============================================================================
+# Target rules for targets named pra4_03_instr1
+
+# Build rule for target.
+pra4_03_instr1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pra4_03_instr1
+.PHONY : pra4_03_instr1
+
+# fast build rule for target.
+pra4_03_instr1/fast:
+	$(MAKE) -f CMakeFiles/pra4_03_instr1.dir/build.make CMakeFiles/pra4_03_instr1.dir/build
+.PHONY : pra4_03_instr1/fast
+
+#=============================================================================
+# Target rules for targets named switch
+
+# Build rule for target.
+switch: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 switch
+.PHONY : switch
+
+# fast build rule for target.
+switch/fast:
+	$(MAKE) -f CMakeFiles/switch.dir/build.make CMakeFiles/switch.dir/build
+.PHONY : switch/fast
+
+#=============================================================================
+# Target rules for targets named enum
+
+# Build rule for target.
+enum: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 enum
+.PHONY : enum
+
+# fast build rule for target.
+enum/fast:
+	$(MAKE) -f CMakeFiles/enum.dir/build.make CMakeFiles/enum.dir/build
+.PHONY : enum/fast
+
+#=============================================================================
+# Target rules for targets named arrfun3
+
+# Build rule for target.
+arrfun3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 arrfun3
+.PHONY : arrfun3
+
+# fast build rule for target.
+arrfun3/fast:
+	$(MAKE) -f CMakeFiles/arrfun3.dir/build.make CMakeFiles/arrfun3.dir/build
+.PHONY : arrfun3/fast
+
+#=============================================================================
+# Target rules for targets named pra6_06_more_add
+
+# Build rule for target.
+pra6_06_more_add: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pra6_06_more_add
+.PHONY : pra6_06_more_add
+
+# fast build rule for target.
+pra6_06_more_add/fast:
+	$(MAKE) -f CMakeFiles/pra6_06_more_add.dir/build.make CMakeFiles/pra6_06_more_add.dir/build
+.PHONY : pra6_06_more_add/fast
+
+#=============================================================================
+# Target rules for targets named pra6_04_or
+
+# Build rule for target.
+pra6_04_or: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pra6_04_or
+.PHONY : pra6_04_or
+
+# fast build rule for target.
+pra6_04_or/fast:
+	$(MAKE) -f CMakeFiles/pra6_04_or.dir/build.make CMakeFiles/pra6_04_or.dir/build
+.PHONY : pra6_04_or/fast
+
+#=============================================================================
+# Target rules for targets named pra6_02_ifelse
+
+# Build rule for target.
+pra6_02_ifelse: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pra6_02_ifelse
+.PHONY : pra6_02_ifelse
+
+# fast build rule for target.
+pra6_02_ifelse/fast:
+	$(MAKE) -f CMakeFiles/pra6_02_ifelse.dir/build.make CMakeFiles/pra6_02_ifelse.dir/build
+.PHONY : pra6_02_ifelse/fast
+
+#=============================================================================
+# Target rules for targets named pra6_01_if
+
+# Build rule for target.
+pra6_01_if: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pra6_01_if
+.PHONY : pra6_01_if
+
+# fast build rule for target.
+pra6_01_if/fast:
+	$(MAKE) -f CMakeFiles/pra6_01_if.dir/build.make CMakeFiles/pra6_01_if.dir/build
+.PHONY : pra6_01_if/fast
+
+#=============================================================================
+# Target rules for targets named strgfun
+
+# Build rule for target.
+strgfun: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 strgfun
+.PHONY : strgfun
+
+# fast build rule for target.
+strgfun/fast:
+	$(MAKE) -f CMakeFiles/strgfun.dir/build.make CMakeFiles/strgfun.dir/build
+.PHONY : strgfun/fast
+
+#=============================================================================
+# Target rules for targets named lotto
+
+# Build rule for target.
+lotto: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lotto
+.PHONY : lotto
+
+# fast build rule for target.
+lotto/fast:
+	$(MAKE) -f CMakeFiles/lotto.dir/build.make CMakeFiles/lotto.dir/build
+.PHONY : lotto/fast
+
+#=============================================================================
+# Target rules for targets named outfile
+
+# Build rule for target.
+outfile: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 outfile
+.PHONY : outfile
+
+# fast build rule for target.
+outfile/fast:
+	$(MAKE) -f CMakeFiles/outfile.dir/build.make CMakeFiles/outfile.dir/build
+.PHONY : outfile/fast
+
+#=============================================================================
+# Target rules for targets named arrfun2
+
+# Build rule for target.
+arrfun2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 arrfun2
+.PHONY : arrfun2
+
+# fast build rule for target.
+arrfun2/fast:
+	$(MAKE) -f CMakeFiles/arrfun2.dir/build.make CMakeFiles/arrfun2.dir/build
+.PHONY : arrfun2/fast
+
+#=============================================================================
+# Target rules for targets named cingolf
+
+# Build rule for target.
+cingolf: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 cingolf
+.PHONY : cingolf
+
+# fast build rule for target.
+cingolf/fast:
+	$(MAKE) -f CMakeFiles/cingolf.dir/build.make CMakeFiles/cingolf.dir/build
+.PHONY : cingolf/fast
+
+#=============================================================================
+# Target rules for targets named jump
+
+# Build rule for target.
+jump: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 jump
+.PHONY : jump
+
+# fast build rule for target.
+jump/fast:
+	$(MAKE) -f CMakeFiles/jump.dir/build.make CMakeFiles/jump.dir/build
+.PHONY : jump/fast
+
+#=============================================================================
+# Target rules for targets named atrctfun
+
+# Build rule for target.
+atrctfun: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 atrctfun
+.PHONY : atrctfun
+
+# fast build rule for target.
+atrctfun/fast:
+	$(MAKE) -f CMakeFiles/atrctfun.dir/build.make CMakeFiles/atrctfun.dir/build
+.PHONY : atrctfun/fast
+
+#=============================================================================
+# Target rules for targets named cinfish
+
+# Build rule for target.
+cinfish: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 cinfish
+.PHONY : cinfish
+
+# fast build rule for target.
+cinfish/fast:
+	$(MAKE) -f CMakeFiles/cinfish.dir/build.make CMakeFiles/cinfish.dir/build
+.PHONY : cinfish/fast
+
+#=============================================================================
+# Target rules for targets named pra4_15_pointer
+
+# Build rule for target.
+pra4_15_pointer: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pra4_15_pointer
+.PHONY : pra4_15_pointer
+
+# fast build rule for target.
+pra4_15_pointer/fast:
+	$(MAKE) -f CMakeFiles/pra4_15_pointer.dir/build.make CMakeFiles/pra4_15_pointer.dir/build
+.PHONY : pra4_15_pointer/fast
 
 #=============================================================================
 # Target rules for targets named pra5_20_nested
@@ -228,6 +514,45 @@ pra5_15_dowhile/fast:
 .PHONY : pra5_15_dowhile/fast
 
 #=============================================================================
+# Target rules for targets named pra5_14_waiting
+
+# Build rule for target.
+pra5_14_waiting: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pra5_14_waiting
+.PHONY : pra5_14_waiting
+
+# fast build rule for target.
+pra5_14_waiting/fast:
+	$(MAKE) -f CMakeFiles/pra5_14_waiting.dir/build.make CMakeFiles/pra5_14_waiting.dir/build
+.PHONY : pra5_14_waiting/fast
+
+#=============================================================================
+# Target rules for targets named arrobj
+
+# Build rule for target.
+arrobj: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 arrobj
+.PHONY : arrobj
+
+# fast build rule for target.
+arrobj/fast:
+	$(MAKE) -f CMakeFiles/arrobj.dir/build.make CMakeFiles/arrobj.dir/build
+.PHONY : arrobj/fast
+
+#=============================================================================
+# Target rules for targets named pra4_23_mixtypes
+
+# Build rule for target.
+pra4_23_mixtypes: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pra4_23_mixtypes
+.PHONY : pra4_23_mixtypes
+
+# fast build rule for target.
+pra4_23_mixtypes/fast:
+	$(MAKE) -f CMakeFiles/pra4_23_mixtypes.dir/build.make CMakeFiles/pra4_23_mixtypes.dir/build
+.PHONY : pra4_23_mixtypes/fast
+
+#=============================================================================
 # Target rules for targets named pra5_11_compstr1
 
 # Build rule for target.
@@ -241,6 +566,19 @@ pra5_11_compstr1/fast:
 .PHONY : pra5_11_compstr1/fast
 
 #=============================================================================
+# Target rules for targets named pra5_12_compstr2
+
+# Build rule for target.
+pra5_12_compstr2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pra5_12_compstr2
+.PHONY : pra5_12_compstr2
+
+# fast build rule for target.
+pra5_12_compstr2/fast:
+	$(MAKE) -f CMakeFiles/pra5_12_compstr2.dir/build.make CMakeFiles/pra5_12_compstr2.dir/build
+.PHONY : pra5_12_compstr2/fast
+
+#=============================================================================
 # Target rules for targets named pra5_07_plus_one
 
 # Build rule for target.
@@ -252,6 +590,19 @@ pra5_07_plus_one: cmake_check_build_system
 pra5_07_plus_one/fast:
 	$(MAKE) -f CMakeFiles/pra5_07_plus_one.dir/build.make CMakeFiles/pra5_07_plus_one.dir/build
 .PHONY : pra5_07_plus_one/fast
+
+#=============================================================================
+# Target rules for targets named topfive
+
+# Build rule for target.
+topfive: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 topfive
+.PHONY : topfive
+
+# fast build rule for target.
+topfive/fast:
+	$(MAKE) -f CMakeFiles/topfive.dir/build.make CMakeFiles/topfive.dir/build
+.PHONY : topfive/fast
 
 #=============================================================================
 # Target rules for targets named pra3_09_fltadd
@@ -278,6 +629,58 @@ pra5_06_forstr1: cmake_check_build_system
 pra5_06_forstr1/fast:
 	$(MAKE) -f CMakeFiles/pra5_06_forstr1.dir/build.make CMakeFiles/pra5_06_forstr1.dir/build
 .PHONY : pra5_06_forstr1/fast
+
+#=============================================================================
+# Target rules for targets named pra5_01_forloop
+
+# Build rule for target.
+pra5_01_forloop: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pra5_01_forloop
+.PHONY : pra5_01_forloop
+
+# fast build rule for target.
+pra5_01_forloop/fast:
+	$(MAKE) -f CMakeFiles/pra5_01_forloop.dir/build.make CMakeFiles/pra5_01_forloop.dir/build
+.PHONY : pra5_01_forloop/fast
+
+#=============================================================================
+# Target rules for targets named recur
+
+# Build rule for target.
+recur: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 recur
+.PHONY : recur
+
+# fast build rule for target.
+recur/fast:
+	$(MAKE) -f CMakeFiles/recur.dir/build.make CMakeFiles/recur.dir/build
+.PHONY : recur/fast
+
+#=============================================================================
+# Target rules for targets named calling
+
+# Build rule for target.
+calling: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 calling
+.PHONY : calling
+
+# fast build rule for target.
+calling/fast:
+	$(MAKE) -f CMakeFiles/calling.dir/build.make CMakeFiles/calling.dir/build
+.PHONY : calling/fast
+
+#=============================================================================
+# Target rules for targets named pra6_08_cctypes
+
+# Build rule for target.
+pra6_08_cctypes: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pra6_08_cctypes
+.PHONY : pra6_08_cctypes
+
+# fast build rule for target.
+pra6_08_cctypes/fast:
+	$(MAKE) -f CMakeFiles/pra6_08_cctypes.dir/build.make CMakeFiles/pra6_08_cctypes.dir/build
+.PHONY : pra6_08_cctypes/fast
 
 #=============================================================================
 # Target rules for targets named pra4_01_arrayone
@@ -319,17 +722,30 @@ pra5_02_num_test/fast:
 .PHONY : pra5_02_num_test/fast
 
 #=============================================================================
-# Target rules for targets named pra5_01_forloop
+# Target rules for targets named pra5_19_textin4
 
 # Build rule for target.
-pra5_01_forloop: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pra5_01_forloop
-.PHONY : pra5_01_forloop
+pra5_19_textin4: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pra5_19_textin4
+.PHONY : pra5_19_textin4
 
 # fast build rule for target.
-pra5_01_forloop/fast:
-	$(MAKE) -f CMakeFiles/pra5_01_forloop.dir/build.make CMakeFiles/pra5_01_forloop.dir/build
-.PHONY : pra5_01_forloop/fast
+pra5_19_textin4/fast:
+	$(MAKE) -f CMakeFiles/pra5_19_textin4.dir/build.make CMakeFiles/pra5_19_textin4.dir/build
+.PHONY : pra5_19_textin4/fast
+
+#=============================================================================
+# Target rules for targets named pra4_09_strtype3
+
+# Build rule for target.
+pra4_09_strtype3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pra4_09_strtype3
+.PHONY : pra4_09_strtype3
+
+# fast build rule for target.
+pra4_09_strtype3/fast:
+	$(MAKE) -f CMakeFiles/pra4_09_strtype3.dir/build.make CMakeFiles/pra4_09_strtype3.dir/build
+.PHONY : pra4_09_strtype3/fast
 
 #=============================================================================
 # Target rules for targets named pra4_22_delete
@@ -384,19 +800,6 @@ pra5_18_textin3/fast:
 .PHONY : pra5_18_textin3/fast
 
 #=============================================================================
-# Target rules for targets named pra4_23_mixtypes
-
-# Build rule for target.
-pra4_23_mixtypes: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pra4_23_mixtypes
-.PHONY : pra4_23_mixtypes
-
-# fast build rule for target.
-pra4_23_mixtypes/fast:
-	$(MAKE) -f CMakeFiles/pra4_23_mixtypes.dir/build.make CMakeFiles/pra4_23_mixtypes.dir/build
-.PHONY : pra4_23_mixtypes/fast
-
-#=============================================================================
 # Target rules for targets named ex1_09
 
 # Build rule for target.
@@ -408,6 +811,19 @@ ex1_09: cmake_check_build_system
 ex1_09/fast:
 	$(MAKE) -f CMakeFiles/ex1_09.dir/build.make CMakeFiles/ex1_09.dir/build
 .PHONY : ex1_09/fast
+
+#=============================================================================
+# Target rules for targets named pra5_04_formore
+
+# Build rule for target.
+pra5_04_formore: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pra5_04_formore
+.PHONY : pra5_04_formore
+
+# fast build rule for target.
+pra5_04_formore/fast:
+	$(MAKE) -f CMakeFiles/pra5_04_formore.dir/build.make CMakeFiles/pra5_04_formore.dir/build
+.PHONY : pra5_04_formore/fast
 
 #=============================================================================
 # Target rules for targets named pra4_20_ptrstr
@@ -449,6 +865,45 @@ pra4_14_address/fast:
 .PHONY : pra4_14_address/fast
 
 #=============================================================================
+# Target rules for targets named pra6_05_and
+
+# Build rule for target.
+pra6_05_and: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pra6_05_and
+.PHONY : pra6_05_and
+
+# fast build rule for target.
+pra6_05_and/fast:
+	$(MAKE) -f CMakeFiles/pra6_05_and.dir/build.make CMakeFiles/pra6_05_and.dir/build
+.PHONY : pra6_05_and/fast
+
+#=============================================================================
+# Target rules for targets named condit
+
+# Build rule for target.
+condit: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 condit
+.PHONY : condit
+
+# fast build rule for target.
+condit/fast:
+	$(MAKE) -f CMakeFiles/condit.dir/build.make CMakeFiles/condit.dir/build
+.PHONY : condit/fast
+
+#=============================================================================
+# Target rules for targets named pra3_12_modulus
+
+# Build rule for target.
+pra3_12_modulus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pra3_12_modulus
+.PHONY : pra3_12_modulus
+
+# fast build rule for target.
+pra3_12_modulus/fast:
+	$(MAKE) -f CMakeFiles/pra3_12_modulus.dir/build.make CMakeFiles/pra3_12_modulus.dir/build
+.PHONY : pra3_12_modulus/fast
+
+#=============================================================================
 # Target rules for targets named pra4_10_strtype4
 
 # Build rule for target.
@@ -460,6 +915,19 @@ pra4_10_strtype4: cmake_check_build_system
 pra4_10_strtype4/fast:
 	$(MAKE) -f CMakeFiles/pra4_10_strtype4.dir/build.make CMakeFiles/pra4_10_strtype4.dir/build
 .PHONY : pra4_10_strtype4/fast
+
+#=============================================================================
+# Target rules for targets named sumafile
+
+# Build rule for target.
+sumafile: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sumafile
+.PHONY : sumafile
+
+# fast build rule for target.
+sumafile/fast:
+	$(MAKE) -f CMakeFiles/sumafile.dir/build.make CMakeFiles/sumafile.dir/build
+.PHONY : sumafile/fast
 
 #=============================================================================
 # Target rules for targets named pra5_13_while
@@ -475,30 +943,30 @@ pra5_13_while/fast:
 .PHONY : pra5_13_while/fast
 
 #=============================================================================
-# Target rules for targets named pra4_09_strtype3
+# Target rules for targets named travel
 
 # Build rule for target.
-pra4_09_strtype3: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pra4_09_strtype3
-.PHONY : pra4_09_strtype3
+travel: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 travel
+.PHONY : travel
 
 # fast build rule for target.
-pra4_09_strtype3/fast:
-	$(MAKE) -f CMakeFiles/pra4_09_strtype3.dir/build.make CMakeFiles/pra4_09_strtype3.dir/build
-.PHONY : pra4_09_strtype3/fast
+travel/fast:
+	$(MAKE) -f CMakeFiles/travel.dir/build.make CMakeFiles/travel.dir/build
+.PHONY : travel/fast
 
 #=============================================================================
-# Target rules for targets named more_add
+# Target rules for targets named pra4_24_choices
 
 # Build rule for target.
-more_add: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 more_add
-.PHONY : more_add
+pra4_24_choices: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pra4_24_choices
+.PHONY : pra4_24_choices
 
 # fast build rule for target.
-more_add/fast:
-	$(MAKE) -f CMakeFiles/more_add.dir/build.make CMakeFiles/more_add.dir/build
-.PHONY : more_add/fast
+pra4_24_choices/fast:
+	$(MAKE) -f CMakeFiles/pra4_24_choices.dir/build.make CMakeFiles/pra4_24_choices.dir/build
+.PHONY : pra4_24_choices/fast
 
 #=============================================================================
 # Target rules for targets named pra4_08_strtype2
@@ -512,6 +980,19 @@ pra4_08_strtype2: cmake_check_build_system
 pra4_08_strtype2/fast:
 	$(MAKE) -f CMakeFiles/pra4_08_strtype2.dir/build.make CMakeFiles/pra4_08_strtype2.dir/build
 .PHONY : pra4_08_strtype2/fast
+
+#=============================================================================
+# Target rules for targets named pra4_13_arrstruc
+
+# Build rule for target.
+pra4_13_arrstruc: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pra4_13_arrstruc
+.PHONY : pra4_13_arrstruc
+
+# fast build rule for target.
+pra4_13_arrstruc/fast:
+	$(MAKE) -f CMakeFiles/pra4_13_arrstruc.dir/build.make CMakeFiles/pra4_13_arrstruc.dir/build
+.PHONY : pra4_13_arrstruc/fast
 
 #=============================================================================
 # Target rules for targets named pra5_08_block
@@ -540,32 +1021,6 @@ pra4_05_instr3/fast:
 .PHONY : pra4_05_instr3/fast
 
 #=============================================================================
-# Target rules for targets named pra5_04_formore
-
-# Build rule for target.
-pra5_04_formore: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pra5_04_formore
-.PHONY : pra5_04_formore
-
-# fast build rule for target.
-pra5_04_formore/fast:
-	$(MAKE) -f CMakeFiles/pra5_04_formore.dir/build.make CMakeFiles/pra5_04_formore.dir/build
-.PHONY : pra5_04_formore/fast
-
-#=============================================================================
-# Target rules for targets named pra4_19_addpntrs
-
-# Build rule for target.
-pra4_19_addpntrs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pra4_19_addpntrs
-.PHONY : pra4_19_addpntrs
-
-# fast build rule for target.
-pra4_19_addpntrs/fast:
-	$(MAKE) -f CMakeFiles/pra4_19_addpntrs.dir/build.make CMakeFiles/pra4_19_addpntrs.dir/build
-.PHONY : pra4_19_addpntrs/fast
-
-#=============================================================================
 # Target rules for targets named cplusplus_primer
 
 # Build rule for target.
@@ -592,6 +1047,19 @@ pra5_05_bigstep/fast:
 .PHONY : pra5_05_bigstep/fast
 
 #=============================================================================
+# Target rules for targets named pra3_06_morechar
+
+# Build rule for target.
+pra3_06_morechar: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pra3_06_morechar
+.PHONY : pra3_06_morechar
+
+# fast build rule for target.
+pra3_06_morechar/fast:
+	$(MAKE) -f CMakeFiles/pra3_06_morechar.dir/build.make CMakeFiles/pra3_06_morechar.dir/build
+.PHONY : pra3_06_morechar/fast
+
+#=============================================================================
 # Target rules for targets named pra3_11_divide
 
 # Build rule for target.
@@ -605,6 +1073,19 @@ pra3_11_divide/fast:
 .PHONY : pra3_11_divide/fast
 
 #=============================================================================
+# Target rules for targets named pra4_02_string
+
+# Build rule for target.
+pra4_02_string: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pra4_02_string
+.PHONY : pra4_02_string
+
+# fast build rule for target.
+pra4_02_string/fast:
+	$(MAKE) -f CMakeFiles/pra4_02_string.dir/build.make CMakeFiles/pra4_02_string.dir/build
+.PHONY : pra4_02_string/fast
+
+#=============================================================================
 # Target rules for targets named pra4_04_instr2
 
 # Build rule for target.
@@ -616,19 +1097,6 @@ pra4_04_instr2: cmake_check_build_system
 pra4_04_instr2/fast:
 	$(MAKE) -f CMakeFiles/pra4_04_instr2.dir/build.make CMakeFiles/pra4_04_instr2.dir/build
 .PHONY : pra4_04_instr2/fast
-
-#=============================================================================
-# Target rules for targets named pra5_03_express
-
-# Build rule for target.
-pra5_03_express: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pra5_03_express
-.PHONY : pra5_03_express
-
-# fast build rule for target.
-pra5_03_express/fast:
-	$(MAKE) -f CMakeFiles/pra5_03_express.dir/build.make CMakeFiles/pra5_03_express.dir/build
-.PHONY : pra5_03_express/fast
 
 #=============================================================================
 # Target rules for targets named pra4_16_init_ptr
@@ -657,19 +1125,6 @@ pra3_14_typecast/fast:
 .PHONY : pra3_14_typecast/fast
 
 #=============================================================================
-# Target rules for targets named pra4_15_pointer
-
-# Build rule for target.
-pra4_15_pointer: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pra4_15_pointer
-.PHONY : pra4_15_pointer
-
-# fast build rule for target.
-pra4_15_pointer/fast:
-	$(MAKE) -f CMakeFiles/pra4_15_pointer.dir/build.make CMakeFiles/pra4_15_pointer.dir/build
-.PHONY : pra4_15_pointer/fast
-
-#=============================================================================
 # Target rules for targets named pra3_07_bondini
 
 # Build rule for target.
@@ -681,32 +1136,6 @@ pra3_07_bondini: cmake_check_build_system
 pra3_07_bondini/fast:
 	$(MAKE) -f CMakeFiles/pra3_07_bondini.dir/build.make CMakeFiles/pra3_07_bondini.dir/build
 .PHONY : pra3_07_bondini/fast
-
-#=============================================================================
-# Target rules for targets named pra5_14_waiting
-
-# Build rule for target.
-pra5_14_waiting: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pra5_14_waiting
-.PHONY : pra5_14_waiting
-
-# fast build rule for target.
-pra5_14_waiting/fast:
-	$(MAKE) -f CMakeFiles/pra5_14_waiting.dir/build.make CMakeFiles/pra5_14_waiting.dir/build
-.PHONY : pra5_14_waiting/fast
-
-#=============================================================================
-# Target rules for targets named pra3_12_modulus
-
-# Build rule for target.
-pra3_12_modulus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pra3_12_modulus
-.PHONY : pra3_12_modulus
-
-# fast build rule for target.
-pra3_12_modulus/fast:
-	$(MAKE) -f CMakeFiles/pra3_12_modulus.dir/build.make CMakeFiles/pra3_12_modulus.dir/build
-.PHONY : pra3_12_modulus/fast
 
 #=============================================================================
 # Target rules for targets named pra3_10_arith
@@ -722,6 +1151,19 @@ pra3_10_arith/fast:
 .PHONY : pra3_10_arith/fast
 
 #=============================================================================
+# Target rules for targets named arrfun1
+
+# Build rule for target.
+arrfun1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 arrfun1
+.PHONY : arrfun1
+
+# fast build rule for target.
+arrfun1/fast:
+	$(MAKE) -f CMakeFiles/arrfun1.dir/build.make CMakeFiles/arrfun1.dir/build
+.PHONY : arrfun1/fast
+
+#=============================================================================
 # Target rules for targets named pra5_09_forstr2
 
 # Build rule for target.
@@ -735,45 +1177,6 @@ pra5_09_forstr2/fast:
 .PHONY : pra5_09_forstr2/fast
 
 #=============================================================================
-# Target rules for targets named pra4_02_string
-
-# Build rule for target.
-pra4_02_string: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pra4_02_string
-.PHONY : pra4_02_string
-
-# fast build rule for target.
-pra4_02_string/fast:
-	$(MAKE) -f CMakeFiles/pra4_02_string.dir/build.make CMakeFiles/pra4_02_string.dir/build
-.PHONY : pra4_02_string/fast
-
-#=============================================================================
-# Target rules for targets named pra3_06_morechar
-
-# Build rule for target.
-pra3_06_morechar: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pra3_06_morechar
-.PHONY : pra3_06_morechar
-
-# fast build rule for target.
-pra3_06_morechar/fast:
-	$(MAKE) -f CMakeFiles/pra3_06_morechar.dir/build.make CMakeFiles/pra3_06_morechar.dir/build
-.PHONY : pra3_06_morechar/fast
-
-#=============================================================================
-# Target rules for targets named and
-
-# Build rule for target.
-and: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 and
-.PHONY : and
-
-# fast build rule for target.
-and/fast:
-	$(MAKE) -f CMakeFiles/and.dir/build.make CMakeFiles/and.dir/build
-.PHONY : and/fast
-
-#=============================================================================
 # Target rules for targets named pra3_05_chartype
 
 # Build rule for target.
@@ -785,19 +1188,6 @@ pra3_05_chartype: cmake_check_build_system
 pra3_05_chartype/fast:
 	$(MAKE) -f CMakeFiles/pra3_05_chartype.dir/build.make CMakeFiles/pra3_05_chartype.dir/build
 .PHONY : pra3_05_chartype/fast
-
-#=============================================================================
-# Target rules for targets named main
-
-# Build rule for target.
-main: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 main
-.PHONY : main
-
-# fast build rule for target.
-main/fast:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-.PHONY : main/fast
 
 #=============================================================================
 # Target rules for targets named pra3_08_floatnum
@@ -826,58 +1216,6 @@ pra4_18_arraynew/fast:
 .PHONY : pra4_18_arraynew/fast
 
 #=============================================================================
-# Target rules for targets named pra4_07_strtype1
-
-# Build rule for target.
-pra4_07_strtype1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pra4_07_strtype1
-.PHONY : pra4_07_strtype1
-
-# fast build rule for target.
-pra4_07_strtype1/fast:
-	$(MAKE) -f CMakeFiles/pra4_07_strtype1.dir/build.make CMakeFiles/pra4_07_strtype1.dir/build
-.PHONY : pra4_07_strtype1/fast
-
-#=============================================================================
-# Target rules for targets named pra4_24_choices
-
-# Build rule for target.
-pra4_24_choices: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pra4_24_choices
-.PHONY : pra4_24_choices
-
-# fast build rule for target.
-pra4_24_choices/fast:
-	$(MAKE) -f CMakeFiles/pra4_24_choices.dir/build.make CMakeFiles/pra4_24_choices.dir/build
-.PHONY : pra4_24_choices/fast
-
-#=============================================================================
-# Target rules for targets named pra4_03_instr1
-
-# Build rule for target.
-pra4_03_instr1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pra4_03_instr1
-.PHONY : pra4_03_instr1
-
-# fast build rule for target.
-pra4_03_instr1/fast:
-	$(MAKE) -f CMakeFiles/pra4_03_instr1.dir/build.make CMakeFiles/pra4_03_instr1.dir/build
-.PHONY : pra4_03_instr1/fast
-
-#=============================================================================
-# Target rules for targets named ifelseif
-
-# Build rule for target.
-ifelseif: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ifelseif
-.PHONY : ifelseif
-
-# fast build rule for target.
-ifelseif/fast:
-	$(MAKE) -f CMakeFiles/ifelseif.dir/build.make CMakeFiles/ifelseif.dir/build
-.PHONY : ifelseif/fast
-
-#=============================================================================
 # Target rules for targets named pra3_04_hexoct2
 
 # Build rule for target.
@@ -904,6 +1242,19 @@ pra4_17_use_new/fast:
 .PHONY : pra4_17_use_new/fast
 
 #=============================================================================
+# Target rules for targets named pra6_07_not
+
+# Build rule for target.
+pra6_07_not: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pra6_07_not
+.PHONY : pra6_07_not
+
+# fast build rule for target.
+pra6_07_not/fast:
+	$(MAKE) -f CMakeFiles/pra6_07_not.dir/build.make CMakeFiles/pra6_07_not.dir/build
+.PHONY : pra6_07_not/fast
+
+#=============================================================================
 # Target rules for targets named pra4_12_assgn_st
 
 # Build rule for target.
@@ -917,30 +1268,17 @@ pra4_12_assgn_st/fast:
 .PHONY : pra4_12_assgn_st/fast
 
 #=============================================================================
-# Target rules for targets named pra5_19_textin4
+# Target rules for targets named pra6_03_ifelself
 
 # Build rule for target.
-pra5_19_textin4: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pra5_19_textin4
-.PHONY : pra5_19_textin4
+pra6_03_ifelself: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pra6_03_ifelself
+.PHONY : pra6_03_ifelself
 
 # fast build rule for target.
-pra5_19_textin4/fast:
-	$(MAKE) -f CMakeFiles/pra5_19_textin4.dir/build.make CMakeFiles/pra5_19_textin4.dir/build
-.PHONY : pra5_19_textin4/fast
-
-#=============================================================================
-# Target rules for targets named pra4_13_arrstruc
-
-# Build rule for target.
-pra4_13_arrstruc: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pra4_13_arrstruc
-.PHONY : pra4_13_arrstruc
-
-# fast build rule for target.
-pra4_13_arrstruc/fast:
-	$(MAKE) -f CMakeFiles/pra4_13_arrstruc.dir/build.make CMakeFiles/pra4_13_arrstruc.dir/build
-.PHONY : pra4_13_arrstruc/fast
+pra6_03_ifelself/fast:
+	$(MAKE) -f CMakeFiles/pra6_03_ifelself.dir/build.make CMakeFiles/pra6_03_ifelself.dir/build
+.PHONY : pra6_03_ifelself/fast
 
 #=============================================================================
 # Target rules for targets named pra4_06_numstr
@@ -980,19 +1318,6 @@ pra3_02_exceed: cmake_check_build_system
 pra3_02_exceed/fast:
 	$(MAKE) -f CMakeFiles/pra3_02_exceed.dir/build.make CMakeFiles/pra3_02_exceed.dir/build
 .PHONY : pra3_02_exceed/fast
-
-#=============================================================================
-# Target rules for targets named pra5_12_compstr2
-
-# Build rule for target.
-pra5_12_compstr2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pra5_12_compstr2
-.PHONY : pra5_12_compstr2
-
-# fast build rule for target.
-pra5_12_compstr2/fast:
-	$(MAKE) -f CMakeFiles/pra5_12_compstr2.dir/build.make CMakeFiles/pra5_12_compstr2.dir/build
-.PHONY : pra5_12_compstr2/fast
 
 #=============================================================================
 # Target rules for targets named pra3_03_hexoct
@@ -2680,221 +3005,896 @@ ch5/pra5_20_nested.cpp.s:
 	$(MAKE) -f CMakeFiles/pra5_20_nested.dir/build.make CMakeFiles/pra5_20_nested.dir/ch5/pra5_20_nested.cpp.s
 .PHONY : ch5/pra5_20_nested.cpp.s
 
-ch6/and.o: ch6/and.cpp.o
+ch6/cinfish.o: ch6/cinfish.cpp.o
 
-.PHONY : ch6/and.o
-
-# target to build an object file
-ch6/and.cpp.o:
-	$(MAKE) -f CMakeFiles/and.dir/build.make CMakeFiles/and.dir/ch6/and.cpp.o
-.PHONY : ch6/and.cpp.o
-
-ch6/and.i: ch6/and.cpp.i
-
-.PHONY : ch6/and.i
-
-# target to preprocess a source file
-ch6/and.cpp.i:
-	$(MAKE) -f CMakeFiles/and.dir/build.make CMakeFiles/and.dir/ch6/and.cpp.i
-.PHONY : ch6/and.cpp.i
-
-ch6/and.s: ch6/and.cpp.s
-
-.PHONY : ch6/and.s
-
-# target to generate assembly for a file
-ch6/and.cpp.s:
-	$(MAKE) -f CMakeFiles/and.dir/build.make CMakeFiles/and.dir/ch6/and.cpp.s
-.PHONY : ch6/and.cpp.s
-
-ch6/cctypes.o: ch6/cctypes.cpp.o
-
-.PHONY : ch6/cctypes.o
+.PHONY : ch6/cinfish.o
 
 # target to build an object file
-ch6/cctypes.cpp.o:
-	$(MAKE) -f CMakeFiles/cctypes.dir/build.make CMakeFiles/cctypes.dir/ch6/cctypes.cpp.o
-.PHONY : ch6/cctypes.cpp.o
+ch6/cinfish.cpp.o:
+	$(MAKE) -f CMakeFiles/cinfish.dir/build.make CMakeFiles/cinfish.dir/ch6/cinfish.cpp.o
+.PHONY : ch6/cinfish.cpp.o
 
-ch6/cctypes.i: ch6/cctypes.cpp.i
+ch6/cinfish.i: ch6/cinfish.cpp.i
 
-.PHONY : ch6/cctypes.i
+.PHONY : ch6/cinfish.i
 
 # target to preprocess a source file
-ch6/cctypes.cpp.i:
-	$(MAKE) -f CMakeFiles/cctypes.dir/build.make CMakeFiles/cctypes.dir/ch6/cctypes.cpp.i
-.PHONY : ch6/cctypes.cpp.i
+ch6/cinfish.cpp.i:
+	$(MAKE) -f CMakeFiles/cinfish.dir/build.make CMakeFiles/cinfish.dir/ch6/cinfish.cpp.i
+.PHONY : ch6/cinfish.cpp.i
 
-ch6/cctypes.s: ch6/cctypes.cpp.s
+ch6/cinfish.s: ch6/cinfish.cpp.s
 
-.PHONY : ch6/cctypes.s
+.PHONY : ch6/cinfish.s
 
 # target to generate assembly for a file
-ch6/cctypes.cpp.s:
-	$(MAKE) -f CMakeFiles/cctypes.dir/build.make CMakeFiles/cctypes.dir/ch6/cctypes.cpp.s
-.PHONY : ch6/cctypes.cpp.s
+ch6/cinfish.cpp.s:
+	$(MAKE) -f CMakeFiles/cinfish.dir/build.make CMakeFiles/cinfish.dir/ch6/cinfish.cpp.s
+.PHONY : ch6/cinfish.cpp.s
 
-ch6/if.o: ch6/if.cpp.o
+ch6/cingolf.o: ch6/cingolf.cpp.o
 
-.PHONY : ch6/if.o
+.PHONY : ch6/cingolf.o
 
 # target to build an object file
-ch6/if.cpp.o:
-	$(MAKE) -f CMakeFiles/if.dir/build.make CMakeFiles/if.dir/ch6/if.cpp.o
-.PHONY : ch6/if.cpp.o
+ch6/cingolf.cpp.o:
+	$(MAKE) -f CMakeFiles/cingolf.dir/build.make CMakeFiles/cingolf.dir/ch6/cingolf.cpp.o
+.PHONY : ch6/cingolf.cpp.o
 
-ch6/if.i: ch6/if.cpp.i
+ch6/cingolf.i: ch6/cingolf.cpp.i
 
-.PHONY : ch6/if.i
+.PHONY : ch6/cingolf.i
 
 # target to preprocess a source file
-ch6/if.cpp.i:
-	$(MAKE) -f CMakeFiles/if.dir/build.make CMakeFiles/if.dir/ch6/if.cpp.i
-.PHONY : ch6/if.cpp.i
+ch6/cingolf.cpp.i:
+	$(MAKE) -f CMakeFiles/cingolf.dir/build.make CMakeFiles/cingolf.dir/ch6/cingolf.cpp.i
+.PHONY : ch6/cingolf.cpp.i
 
-ch6/if.s: ch6/if.cpp.s
+ch6/cingolf.s: ch6/cingolf.cpp.s
 
-.PHONY : ch6/if.s
+.PHONY : ch6/cingolf.s
 
 # target to generate assembly for a file
-ch6/if.cpp.s:
-	$(MAKE) -f CMakeFiles/if.dir/build.make CMakeFiles/if.dir/ch6/if.cpp.s
-.PHONY : ch6/if.cpp.s
+ch6/cingolf.cpp.s:
+	$(MAKE) -f CMakeFiles/cingolf.dir/build.make CMakeFiles/cingolf.dir/ch6/cingolf.cpp.s
+.PHONY : ch6/cingolf.cpp.s
 
-ch6/ifelse.o: ch6/ifelse.cpp.o
+ch6/condit.o: ch6/condit.cpp.o
 
-.PHONY : ch6/ifelse.o
+.PHONY : ch6/condit.o
 
 # target to build an object file
-ch6/ifelse.cpp.o:
-	$(MAKE) -f CMakeFiles/ifelse.dir/build.make CMakeFiles/ifelse.dir/ch6/ifelse.cpp.o
-.PHONY : ch6/ifelse.cpp.o
+ch6/condit.cpp.o:
+	$(MAKE) -f CMakeFiles/condit.dir/build.make CMakeFiles/condit.dir/ch6/condit.cpp.o
+.PHONY : ch6/condit.cpp.o
 
-ch6/ifelse.i: ch6/ifelse.cpp.i
+ch6/condit.i: ch6/condit.cpp.i
 
-.PHONY : ch6/ifelse.i
+.PHONY : ch6/condit.i
 
 # target to preprocess a source file
-ch6/ifelse.cpp.i:
-	$(MAKE) -f CMakeFiles/ifelse.dir/build.make CMakeFiles/ifelse.dir/ch6/ifelse.cpp.i
-.PHONY : ch6/ifelse.cpp.i
+ch6/condit.cpp.i:
+	$(MAKE) -f CMakeFiles/condit.dir/build.make CMakeFiles/condit.dir/ch6/condit.cpp.i
+.PHONY : ch6/condit.cpp.i
 
-ch6/ifelse.s: ch6/ifelse.cpp.s
+ch6/condit.s: ch6/condit.cpp.s
 
-.PHONY : ch6/ifelse.s
+.PHONY : ch6/condit.s
 
 # target to generate assembly for a file
-ch6/ifelse.cpp.s:
-	$(MAKE) -f CMakeFiles/ifelse.dir/build.make CMakeFiles/ifelse.dir/ch6/ifelse.cpp.s
-.PHONY : ch6/ifelse.cpp.s
+ch6/condit.cpp.s:
+	$(MAKE) -f CMakeFiles/condit.dir/build.make CMakeFiles/condit.dir/ch6/condit.cpp.s
+.PHONY : ch6/condit.cpp.s
 
-ch6/ifelseif.o: ch6/ifelseif.cpp.o
+ch6/enum.o: ch6/enum.cpp.o
 
-.PHONY : ch6/ifelseif.o
+.PHONY : ch6/enum.o
 
 # target to build an object file
-ch6/ifelseif.cpp.o:
-	$(MAKE) -f CMakeFiles/ifelseif.dir/build.make CMakeFiles/ifelseif.dir/ch6/ifelseif.cpp.o
-.PHONY : ch6/ifelseif.cpp.o
+ch6/enum.cpp.o:
+	$(MAKE) -f CMakeFiles/enum.dir/build.make CMakeFiles/enum.dir/ch6/enum.cpp.o
+.PHONY : ch6/enum.cpp.o
 
-ch6/ifelseif.i: ch6/ifelseif.cpp.i
+ch6/enum.i: ch6/enum.cpp.i
 
-.PHONY : ch6/ifelseif.i
+.PHONY : ch6/enum.i
 
 # target to preprocess a source file
-ch6/ifelseif.cpp.i:
-	$(MAKE) -f CMakeFiles/ifelseif.dir/build.make CMakeFiles/ifelseif.dir/ch6/ifelseif.cpp.i
-.PHONY : ch6/ifelseif.cpp.i
+ch6/enum.cpp.i:
+	$(MAKE) -f CMakeFiles/enum.dir/build.make CMakeFiles/enum.dir/ch6/enum.cpp.i
+.PHONY : ch6/enum.cpp.i
 
-ch6/ifelseif.s: ch6/ifelseif.cpp.s
+ch6/enum.s: ch6/enum.cpp.s
 
-.PHONY : ch6/ifelseif.s
+.PHONY : ch6/enum.s
 
 # target to generate assembly for a file
-ch6/ifelseif.cpp.s:
-	$(MAKE) -f CMakeFiles/ifelseif.dir/build.make CMakeFiles/ifelseif.dir/ch6/ifelseif.cpp.s
-.PHONY : ch6/ifelseif.cpp.s
+ch6/enum.cpp.s:
+	$(MAKE) -f CMakeFiles/enum.dir/build.make CMakeFiles/enum.dir/ch6/enum.cpp.s
+.PHONY : ch6/enum.cpp.s
 
-ch6/more_add.o: ch6/more_add.cpp.o
+ch6/jump.o: ch6/jump.cpp.o
 
-.PHONY : ch6/more_add.o
+.PHONY : ch6/jump.o
 
 # target to build an object file
-ch6/more_add.cpp.o:
-	$(MAKE) -f CMakeFiles/more_add.dir/build.make CMakeFiles/more_add.dir/ch6/more_add.cpp.o
-.PHONY : ch6/more_add.cpp.o
+ch6/jump.cpp.o:
+	$(MAKE) -f CMakeFiles/jump.dir/build.make CMakeFiles/jump.dir/ch6/jump.cpp.o
+.PHONY : ch6/jump.cpp.o
 
-ch6/more_add.i: ch6/more_add.cpp.i
+ch6/jump.i: ch6/jump.cpp.i
 
-.PHONY : ch6/more_add.i
+.PHONY : ch6/jump.i
 
 # target to preprocess a source file
-ch6/more_add.cpp.i:
-	$(MAKE) -f CMakeFiles/more_add.dir/build.make CMakeFiles/more_add.dir/ch6/more_add.cpp.i
-.PHONY : ch6/more_add.cpp.i
+ch6/jump.cpp.i:
+	$(MAKE) -f CMakeFiles/jump.dir/build.make CMakeFiles/jump.dir/ch6/jump.cpp.i
+.PHONY : ch6/jump.cpp.i
 
-ch6/more_add.s: ch6/more_add.cpp.s
+ch6/jump.s: ch6/jump.cpp.s
 
-.PHONY : ch6/more_add.s
+.PHONY : ch6/jump.s
 
 # target to generate assembly for a file
-ch6/more_add.cpp.s:
-	$(MAKE) -f CMakeFiles/more_add.dir/build.make CMakeFiles/more_add.dir/ch6/more_add.cpp.s
-.PHONY : ch6/more_add.cpp.s
+ch6/jump.cpp.s:
+	$(MAKE) -f CMakeFiles/jump.dir/build.make CMakeFiles/jump.dir/ch6/jump.cpp.s
+.PHONY : ch6/jump.cpp.s
 
-ch6/not.o: ch6/not.cpp.o
+ch6/outfile.o: ch6/outfile.cpp.o
 
-.PHONY : ch6/not.o
+.PHONY : ch6/outfile.o
 
 # target to build an object file
-ch6/not.cpp.o:
-	$(MAKE) -f CMakeFiles/not.dir/build.make CMakeFiles/not.dir/ch6/not.cpp.o
-.PHONY : ch6/not.cpp.o
+ch6/outfile.cpp.o:
+	$(MAKE) -f CMakeFiles/outfile.dir/build.make CMakeFiles/outfile.dir/ch6/outfile.cpp.o
+.PHONY : ch6/outfile.cpp.o
 
-ch6/not.i: ch6/not.cpp.i
+ch6/outfile.i: ch6/outfile.cpp.i
 
-.PHONY : ch6/not.i
+.PHONY : ch6/outfile.i
 
 # target to preprocess a source file
-ch6/not.cpp.i:
-	$(MAKE) -f CMakeFiles/not.dir/build.make CMakeFiles/not.dir/ch6/not.cpp.i
-.PHONY : ch6/not.cpp.i
+ch6/outfile.cpp.i:
+	$(MAKE) -f CMakeFiles/outfile.dir/build.make CMakeFiles/outfile.dir/ch6/outfile.cpp.i
+.PHONY : ch6/outfile.cpp.i
 
-ch6/not.s: ch6/not.cpp.s
+ch6/outfile.s: ch6/outfile.cpp.s
 
-.PHONY : ch6/not.s
+.PHONY : ch6/outfile.s
 
 # target to generate assembly for a file
-ch6/not.cpp.s:
-	$(MAKE) -f CMakeFiles/not.dir/build.make CMakeFiles/not.dir/ch6/not.cpp.s
-.PHONY : ch6/not.cpp.s
+ch6/outfile.cpp.s:
+	$(MAKE) -f CMakeFiles/outfile.dir/build.make CMakeFiles/outfile.dir/ch6/outfile.cpp.s
+.PHONY : ch6/outfile.cpp.s
 
-ch6/or.o: ch6/or.cpp.o
+ch6/pra6_01_if.o: ch6/pra6_01_if.cpp.o
 
-.PHONY : ch6/or.o
+.PHONY : ch6/pra6_01_if.o
 
 # target to build an object file
-ch6/or.cpp.o:
-	$(MAKE) -f CMakeFiles/or.dir/build.make CMakeFiles/or.dir/ch6/or.cpp.o
-.PHONY : ch6/or.cpp.o
+ch6/pra6_01_if.cpp.o:
+	$(MAKE) -f CMakeFiles/pra6_01_if.dir/build.make CMakeFiles/pra6_01_if.dir/ch6/pra6_01_if.cpp.o
+.PHONY : ch6/pra6_01_if.cpp.o
 
-ch6/or.i: ch6/or.cpp.i
+ch6/pra6_01_if.i: ch6/pra6_01_if.cpp.i
 
-.PHONY : ch6/or.i
+.PHONY : ch6/pra6_01_if.i
 
 # target to preprocess a source file
-ch6/or.cpp.i:
-	$(MAKE) -f CMakeFiles/or.dir/build.make CMakeFiles/or.dir/ch6/or.cpp.i
-.PHONY : ch6/or.cpp.i
+ch6/pra6_01_if.cpp.i:
+	$(MAKE) -f CMakeFiles/pra6_01_if.dir/build.make CMakeFiles/pra6_01_if.dir/ch6/pra6_01_if.cpp.i
+.PHONY : ch6/pra6_01_if.cpp.i
 
-ch6/or.s: ch6/or.cpp.s
+ch6/pra6_01_if.s: ch6/pra6_01_if.cpp.s
 
-.PHONY : ch6/or.s
+.PHONY : ch6/pra6_01_if.s
 
 # target to generate assembly for a file
-ch6/or.cpp.s:
-	$(MAKE) -f CMakeFiles/or.dir/build.make CMakeFiles/or.dir/ch6/or.cpp.s
-.PHONY : ch6/or.cpp.s
+ch6/pra6_01_if.cpp.s:
+	$(MAKE) -f CMakeFiles/pra6_01_if.dir/build.make CMakeFiles/pra6_01_if.dir/ch6/pra6_01_if.cpp.s
+.PHONY : ch6/pra6_01_if.cpp.s
+
+ch6/pra6_02_ifelse.o: ch6/pra6_02_ifelse.cpp.o
+
+.PHONY : ch6/pra6_02_ifelse.o
+
+# target to build an object file
+ch6/pra6_02_ifelse.cpp.o:
+	$(MAKE) -f CMakeFiles/pra6_02_ifelse.dir/build.make CMakeFiles/pra6_02_ifelse.dir/ch6/pra6_02_ifelse.cpp.o
+.PHONY : ch6/pra6_02_ifelse.cpp.o
+
+ch6/pra6_02_ifelse.i: ch6/pra6_02_ifelse.cpp.i
+
+.PHONY : ch6/pra6_02_ifelse.i
+
+# target to preprocess a source file
+ch6/pra6_02_ifelse.cpp.i:
+	$(MAKE) -f CMakeFiles/pra6_02_ifelse.dir/build.make CMakeFiles/pra6_02_ifelse.dir/ch6/pra6_02_ifelse.cpp.i
+.PHONY : ch6/pra6_02_ifelse.cpp.i
+
+ch6/pra6_02_ifelse.s: ch6/pra6_02_ifelse.cpp.s
+
+.PHONY : ch6/pra6_02_ifelse.s
+
+# target to generate assembly for a file
+ch6/pra6_02_ifelse.cpp.s:
+	$(MAKE) -f CMakeFiles/pra6_02_ifelse.dir/build.make CMakeFiles/pra6_02_ifelse.dir/ch6/pra6_02_ifelse.cpp.s
+.PHONY : ch6/pra6_02_ifelse.cpp.s
+
+ch6/pra6_03_ifelself.o: ch6/pra6_03_ifelself.cpp.o
+
+.PHONY : ch6/pra6_03_ifelself.o
+
+# target to build an object file
+ch6/pra6_03_ifelself.cpp.o:
+	$(MAKE) -f CMakeFiles/pra6_03_ifelself.dir/build.make CMakeFiles/pra6_03_ifelself.dir/ch6/pra6_03_ifelself.cpp.o
+.PHONY : ch6/pra6_03_ifelself.cpp.o
+
+ch6/pra6_03_ifelself.i: ch6/pra6_03_ifelself.cpp.i
+
+.PHONY : ch6/pra6_03_ifelself.i
+
+# target to preprocess a source file
+ch6/pra6_03_ifelself.cpp.i:
+	$(MAKE) -f CMakeFiles/pra6_03_ifelself.dir/build.make CMakeFiles/pra6_03_ifelself.dir/ch6/pra6_03_ifelself.cpp.i
+.PHONY : ch6/pra6_03_ifelself.cpp.i
+
+ch6/pra6_03_ifelself.s: ch6/pra6_03_ifelself.cpp.s
+
+.PHONY : ch6/pra6_03_ifelself.s
+
+# target to generate assembly for a file
+ch6/pra6_03_ifelself.cpp.s:
+	$(MAKE) -f CMakeFiles/pra6_03_ifelself.dir/build.make CMakeFiles/pra6_03_ifelself.dir/ch6/pra6_03_ifelself.cpp.s
+.PHONY : ch6/pra6_03_ifelself.cpp.s
+
+ch6/pra6_04_or.o: ch6/pra6_04_or.cpp.o
+
+.PHONY : ch6/pra6_04_or.o
+
+# target to build an object file
+ch6/pra6_04_or.cpp.o:
+	$(MAKE) -f CMakeFiles/pra6_04_or.dir/build.make CMakeFiles/pra6_04_or.dir/ch6/pra6_04_or.cpp.o
+.PHONY : ch6/pra6_04_or.cpp.o
+
+ch6/pra6_04_or.i: ch6/pra6_04_or.cpp.i
+
+.PHONY : ch6/pra6_04_or.i
+
+# target to preprocess a source file
+ch6/pra6_04_or.cpp.i:
+	$(MAKE) -f CMakeFiles/pra6_04_or.dir/build.make CMakeFiles/pra6_04_or.dir/ch6/pra6_04_or.cpp.i
+.PHONY : ch6/pra6_04_or.cpp.i
+
+ch6/pra6_04_or.s: ch6/pra6_04_or.cpp.s
+
+.PHONY : ch6/pra6_04_or.s
+
+# target to generate assembly for a file
+ch6/pra6_04_or.cpp.s:
+	$(MAKE) -f CMakeFiles/pra6_04_or.dir/build.make CMakeFiles/pra6_04_or.dir/ch6/pra6_04_or.cpp.s
+.PHONY : ch6/pra6_04_or.cpp.s
+
+ch6/pra6_05_and.o: ch6/pra6_05_and.cpp.o
+
+.PHONY : ch6/pra6_05_and.o
+
+# target to build an object file
+ch6/pra6_05_and.cpp.o:
+	$(MAKE) -f CMakeFiles/pra6_05_and.dir/build.make CMakeFiles/pra6_05_and.dir/ch6/pra6_05_and.cpp.o
+.PHONY : ch6/pra6_05_and.cpp.o
+
+ch6/pra6_05_and.i: ch6/pra6_05_and.cpp.i
+
+.PHONY : ch6/pra6_05_and.i
+
+# target to preprocess a source file
+ch6/pra6_05_and.cpp.i:
+	$(MAKE) -f CMakeFiles/pra6_05_and.dir/build.make CMakeFiles/pra6_05_and.dir/ch6/pra6_05_and.cpp.i
+.PHONY : ch6/pra6_05_and.cpp.i
+
+ch6/pra6_05_and.s: ch6/pra6_05_and.cpp.s
+
+.PHONY : ch6/pra6_05_and.s
+
+# target to generate assembly for a file
+ch6/pra6_05_and.cpp.s:
+	$(MAKE) -f CMakeFiles/pra6_05_and.dir/build.make CMakeFiles/pra6_05_and.dir/ch6/pra6_05_and.cpp.s
+.PHONY : ch6/pra6_05_and.cpp.s
+
+ch6/pra6_06_more_add.o: ch6/pra6_06_more_add.cpp.o
+
+.PHONY : ch6/pra6_06_more_add.o
+
+# target to build an object file
+ch6/pra6_06_more_add.cpp.o:
+	$(MAKE) -f CMakeFiles/pra6_06_more_add.dir/build.make CMakeFiles/pra6_06_more_add.dir/ch6/pra6_06_more_add.cpp.o
+.PHONY : ch6/pra6_06_more_add.cpp.o
+
+ch6/pra6_06_more_add.i: ch6/pra6_06_more_add.cpp.i
+
+.PHONY : ch6/pra6_06_more_add.i
+
+# target to preprocess a source file
+ch6/pra6_06_more_add.cpp.i:
+	$(MAKE) -f CMakeFiles/pra6_06_more_add.dir/build.make CMakeFiles/pra6_06_more_add.dir/ch6/pra6_06_more_add.cpp.i
+.PHONY : ch6/pra6_06_more_add.cpp.i
+
+ch6/pra6_06_more_add.s: ch6/pra6_06_more_add.cpp.s
+
+.PHONY : ch6/pra6_06_more_add.s
+
+# target to generate assembly for a file
+ch6/pra6_06_more_add.cpp.s:
+	$(MAKE) -f CMakeFiles/pra6_06_more_add.dir/build.make CMakeFiles/pra6_06_more_add.dir/ch6/pra6_06_more_add.cpp.s
+.PHONY : ch6/pra6_06_more_add.cpp.s
+
+ch6/pra6_07_not.o: ch6/pra6_07_not.cpp.o
+
+.PHONY : ch6/pra6_07_not.o
+
+# target to build an object file
+ch6/pra6_07_not.cpp.o:
+	$(MAKE) -f CMakeFiles/pra6_07_not.dir/build.make CMakeFiles/pra6_07_not.dir/ch6/pra6_07_not.cpp.o
+.PHONY : ch6/pra6_07_not.cpp.o
+
+ch6/pra6_07_not.i: ch6/pra6_07_not.cpp.i
+
+.PHONY : ch6/pra6_07_not.i
+
+# target to preprocess a source file
+ch6/pra6_07_not.cpp.i:
+	$(MAKE) -f CMakeFiles/pra6_07_not.dir/build.make CMakeFiles/pra6_07_not.dir/ch6/pra6_07_not.cpp.i
+.PHONY : ch6/pra6_07_not.cpp.i
+
+ch6/pra6_07_not.s: ch6/pra6_07_not.cpp.s
+
+.PHONY : ch6/pra6_07_not.s
+
+# target to generate assembly for a file
+ch6/pra6_07_not.cpp.s:
+	$(MAKE) -f CMakeFiles/pra6_07_not.dir/build.make CMakeFiles/pra6_07_not.dir/ch6/pra6_07_not.cpp.s
+.PHONY : ch6/pra6_07_not.cpp.s
+
+ch6/pra6_08_cctypes.o: ch6/pra6_08_cctypes.cpp.o
+
+.PHONY : ch6/pra6_08_cctypes.o
+
+# target to build an object file
+ch6/pra6_08_cctypes.cpp.o:
+	$(MAKE) -f CMakeFiles/pra6_08_cctypes.dir/build.make CMakeFiles/pra6_08_cctypes.dir/ch6/pra6_08_cctypes.cpp.o
+.PHONY : ch6/pra6_08_cctypes.cpp.o
+
+ch6/pra6_08_cctypes.i: ch6/pra6_08_cctypes.cpp.i
+
+.PHONY : ch6/pra6_08_cctypes.i
+
+# target to preprocess a source file
+ch6/pra6_08_cctypes.cpp.i:
+	$(MAKE) -f CMakeFiles/pra6_08_cctypes.dir/build.make CMakeFiles/pra6_08_cctypes.dir/ch6/pra6_08_cctypes.cpp.i
+.PHONY : ch6/pra6_08_cctypes.cpp.i
+
+ch6/pra6_08_cctypes.s: ch6/pra6_08_cctypes.cpp.s
+
+.PHONY : ch6/pra6_08_cctypes.s
+
+# target to generate assembly for a file
+ch6/pra6_08_cctypes.cpp.s:
+	$(MAKE) -f CMakeFiles/pra6_08_cctypes.dir/build.make CMakeFiles/pra6_08_cctypes.dir/ch6/pra6_08_cctypes.cpp.s
+.PHONY : ch6/pra6_08_cctypes.cpp.s
+
+ch6/sumafile.o: ch6/sumafile.cpp.o
+
+.PHONY : ch6/sumafile.o
+
+# target to build an object file
+ch6/sumafile.cpp.o:
+	$(MAKE) -f CMakeFiles/sumafile.dir/build.make CMakeFiles/sumafile.dir/ch6/sumafile.cpp.o
+.PHONY : ch6/sumafile.cpp.o
+
+ch6/sumafile.i: ch6/sumafile.cpp.i
+
+.PHONY : ch6/sumafile.i
+
+# target to preprocess a source file
+ch6/sumafile.cpp.i:
+	$(MAKE) -f CMakeFiles/sumafile.dir/build.make CMakeFiles/sumafile.dir/ch6/sumafile.cpp.i
+.PHONY : ch6/sumafile.cpp.i
+
+ch6/sumafile.s: ch6/sumafile.cpp.s
+
+.PHONY : ch6/sumafile.s
+
+# target to generate assembly for a file
+ch6/sumafile.cpp.s:
+	$(MAKE) -f CMakeFiles/sumafile.dir/build.make CMakeFiles/sumafile.dir/ch6/sumafile.cpp.s
+.PHONY : ch6/sumafile.cpp.s
+
+ch6/switch.o: ch6/switch.cpp.o
+
+.PHONY : ch6/switch.o
+
+# target to build an object file
+ch6/switch.cpp.o:
+	$(MAKE) -f CMakeFiles/switch.dir/build.make CMakeFiles/switch.dir/ch6/switch.cpp.o
+.PHONY : ch6/switch.cpp.o
+
+ch6/switch.i: ch6/switch.cpp.i
+
+.PHONY : ch6/switch.i
+
+# target to preprocess a source file
+ch6/switch.cpp.i:
+	$(MAKE) -f CMakeFiles/switch.dir/build.make CMakeFiles/switch.dir/ch6/switch.cpp.i
+.PHONY : ch6/switch.cpp.i
+
+ch6/switch.s: ch6/switch.cpp.s
+
+.PHONY : ch6/switch.s
+
+# target to generate assembly for a file
+ch6/switch.cpp.s:
+	$(MAKE) -f CMakeFiles/switch.dir/build.make CMakeFiles/switch.dir/ch6/switch.cpp.s
+.PHONY : ch6/switch.cpp.s
+
+ch7/arrfun1.o: ch7/arrfun1.cpp.o
+
+.PHONY : ch7/arrfun1.o
+
+# target to build an object file
+ch7/arrfun1.cpp.o:
+	$(MAKE) -f CMakeFiles/arrfun1.dir/build.make CMakeFiles/arrfun1.dir/ch7/arrfun1.cpp.o
+.PHONY : ch7/arrfun1.cpp.o
+
+ch7/arrfun1.i: ch7/arrfun1.cpp.i
+
+.PHONY : ch7/arrfun1.i
+
+# target to preprocess a source file
+ch7/arrfun1.cpp.i:
+	$(MAKE) -f CMakeFiles/arrfun1.dir/build.make CMakeFiles/arrfun1.dir/ch7/arrfun1.cpp.i
+.PHONY : ch7/arrfun1.cpp.i
+
+ch7/arrfun1.s: ch7/arrfun1.cpp.s
+
+.PHONY : ch7/arrfun1.s
+
+# target to generate assembly for a file
+ch7/arrfun1.cpp.s:
+	$(MAKE) -f CMakeFiles/arrfun1.dir/build.make CMakeFiles/arrfun1.dir/ch7/arrfun1.cpp.s
+.PHONY : ch7/arrfun1.cpp.s
+
+ch7/arrfun2.o: ch7/arrfun2.cpp.o
+
+.PHONY : ch7/arrfun2.o
+
+# target to build an object file
+ch7/arrfun2.cpp.o:
+	$(MAKE) -f CMakeFiles/arrfun2.dir/build.make CMakeFiles/arrfun2.dir/ch7/arrfun2.cpp.o
+.PHONY : ch7/arrfun2.cpp.o
+
+ch7/arrfun2.i: ch7/arrfun2.cpp.i
+
+.PHONY : ch7/arrfun2.i
+
+# target to preprocess a source file
+ch7/arrfun2.cpp.i:
+	$(MAKE) -f CMakeFiles/arrfun2.dir/build.make CMakeFiles/arrfun2.dir/ch7/arrfun2.cpp.i
+.PHONY : ch7/arrfun2.cpp.i
+
+ch7/arrfun2.s: ch7/arrfun2.cpp.s
+
+.PHONY : ch7/arrfun2.s
+
+# target to generate assembly for a file
+ch7/arrfun2.cpp.s:
+	$(MAKE) -f CMakeFiles/arrfun2.dir/build.make CMakeFiles/arrfun2.dir/ch7/arrfun2.cpp.s
+.PHONY : ch7/arrfun2.cpp.s
+
+ch7/arrfun3.o: ch7/arrfun3.cpp.o
+
+.PHONY : ch7/arrfun3.o
+
+# target to build an object file
+ch7/arrfun3.cpp.o:
+	$(MAKE) -f CMakeFiles/arrfun3.dir/build.make CMakeFiles/arrfun3.dir/ch7/arrfun3.cpp.o
+.PHONY : ch7/arrfun3.cpp.o
+
+ch7/arrfun3.i: ch7/arrfun3.cpp.i
+
+.PHONY : ch7/arrfun3.i
+
+# target to preprocess a source file
+ch7/arrfun3.cpp.i:
+	$(MAKE) -f CMakeFiles/arrfun3.dir/build.make CMakeFiles/arrfun3.dir/ch7/arrfun3.cpp.i
+.PHONY : ch7/arrfun3.cpp.i
+
+ch7/arrfun3.s: ch7/arrfun3.cpp.s
+
+.PHONY : ch7/arrfun3.s
+
+# target to generate assembly for a file
+ch7/arrfun3.cpp.s:
+	$(MAKE) -f CMakeFiles/arrfun3.dir/build.make CMakeFiles/arrfun3.dir/ch7/arrfun3.cpp.s
+.PHONY : ch7/arrfun3.cpp.s
+
+ch7/arrfun4.o: ch7/arrfun4.cpp.o
+
+.PHONY : ch7/arrfun4.o
+
+# target to build an object file
+ch7/arrfun4.cpp.o:
+	$(MAKE) -f CMakeFiles/arrfun4.dir/build.make CMakeFiles/arrfun4.dir/ch7/arrfun4.cpp.o
+.PHONY : ch7/arrfun4.cpp.o
+
+ch7/arrfun4.i: ch7/arrfun4.cpp.i
+
+.PHONY : ch7/arrfun4.i
+
+# target to preprocess a source file
+ch7/arrfun4.cpp.i:
+	$(MAKE) -f CMakeFiles/arrfun4.dir/build.make CMakeFiles/arrfun4.dir/ch7/arrfun4.cpp.i
+.PHONY : ch7/arrfun4.cpp.i
+
+ch7/arrfun4.s: ch7/arrfun4.cpp.s
+
+.PHONY : ch7/arrfun4.s
+
+# target to generate assembly for a file
+ch7/arrfun4.cpp.s:
+	$(MAKE) -f CMakeFiles/arrfun4.dir/build.make CMakeFiles/arrfun4.dir/ch7/arrfun4.cpp.s
+.PHONY : ch7/arrfun4.cpp.s
+
+ch7/arrobj.o: ch7/arrobj.cpp.o
+
+.PHONY : ch7/arrobj.o
+
+# target to build an object file
+ch7/arrobj.cpp.o:
+	$(MAKE) -f CMakeFiles/arrobj.dir/build.make CMakeFiles/arrobj.dir/ch7/arrobj.cpp.o
+.PHONY : ch7/arrobj.cpp.o
+
+ch7/arrobj.i: ch7/arrobj.cpp.i
+
+.PHONY : ch7/arrobj.i
+
+# target to preprocess a source file
+ch7/arrobj.cpp.i:
+	$(MAKE) -f CMakeFiles/arrobj.dir/build.make CMakeFiles/arrobj.dir/ch7/arrobj.cpp.i
+.PHONY : ch7/arrobj.cpp.i
+
+ch7/arrobj.s: ch7/arrobj.cpp.s
+
+.PHONY : ch7/arrobj.s
+
+# target to generate assembly for a file
+ch7/arrobj.cpp.s:
+	$(MAKE) -f CMakeFiles/arrobj.dir/build.make CMakeFiles/arrobj.dir/ch7/arrobj.cpp.s
+.PHONY : ch7/arrobj.cpp.s
+
+ch7/atrctfun.o: ch7/atrctfun.cpp.o
+
+.PHONY : ch7/atrctfun.o
+
+# target to build an object file
+ch7/atrctfun.cpp.o:
+	$(MAKE) -f CMakeFiles/atrctfun.dir/build.make CMakeFiles/atrctfun.dir/ch7/atrctfun.cpp.o
+.PHONY : ch7/atrctfun.cpp.o
+
+ch7/atrctfun.i: ch7/atrctfun.cpp.i
+
+.PHONY : ch7/atrctfun.i
+
+# target to preprocess a source file
+ch7/atrctfun.cpp.i:
+	$(MAKE) -f CMakeFiles/atrctfun.dir/build.make CMakeFiles/atrctfun.dir/ch7/atrctfun.cpp.i
+.PHONY : ch7/atrctfun.cpp.i
+
+ch7/atrctfun.s: ch7/atrctfun.cpp.s
+
+.PHONY : ch7/atrctfun.s
+
+# target to generate assembly for a file
+ch7/atrctfun.cpp.s:
+	$(MAKE) -f CMakeFiles/atrctfun.dir/build.make CMakeFiles/atrctfun.dir/ch7/atrctfun.cpp.s
+.PHONY : ch7/atrctfun.cpp.s
+
+ch7/calling.o: ch7/calling.cpp.o
+
+.PHONY : ch7/calling.o
+
+# target to build an object file
+ch7/calling.cpp.o:
+	$(MAKE) -f CMakeFiles/calling.dir/build.make CMakeFiles/calling.dir/ch7/calling.cpp.o
+.PHONY : ch7/calling.cpp.o
+
+ch7/calling.i: ch7/calling.cpp.i
+
+.PHONY : ch7/calling.i
+
+# target to preprocess a source file
+ch7/calling.cpp.i:
+	$(MAKE) -f CMakeFiles/calling.dir/build.make CMakeFiles/calling.dir/ch7/calling.cpp.i
+.PHONY : ch7/calling.cpp.i
+
+ch7/calling.s: ch7/calling.cpp.s
+
+.PHONY : ch7/calling.s
+
+# target to generate assembly for a file
+ch7/calling.cpp.s:
+	$(MAKE) -f CMakeFiles/calling.dir/build.make CMakeFiles/calling.dir/ch7/calling.cpp.s
+.PHONY : ch7/calling.cpp.s
+
+ch7/lotto.o: ch7/lotto.cpp.o
+
+.PHONY : ch7/lotto.o
+
+# target to build an object file
+ch7/lotto.cpp.o:
+	$(MAKE) -f CMakeFiles/lotto.dir/build.make CMakeFiles/lotto.dir/ch7/lotto.cpp.o
+.PHONY : ch7/lotto.cpp.o
+
+ch7/lotto.i: ch7/lotto.cpp.i
+
+.PHONY : ch7/lotto.i
+
+# target to preprocess a source file
+ch7/lotto.cpp.i:
+	$(MAKE) -f CMakeFiles/lotto.dir/build.make CMakeFiles/lotto.dir/ch7/lotto.cpp.i
+.PHONY : ch7/lotto.cpp.i
+
+ch7/lotto.s: ch7/lotto.cpp.s
+
+.PHONY : ch7/lotto.s
+
+# target to generate assembly for a file
+ch7/lotto.cpp.s:
+	$(MAKE) -f CMakeFiles/lotto.dir/build.make CMakeFiles/lotto.dir/ch7/lotto.cpp.s
+.PHONY : ch7/lotto.cpp.s
+
+ch7/protos.o: ch7/protos.cpp.o
+
+.PHONY : ch7/protos.o
+
+# target to build an object file
+ch7/protos.cpp.o:
+	$(MAKE) -f CMakeFiles/protos.dir/build.make CMakeFiles/protos.dir/ch7/protos.cpp.o
+.PHONY : ch7/protos.cpp.o
+
+ch7/protos.i: ch7/protos.cpp.i
+
+.PHONY : ch7/protos.i
+
+# target to preprocess a source file
+ch7/protos.cpp.i:
+	$(MAKE) -f CMakeFiles/protos.dir/build.make CMakeFiles/protos.dir/ch7/protos.cpp.i
+.PHONY : ch7/protos.cpp.i
+
+ch7/protos.s: ch7/protos.cpp.s
+
+.PHONY : ch7/protos.s
+
+# target to generate assembly for a file
+ch7/protos.cpp.s:
+	$(MAKE) -f CMakeFiles/protos.dir/build.make CMakeFiles/protos.dir/ch7/protos.cpp.s
+.PHONY : ch7/protos.cpp.s
+
+ch7/recur.o: ch7/recur.cpp.o
+
+.PHONY : ch7/recur.o
+
+# target to build an object file
+ch7/recur.cpp.o:
+	$(MAKE) -f CMakeFiles/recur.dir/build.make CMakeFiles/recur.dir/ch7/recur.cpp.o
+.PHONY : ch7/recur.cpp.o
+
+ch7/recur.i: ch7/recur.cpp.i
+
+.PHONY : ch7/recur.i
+
+# target to preprocess a source file
+ch7/recur.cpp.i:
+	$(MAKE) -f CMakeFiles/recur.dir/build.make CMakeFiles/recur.dir/ch7/recur.cpp.i
+.PHONY : ch7/recur.cpp.i
+
+ch7/recur.s: ch7/recur.cpp.s
+
+.PHONY : ch7/recur.s
+
+# target to generate assembly for a file
+ch7/recur.cpp.s:
+	$(MAKE) -f CMakeFiles/recur.dir/build.make CMakeFiles/recur.dir/ch7/recur.cpp.s
+.PHONY : ch7/recur.cpp.s
+
+ch7/ruler.o: ch7/ruler.cpp.o
+
+.PHONY : ch7/ruler.o
+
+# target to build an object file
+ch7/ruler.cpp.o:
+	$(MAKE) -f CMakeFiles/ruler.dir/build.make CMakeFiles/ruler.dir/ch7/ruler.cpp.o
+.PHONY : ch7/ruler.cpp.o
+
+ch7/ruler.i: ch7/ruler.cpp.i
+
+.PHONY : ch7/ruler.i
+
+# target to preprocess a source file
+ch7/ruler.cpp.i:
+	$(MAKE) -f CMakeFiles/ruler.dir/build.make CMakeFiles/ruler.dir/ch7/ruler.cpp.i
+.PHONY : ch7/ruler.cpp.i
+
+ch7/ruler.s: ch7/ruler.cpp.s
+
+.PHONY : ch7/ruler.s
+
+# target to generate assembly for a file
+ch7/ruler.cpp.s:
+	$(MAKE) -f CMakeFiles/ruler.dir/build.make CMakeFiles/ruler.dir/ch7/ruler.cpp.s
+.PHONY : ch7/ruler.cpp.s
+
+ch7/strctptr.o: ch7/strctptr.cpp.o
+
+.PHONY : ch7/strctptr.o
+
+# target to build an object file
+ch7/strctptr.cpp.o:
+	$(MAKE) -f CMakeFiles/strctptr.dir/build.make CMakeFiles/strctptr.dir/ch7/strctptr.cpp.o
+.PHONY : ch7/strctptr.cpp.o
+
+ch7/strctptr.i: ch7/strctptr.cpp.i
+
+.PHONY : ch7/strctptr.i
+
+# target to preprocess a source file
+ch7/strctptr.cpp.i:
+	$(MAKE) -f CMakeFiles/strctptr.dir/build.make CMakeFiles/strctptr.dir/ch7/strctptr.cpp.i
+.PHONY : ch7/strctptr.cpp.i
+
+ch7/strctptr.s: ch7/strctptr.cpp.s
+
+.PHONY : ch7/strctptr.s
+
+# target to generate assembly for a file
+ch7/strctptr.cpp.s:
+	$(MAKE) -f CMakeFiles/strctptr.dir/build.make CMakeFiles/strctptr.dir/ch7/strctptr.cpp.s
+.PHONY : ch7/strctptr.cpp.s
+
+ch7/strgback.o: ch7/strgback.cpp.o
+
+.PHONY : ch7/strgback.o
+
+# target to build an object file
+ch7/strgback.cpp.o:
+	$(MAKE) -f CMakeFiles/strgback.dir/build.make CMakeFiles/strgback.dir/ch7/strgback.cpp.o
+.PHONY : ch7/strgback.cpp.o
+
+ch7/strgback.i: ch7/strgback.cpp.i
+
+.PHONY : ch7/strgback.i
+
+# target to preprocess a source file
+ch7/strgback.cpp.i:
+	$(MAKE) -f CMakeFiles/strgback.dir/build.make CMakeFiles/strgback.dir/ch7/strgback.cpp.i
+.PHONY : ch7/strgback.cpp.i
+
+ch7/strgback.s: ch7/strgback.cpp.s
+
+.PHONY : ch7/strgback.s
+
+# target to generate assembly for a file
+ch7/strgback.cpp.s:
+	$(MAKE) -f CMakeFiles/strgback.dir/build.make CMakeFiles/strgback.dir/ch7/strgback.cpp.s
+.PHONY : ch7/strgback.cpp.s
+
+ch7/strgfun.o: ch7/strgfun.cpp.o
+
+.PHONY : ch7/strgfun.o
+
+# target to build an object file
+ch7/strgfun.cpp.o:
+	$(MAKE) -f CMakeFiles/strgfun.dir/build.make CMakeFiles/strgfun.dir/ch7/strgfun.cpp.o
+.PHONY : ch7/strgfun.cpp.o
+
+ch7/strgfun.i: ch7/strgfun.cpp.i
+
+.PHONY : ch7/strgfun.i
+
+# target to preprocess a source file
+ch7/strgfun.cpp.i:
+	$(MAKE) -f CMakeFiles/strgfun.dir/build.make CMakeFiles/strgfun.dir/ch7/strgfun.cpp.i
+.PHONY : ch7/strgfun.cpp.i
+
+ch7/strgfun.s: ch7/strgfun.cpp.s
+
+.PHONY : ch7/strgfun.s
+
+# target to generate assembly for a file
+ch7/strgfun.cpp.s:
+	$(MAKE) -f CMakeFiles/strgfun.dir/build.make CMakeFiles/strgfun.dir/ch7/strgfun.cpp.s
+.PHONY : ch7/strgfun.cpp.s
+
+ch7/topfive.o: ch7/topfive.cpp.o
+
+.PHONY : ch7/topfive.o
+
+# target to build an object file
+ch7/topfive.cpp.o:
+	$(MAKE) -f CMakeFiles/topfive.dir/build.make CMakeFiles/topfive.dir/ch7/topfive.cpp.o
+.PHONY : ch7/topfive.cpp.o
+
+ch7/topfive.i: ch7/topfive.cpp.i
+
+.PHONY : ch7/topfive.i
+
+# target to preprocess a source file
+ch7/topfive.cpp.i:
+	$(MAKE) -f CMakeFiles/topfive.dir/build.make CMakeFiles/topfive.dir/ch7/topfive.cpp.i
+.PHONY : ch7/topfive.cpp.i
+
+ch7/topfive.s: ch7/topfive.cpp.s
+
+.PHONY : ch7/topfive.s
+
+# target to generate assembly for a file
+ch7/topfive.cpp.s:
+	$(MAKE) -f CMakeFiles/topfive.dir/build.make CMakeFiles/topfive.dir/ch7/topfive.cpp.s
+.PHONY : ch7/topfive.cpp.s
+
+ch7/travel.o: ch7/travel.cpp.o
+
+.PHONY : ch7/travel.o
+
+# target to build an object file
+ch7/travel.cpp.o:
+	$(MAKE) -f CMakeFiles/travel.dir/build.make CMakeFiles/travel.dir/ch7/travel.cpp.o
+.PHONY : ch7/travel.cpp.o
+
+ch7/travel.i: ch7/travel.cpp.i
+
+.PHONY : ch7/travel.i
+
+# target to preprocess a source file
+ch7/travel.cpp.i:
+	$(MAKE) -f CMakeFiles/travel.dir/build.make CMakeFiles/travel.dir/ch7/travel.cpp.i
+.PHONY : ch7/travel.cpp.i
+
+ch7/travel.s: ch7/travel.cpp.s
+
+.PHONY : ch7/travel.s
+
+# target to generate assembly for a file
+ch7/travel.cpp.s:
+	$(MAKE) -f CMakeFiles/travel.dir/build.make CMakeFiles/travel.dir/ch7/travel.cpp.s
+.PHONY : ch7/travel.cpp.s
+
+ch7/twoarg.o: ch7/twoarg.cpp.o
+
+.PHONY : ch7/twoarg.o
+
+# target to build an object file
+ch7/twoarg.cpp.o:
+	$(MAKE) -f CMakeFiles/twoarg.dir/build.make CMakeFiles/twoarg.dir/ch7/twoarg.cpp.o
+.PHONY : ch7/twoarg.cpp.o
+
+ch7/twoarg.i: ch7/twoarg.cpp.i
+
+.PHONY : ch7/twoarg.i
+
+# target to preprocess a source file
+ch7/twoarg.cpp.i:
+	$(MAKE) -f CMakeFiles/twoarg.dir/build.make CMakeFiles/twoarg.dir/ch7/twoarg.cpp.i
+.PHONY : ch7/twoarg.cpp.i
+
+ch7/twoarg.s: ch7/twoarg.cpp.s
+
+.PHONY : ch7/twoarg.s
+
+# target to generate assembly for a file
+ch7/twoarg.cpp.s:
+	$(MAKE) -f CMakeFiles/twoarg.dir/build.make CMakeFiles/twoarg.dir/ch7/twoarg.cpp.s
+.PHONY : ch7/twoarg.cpp.s
 
 main.o: main.cpp.o
 
@@ -2902,8 +3902,8 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/cplusplus_primer.dir/build.make CMakeFiles/cplusplus_primer.dir/main.cpp.o
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/cplusplus_primer.dir/build.make CMakeFiles/cplusplus_primer.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -2912,8 +3912,8 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/cplusplus_primer.dir/build.make CMakeFiles/cplusplus_primer.dir/main.cpp.i
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/cplusplus_primer.dir/build.make CMakeFiles/cplusplus_primer.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -2922,8 +3922,8 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/cplusplus_primer.dir/build.make CMakeFiles/cplusplus_primer.dir/main.cpp.s
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/cplusplus_primer.dir/build.make CMakeFiles/cplusplus_primer.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -2934,74 +3934,99 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... pra4_07_strtype1"
+	@echo "... pra5_03_express"
 	@echo "... CMakeCXXCompilerId"
-	@echo "... or"
-	@echo "... not"
-	@echo "... ifelse"
-	@echo "... if"
-	@echo "... cctypes"
+	@echo "... twoarg"
+	@echo "... strgback"
+	@echo "... main"
+	@echo "... strctptr"
+	@echo "... ruler"
+	@echo "... protos"
+	@echo "... pra4_19_addpntrs"
+	@echo "... arrfun4"
+	@echo "... pra4_03_instr1"
+	@echo "... switch"
+	@echo "... enum"
+	@echo "... arrfun3"
+	@echo "... pra6_06_more_add"
+	@echo "... pra6_04_or"
+	@echo "... pra6_02_ifelse"
+	@echo "... pra6_01_if"
+	@echo "... strgfun"
+	@echo "... lotto"
+	@echo "... outfile"
+	@echo "... arrfun2"
+	@echo "... cingolf"
+	@echo "... jump"
+	@echo "... atrctfun"
+	@echo "... cinfish"
+	@echo "... pra4_15_pointer"
 	@echo "... pra5_20_nested"
 	@echo "... pra5_16_textin1"
 	@echo "... pra5_15_dowhile"
+	@echo "... pra5_14_waiting"
+	@echo "... arrobj"
+	@echo "... pra4_23_mixtypes"
 	@echo "... pra5_11_compstr1"
+	@echo "... pra5_12_compstr2"
 	@echo "... pra5_07_plus_one"
+	@echo "... topfive"
 	@echo "... pra3_09_fltadd"
 	@echo "... pra5_06_forstr1"
+	@echo "... pra5_01_forloop"
+	@echo "... recur"
+	@echo "... calling"
+	@echo "... pra6_08_cctypes"
 	@echo "... pra4_01_arrayone"
 	@echo "... pra4_11_structur"
 	@echo "... pra5_02_num_test"
-	@echo "... pra5_01_forloop"
+	@echo "... pra5_19_textin4"
+	@echo "... pra4_09_strtype3"
 	@echo "... pra4_22_delete"
 	@echo "... pra3_13_assign"
 	@echo "... pra4_21_newstrct"
 	@echo "... pra5_18_textin3"
-	@echo "... pra4_23_mixtypes"
 	@echo "... ex1_09"
+	@echo "... pra5_04_formore"
 	@echo "... pra4_20_ptrstr"
 	@echo "... pra5_17_textin2"
 	@echo "... pra4_14_address"
+	@echo "... pra6_05_and"
+	@echo "... condit"
+	@echo "... pra3_12_modulus"
 	@echo "... pra4_10_strtype4"
+	@echo "... sumafile"
 	@echo "... pra5_13_while"
-	@echo "... pra4_09_strtype3"
-	@echo "... more_add"
+	@echo "... travel"
+	@echo "... pra4_24_choices"
 	@echo "... pra4_08_strtype2"
+	@echo "... pra4_13_arrstruc"
 	@echo "... pra5_08_block"
 	@echo "... pra4_05_instr3"
-	@echo "... pra5_04_formore"
-	@echo "... pra4_19_addpntrs"
 	@echo "... cplusplus_primer"
 	@echo "... pra5_05_bigstep"
+	@echo "... pra3_06_morechar"
 	@echo "... pra3_11_divide"
+	@echo "... pra4_02_string"
 	@echo "... pra4_04_instr2"
-	@echo "... pra5_03_express"
 	@echo "... pra4_16_init_ptr"
 	@echo "... pra3_14_typecast"
-	@echo "... pra4_15_pointer"
 	@echo "... pra3_07_bondini"
-	@echo "... pra5_14_waiting"
-	@echo "... pra3_12_modulus"
 	@echo "... pra3_10_arith"
+	@echo "... arrfun1"
 	@echo "... pra5_09_forstr2"
-	@echo "... pra4_02_string"
-	@echo "... pra3_06_morechar"
-	@echo "... and"
 	@echo "... pra3_05_chartype"
-	@echo "... main"
 	@echo "... pra3_08_floatnum"
 	@echo "... pra4_18_arraynew"
-	@echo "... pra4_07_strtype1"
-	@echo "... pra4_24_choices"
-	@echo "... pra4_03_instr1"
-	@echo "... ifelseif"
 	@echo "... pra3_04_hexoct2"
 	@echo "... pra4_17_use_new"
+	@echo "... pra6_07_not"
 	@echo "... pra4_12_assgn_st"
-	@echo "... pra5_19_textin4"
-	@echo "... pra4_13_arrstruc"
+	@echo "... pra6_03_ifelself"
 	@echo "... pra4_06_numstr"
 	@echo "... pra5_10_equal"
 	@echo "... pra3_02_exceed"
-	@echo "... pra5_12_compstr2"
 	@echo "... pra3_03_hexoct"
 	@echo "... pra3_01"
 	@echo "... ex1_10"
@@ -3188,30 +4213,105 @@ help:
 	@echo "... ch5/pra5_20_nested.o"
 	@echo "... ch5/pra5_20_nested.i"
 	@echo "... ch5/pra5_20_nested.s"
-	@echo "... ch6/and.o"
-	@echo "... ch6/and.i"
-	@echo "... ch6/and.s"
-	@echo "... ch6/cctypes.o"
-	@echo "... ch6/cctypes.i"
-	@echo "... ch6/cctypes.s"
-	@echo "... ch6/if.o"
-	@echo "... ch6/if.i"
-	@echo "... ch6/if.s"
-	@echo "... ch6/ifelse.o"
-	@echo "... ch6/ifelse.i"
-	@echo "... ch6/ifelse.s"
-	@echo "... ch6/ifelseif.o"
-	@echo "... ch6/ifelseif.i"
-	@echo "... ch6/ifelseif.s"
-	@echo "... ch6/more_add.o"
-	@echo "... ch6/more_add.i"
-	@echo "... ch6/more_add.s"
-	@echo "... ch6/not.o"
-	@echo "... ch6/not.i"
-	@echo "... ch6/not.s"
-	@echo "... ch6/or.o"
-	@echo "... ch6/or.i"
-	@echo "... ch6/or.s"
+	@echo "... ch6/cinfish.o"
+	@echo "... ch6/cinfish.i"
+	@echo "... ch6/cinfish.s"
+	@echo "... ch6/cingolf.o"
+	@echo "... ch6/cingolf.i"
+	@echo "... ch6/cingolf.s"
+	@echo "... ch6/condit.o"
+	@echo "... ch6/condit.i"
+	@echo "... ch6/condit.s"
+	@echo "... ch6/enum.o"
+	@echo "... ch6/enum.i"
+	@echo "... ch6/enum.s"
+	@echo "... ch6/jump.o"
+	@echo "... ch6/jump.i"
+	@echo "... ch6/jump.s"
+	@echo "... ch6/outfile.o"
+	@echo "... ch6/outfile.i"
+	@echo "... ch6/outfile.s"
+	@echo "... ch6/pra6_01_if.o"
+	@echo "... ch6/pra6_01_if.i"
+	@echo "... ch6/pra6_01_if.s"
+	@echo "... ch6/pra6_02_ifelse.o"
+	@echo "... ch6/pra6_02_ifelse.i"
+	@echo "... ch6/pra6_02_ifelse.s"
+	@echo "... ch6/pra6_03_ifelself.o"
+	@echo "... ch6/pra6_03_ifelself.i"
+	@echo "... ch6/pra6_03_ifelself.s"
+	@echo "... ch6/pra6_04_or.o"
+	@echo "... ch6/pra6_04_or.i"
+	@echo "... ch6/pra6_04_or.s"
+	@echo "... ch6/pra6_05_and.o"
+	@echo "... ch6/pra6_05_and.i"
+	@echo "... ch6/pra6_05_and.s"
+	@echo "... ch6/pra6_06_more_add.o"
+	@echo "... ch6/pra6_06_more_add.i"
+	@echo "... ch6/pra6_06_more_add.s"
+	@echo "... ch6/pra6_07_not.o"
+	@echo "... ch6/pra6_07_not.i"
+	@echo "... ch6/pra6_07_not.s"
+	@echo "... ch6/pra6_08_cctypes.o"
+	@echo "... ch6/pra6_08_cctypes.i"
+	@echo "... ch6/pra6_08_cctypes.s"
+	@echo "... ch6/sumafile.o"
+	@echo "... ch6/sumafile.i"
+	@echo "... ch6/sumafile.s"
+	@echo "... ch6/switch.o"
+	@echo "... ch6/switch.i"
+	@echo "... ch6/switch.s"
+	@echo "... ch7/arrfun1.o"
+	@echo "... ch7/arrfun1.i"
+	@echo "... ch7/arrfun1.s"
+	@echo "... ch7/arrfun2.o"
+	@echo "... ch7/arrfun2.i"
+	@echo "... ch7/arrfun2.s"
+	@echo "... ch7/arrfun3.o"
+	@echo "... ch7/arrfun3.i"
+	@echo "... ch7/arrfun3.s"
+	@echo "... ch7/arrfun4.o"
+	@echo "... ch7/arrfun4.i"
+	@echo "... ch7/arrfun4.s"
+	@echo "... ch7/arrobj.o"
+	@echo "... ch7/arrobj.i"
+	@echo "... ch7/arrobj.s"
+	@echo "... ch7/atrctfun.o"
+	@echo "... ch7/atrctfun.i"
+	@echo "... ch7/atrctfun.s"
+	@echo "... ch7/calling.o"
+	@echo "... ch7/calling.i"
+	@echo "... ch7/calling.s"
+	@echo "... ch7/lotto.o"
+	@echo "... ch7/lotto.i"
+	@echo "... ch7/lotto.s"
+	@echo "... ch7/protos.o"
+	@echo "... ch7/protos.i"
+	@echo "... ch7/protos.s"
+	@echo "... ch7/recur.o"
+	@echo "... ch7/recur.i"
+	@echo "... ch7/recur.s"
+	@echo "... ch7/ruler.o"
+	@echo "... ch7/ruler.i"
+	@echo "... ch7/ruler.s"
+	@echo "... ch7/strctptr.o"
+	@echo "... ch7/strctptr.i"
+	@echo "... ch7/strctptr.s"
+	@echo "... ch7/strgback.o"
+	@echo "... ch7/strgback.i"
+	@echo "... ch7/strgback.s"
+	@echo "... ch7/strgfun.o"
+	@echo "... ch7/strgfun.i"
+	@echo "... ch7/strgfun.s"
+	@echo "... ch7/topfive.o"
+	@echo "... ch7/topfive.i"
+	@echo "... ch7/topfive.s"
+	@echo "... ch7/travel.o"
+	@echo "... ch7/travel.i"
+	@echo "... ch7/travel.s"
+	@echo "... ch7/twoarg.o"
+	@echo "... ch7/twoarg.i"
+	@echo "... ch7/twoarg.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

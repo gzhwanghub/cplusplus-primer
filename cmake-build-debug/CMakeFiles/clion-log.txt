@@ -59,14 +59,39 @@
     -- src/pra5_18_textin3.cpp will be compiled to bin/pra5_18_textin3
     -- src/pra5_19_textin4.cpp will be compiled to bin/pra5_19_textin4
     -- src/pra5_20_nested.cpp will be compiled to bin/pra5_20_nested
-    -- src/and.cpp will be compiled to bin/and
-    -- src/cctypes.cpp will be compiled to bin/cctypes
-    -- src/if.cpp will be compiled to bin/if
-    -- src/ifelse.cpp will be compiled to bin/ifelse
-    -- src/ifelseif.cpp will be compiled to bin/ifelseif
-    -- src/more_add.cpp will be compiled to bin/more_add
-    -- src/not.cpp will be compiled to bin/not
-    -- src/or.cpp will be compiled to bin/or
+    -- src/cinfish.cpp will be compiled to bin/cinfish
+    -- src/cingolf.cpp will be compiled to bin/cingolf
+    -- src/condit.cpp will be compiled to bin/condit
+    -- src/enum.cpp will be compiled to bin/enum
+    -- src/jump.cpp will be compiled to bin/jump
+    -- src/outfile.cpp will be compiled to bin/outfile
+    -- src/pra6_01_if.cpp will be compiled to bin/pra6_01_if
+    -- src/pra6_02_ifelse.cpp will be compiled to bin/pra6_02_ifelse
+    -- src/pra6_03_ifelself.cpp will be compiled to bin/pra6_03_ifelself
+    -- src/pra6_04_or.cpp will be compiled to bin/pra6_04_or
+    -- src/pra6_05_and.cpp will be compiled to bin/pra6_05_and
+    -- src/pra6_06_more_add.cpp will be compiled to bin/pra6_06_more_add
+    -- src/pra6_07_not.cpp will be compiled to bin/pra6_07_not
+    -- src/pra6_08_cctypes.cpp will be compiled to bin/pra6_08_cctypes
+    -- src/sumafile.cpp will be compiled to bin/sumafile
+    -- src/switch.cpp will be compiled to bin/switch
+    -- src/arrfun1.cpp will be compiled to bin/arrfun1
+    -- src/arrfun2.cpp will be compiled to bin/arrfun2
+    -- src/arrfun3.cpp will be compiled to bin/arrfun3
+    -- src/arrfun4.cpp will be compiled to bin/arrfun4
+    -- src/arrobj.cpp will be compiled to bin/arrobj
+    -- src/atrctfun.cpp will be compiled to bin/atrctfun
+    -- src/calling.cpp will be compiled to bin/calling
+    -- src/lotto.cpp will be compiled to bin/lotto
+    -- src/protos.cpp will be compiled to bin/protos
+    -- src/recur.cpp will be compiled to bin/recur
+    -- src/ruler.cpp will be compiled to bin/ruler
+    -- src/strctptr.cpp will be compiled to bin/strctptr
+    -- src/strgback.cpp will be compiled to bin/strgback
+    -- src/strgfun.cpp will be compiled to bin/strgfun
+    -- src/topfive.cpp will be compiled to bin/topfive
+    -- src/travel.cpp will be compiled to bin/travel
+    -- src/twoarg.cpp will be compiled to bin/twoarg
     -- src/CMakeCXXCompilerId.cpp will be compiled to bin/CMakeCXXCompilerId
     -- src/main.cpp will be compiled to bin/main
 -- Configuring done
