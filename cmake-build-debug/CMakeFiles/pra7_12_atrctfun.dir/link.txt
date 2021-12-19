@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/pra7_12_atrctfun.dir/ch7/pra7_12_atrctfun.cpp.o  -o pra7_12_atrctfun 

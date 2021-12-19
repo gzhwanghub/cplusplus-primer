@@ -60,11 +60,9 @@
     -- src/pra5_19_textin4.cpp will be compiled to bin/pra5_19_textin4
     -- src/pra5_20_nested.cpp will be compiled to bin/pra5_20_nested
     -- src/cinfish.cpp will be compiled to bin/cinfish
-    -- src/cingolf.cpp will be compiled to bin/cingolf
     -- src/condit.cpp will be compiled to bin/condit
     -- src/enum.cpp will be compiled to bin/enum
     -- src/jump.cpp will be compiled to bin/jump
-    -- src/outfile.cpp will be compiled to bin/outfile
     -- src/pra6_01_if.cpp will be compiled to bin/pra6_01_if
     -- src/pra6_02_ifelse.cpp will be compiled to bin/pra6_02_ifelse
     -- src/pra6_03_ifelself.cpp will be compiled to bin/pra6_03_ifelself
@@ -73,25 +71,38 @@
     -- src/pra6_06_more_add.cpp will be compiled to bin/pra6_06_more_add
     -- src/pra6_07_not.cpp will be compiled to bin/pra6_07_not
     -- src/pra6_08_cctypes.cpp will be compiled to bin/pra6_08_cctypes
-    -- src/sumafile.cpp will be compiled to bin/sumafile
+    -- src/pra6_14_cingolf.cpp will be compiled to bin/pra6_14_cingolf
+    -- src/pra6_15_outfile.cpp will be compiled to bin/pra6_15_outfile
+    -- src/pra6_16_sumafile.cpp will be compiled to bin/pra6_16_sumafile
     -- src/switch.cpp will be compiled to bin/switch
-    -- src/arrfun1.cpp will be compiled to bin/arrfun1
-    -- src/arrfun2.cpp will be compiled to bin/arrfun2
-    -- src/arrfun3.cpp will be compiled to bin/arrfun3
-    -- src/arrfun4.cpp will be compiled to bin/arrfun4
-    -- src/arrobj.cpp will be compiled to bin/arrobj
-    -- src/atrctfun.cpp will be compiled to bin/atrctfun
-    -- src/calling.cpp will be compiled to bin/calling
-    -- src/lotto.cpp will be compiled to bin/lotto
-    -- src/protos.cpp will be compiled to bin/protos
-    -- src/recur.cpp will be compiled to bin/recur
-    -- src/ruler.cpp will be compiled to bin/ruler
-    -- src/strctptr.cpp will be compiled to bin/strctptr
-    -- src/strgback.cpp will be compiled to bin/strgback
-    -- src/strgfun.cpp will be compiled to bin/strgfun
-    -- src/topfive.cpp will be compiled to bin/topfive
-    -- src/travel.cpp will be compiled to bin/travel
-    -- src/twoarg.cpp will be compiled to bin/twoarg
+    -- src/arfupt.cpp will be compiled to bin/arfupt
+    -- src/fun_ptr.cpp will be compiled to bin/fun_ptr
+    -- src/pra7_01_calling.cpp will be compiled to bin/pra7_01_calling
+    -- src/pra7_02_protos.cpp will be compiled to bin/pra7_02_protos
+    -- src/pra7_03_twoarg.cpp will be compiled to bin/pra7_03_twoarg
+    -- src/pra7_04_lotto.cpp will be compiled to bin/pra7_04_lotto
+    -- src/pra7_05_arrfun1.cpp will be compiled to bin/pra7_05_arrfun1
+    -- src/pra7_06_arrfun2.cpp will be compiled to bin/pra7_06_arrfun2
+    -- src/pra7_07_arrfun3.cpp will be compiled to bin/pra7_07_arrfun3
+    -- src/pra7_08_arrfun4.cpp will be compiled to bin/pra7_08_arrfun4
+    -- src/pra7_09_strgfun.cpp will be compiled to bin/pra7_09_strgfun
+    -- src/pra7_10_strgback.cpp will be compiled to bin/pra7_10_strgback
+    -- src/pra7_11_travel.cpp will be compiled to bin/pra7_11_travel
+    -- src/pra7_12_atrctfun.cpp will be compiled to bin/pra7_12_atrctfun
+    -- src/pra7_13_strctptr.cpp will be compiled to bin/pra7_13_strctptr
+    -- src/pra7_14_topfive.cpp will be compiled to bin/pra7_14_topfive
+    -- src/pra7_15_arrobj.cpp will be compiled to bin/pra7_15_arrobj
+    -- src/pra7_16_recur.cpp will be compiled to bin/pra7_16_recur
+    -- src/pra7_17_ruler.cpp will be compiled to bin/pra7_17_ruler
+    -- src/cubes.cpp will be compiled to bin/cubes
+    -- src/filefunc.cpp will be compiled to bin/filefunc
+    -- src/firstref.cpp will be compiled to bin/firstref
+    -- src/inline.cpp will be compiled to bin/inline
+    -- src/left.cpp will be compiled to bin/left
+    -- src/secref.cpp will be compiled to bin/secref
+    -- src/strquote.cpp will be compiled to bin/strquote
+    -- src/strref.cpp will be compiled to bin/strref
+    -- src/swaps.cpp will be compiled to bin/swaps
     -- src/CMakeCXXCompilerId.cpp will be compiled to bin/CMakeCXXCompilerId
     -- src/main.cpp will be compiled to bin/main
 -- Configuring done
