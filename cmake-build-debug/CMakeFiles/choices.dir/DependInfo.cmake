@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/guiru/CLionProjects/cplusplus-primer/ch4/choices.cpp" "/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles/choices.dir/ch4/choices.cpp.o"
+  "/Users/guiru/CLionProjects/cplusplus-primer/ch8/choices.cpp" "/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles/choices.dir/ch8/choices.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

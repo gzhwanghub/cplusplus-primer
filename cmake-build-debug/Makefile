@@ -137,6 +137,32 @@ main/fast:
 .PHONY : main/fast
 
 #=============================================================================
+# Target rules for targets named twotemps
+
+# Build rule for target.
+twotemps: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 twotemps
+.PHONY : twotemps
+
+# fast build rule for target.
+twotemps/fast:
+	$(MAKE) -f CMakeFiles/twotemps.dir/build.make CMakeFiles/twotemps.dir/build
+.PHONY : twotemps/fast
+
+#=============================================================================
+# Target rules for targets named twoswap
+
+# Build rule for target.
+twoswap: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 twoswap
+.PHONY : twoswap
+
+# fast build rule for target.
+twoswap/fast:
+	$(MAKE) -f CMakeFiles/twoswap.dir/build.make CMakeFiles/twoswap.dir/build
+.PHONY : twoswap/fast
+
+#=============================================================================
 # Target rules for targets named swaps
 
 # Build rule for target.
@@ -187,6 +213,32 @@ left: cmake_check_build_system
 left/fast:
 	$(MAKE) -f CMakeFiles/left.dir/build.make CMakeFiles/left.dir/build
 .PHONY : left/fast
+
+#=============================================================================
+# Target rules for targets named funtemp
+
+# Build rule for target.
+funtemp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 funtemp
+.PHONY : funtemp
+
+# fast build rule for target.
+funtemp/fast:
+	$(MAKE) -f CMakeFiles/funtemp.dir/build.make CMakeFiles/funtemp.dir/build
+.PHONY : funtemp/fast
+
+#=============================================================================
+# Target rules for targets named choices
+
+# Build rule for target.
+choices: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 choices
+.PHONY : choices
+
+# fast build rule for target.
+choices/fast:
+	$(MAKE) -f CMakeFiles/choices.dir/build.make CMakeFiles/choices.dir/build
+.PHONY : choices/fast
 
 #=============================================================================
 # Target rules for targets named pra5_09_forstr2
@@ -642,6 +694,19 @@ pra7_03_twoarg: cmake_check_build_system
 pra7_03_twoarg/fast:
 	$(MAKE) -f CMakeFiles/pra7_03_twoarg.dir/build.make CMakeFiles/pra7_03_twoarg.dir/build
 .PHONY : pra7_03_twoarg/fast
+
+#=============================================================================
+# Target rules for targets named leftover
+
+# Build rule for target.
+leftover: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 leftover
+.PHONY : leftover
+
+# fast build rule for target.
+leftover/fast:
+	$(MAKE) -f CMakeFiles/leftover.dir/build.make CMakeFiles/leftover.dir/build
+.PHONY : leftover/fast
 
 #=============================================================================
 # Target rules for targets named pra5_12_compstr2
@@ -1110,6 +1175,19 @@ pra4_19_addpntrs: cmake_check_build_system
 pra4_19_addpntrs/fast:
 	$(MAKE) -f CMakeFiles/pra4_19_addpntrs.dir/build.make CMakeFiles/pra4_19_addpntrs.dir/build
 .PHONY : pra4_19_addpntrs/fast
+
+#=============================================================================
+# Target rules for targets named temptempover
+
+# Build rule for target.
+temptempover: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 temptempover
+.PHONY : temptempover
+
+# fast build rule for target.
+temptempover/fast:
+	$(MAKE) -f CMakeFiles/temptempover.dir/build.make CMakeFiles/temptempover.dir/build
+.PHONY : temptempover/fast
 
 #=============================================================================
 # Target rules for targets named pra5_05_bigstep
@@ -4093,6 +4171,33 @@ ch7/pra7_17_ruler.cpp.s:
 	$(MAKE) -f CMakeFiles/pra7_17_ruler.dir/build.make CMakeFiles/pra7_17_ruler.dir/ch7/pra7_17_ruler.cpp.s
 .PHONY : ch7/pra7_17_ruler.cpp.s
 
+ch8/choices.o: ch8/choices.cpp.o
+
+.PHONY : ch8/choices.o
+
+# target to build an object file
+ch8/choices.cpp.o:
+	$(MAKE) -f CMakeFiles/choices.dir/build.make CMakeFiles/choices.dir/ch8/choices.cpp.o
+.PHONY : ch8/choices.cpp.o
+
+ch8/choices.i: ch8/choices.cpp.i
+
+.PHONY : ch8/choices.i
+
+# target to preprocess a source file
+ch8/choices.cpp.i:
+	$(MAKE) -f CMakeFiles/choices.dir/build.make CMakeFiles/choices.dir/ch8/choices.cpp.i
+.PHONY : ch8/choices.cpp.i
+
+ch8/choices.s: ch8/choices.cpp.s
+
+.PHONY : ch8/choices.s
+
+# target to generate assembly for a file
+ch8/choices.cpp.s:
+	$(MAKE) -f CMakeFiles/choices.dir/build.make CMakeFiles/choices.dir/ch8/choices.cpp.s
+.PHONY : ch8/choices.cpp.s
+
 ch8/cubes.o: ch8/cubes.cpp.o
 
 .PHONY : ch8/cubes.o
@@ -4174,6 +4279,33 @@ ch8/firstref.cpp.s:
 	$(MAKE) -f CMakeFiles/firstref.dir/build.make CMakeFiles/firstref.dir/ch8/firstref.cpp.s
 .PHONY : ch8/firstref.cpp.s
 
+ch8/funtemp.o: ch8/funtemp.cpp.o
+
+.PHONY : ch8/funtemp.o
+
+# target to build an object file
+ch8/funtemp.cpp.o:
+	$(MAKE) -f CMakeFiles/funtemp.dir/build.make CMakeFiles/funtemp.dir/ch8/funtemp.cpp.o
+.PHONY : ch8/funtemp.cpp.o
+
+ch8/funtemp.i: ch8/funtemp.cpp.i
+
+.PHONY : ch8/funtemp.i
+
+# target to preprocess a source file
+ch8/funtemp.cpp.i:
+	$(MAKE) -f CMakeFiles/funtemp.dir/build.make CMakeFiles/funtemp.dir/ch8/funtemp.cpp.i
+.PHONY : ch8/funtemp.cpp.i
+
+ch8/funtemp.s: ch8/funtemp.cpp.s
+
+.PHONY : ch8/funtemp.s
+
+# target to generate assembly for a file
+ch8/funtemp.cpp.s:
+	$(MAKE) -f CMakeFiles/funtemp.dir/build.make CMakeFiles/funtemp.dir/ch8/funtemp.cpp.s
+.PHONY : ch8/funtemp.cpp.s
+
 ch8/inline.o: ch8/inline.cpp.o
 
 .PHONY : ch8/inline.o
@@ -4227,6 +4359,33 @@ ch8/left.s: ch8/left.cpp.s
 ch8/left.cpp.s:
 	$(MAKE) -f CMakeFiles/left.dir/build.make CMakeFiles/left.dir/ch8/left.cpp.s
 .PHONY : ch8/left.cpp.s
+
+ch8/leftover.o: ch8/leftover.cpp.o
+
+.PHONY : ch8/leftover.o
+
+# target to build an object file
+ch8/leftover.cpp.o:
+	$(MAKE) -f CMakeFiles/leftover.dir/build.make CMakeFiles/leftover.dir/ch8/leftover.cpp.o
+.PHONY : ch8/leftover.cpp.o
+
+ch8/leftover.i: ch8/leftover.cpp.i
+
+.PHONY : ch8/leftover.i
+
+# target to preprocess a source file
+ch8/leftover.cpp.i:
+	$(MAKE) -f CMakeFiles/leftover.dir/build.make CMakeFiles/leftover.dir/ch8/leftover.cpp.i
+.PHONY : ch8/leftover.cpp.i
+
+ch8/leftover.s: ch8/leftover.cpp.s
+
+.PHONY : ch8/leftover.s
+
+# target to generate assembly for a file
+ch8/leftover.cpp.s:
+	$(MAKE) -f CMakeFiles/leftover.dir/build.make CMakeFiles/leftover.dir/ch8/leftover.cpp.s
+.PHONY : ch8/leftover.cpp.s
 
 ch8/secref.o: ch8/secref.cpp.o
 
@@ -4336,6 +4495,87 @@ ch8/swaps.cpp.s:
 	$(MAKE) -f CMakeFiles/swaps.dir/build.make CMakeFiles/swaps.dir/ch8/swaps.cpp.s
 .PHONY : ch8/swaps.cpp.s
 
+ch8/temptempover.o: ch8/temptempover.cpp.o
+
+.PHONY : ch8/temptempover.o
+
+# target to build an object file
+ch8/temptempover.cpp.o:
+	$(MAKE) -f CMakeFiles/temptempover.dir/build.make CMakeFiles/temptempover.dir/ch8/temptempover.cpp.o
+.PHONY : ch8/temptempover.cpp.o
+
+ch8/temptempover.i: ch8/temptempover.cpp.i
+
+.PHONY : ch8/temptempover.i
+
+# target to preprocess a source file
+ch8/temptempover.cpp.i:
+	$(MAKE) -f CMakeFiles/temptempover.dir/build.make CMakeFiles/temptempover.dir/ch8/temptempover.cpp.i
+.PHONY : ch8/temptempover.cpp.i
+
+ch8/temptempover.s: ch8/temptempover.cpp.s
+
+.PHONY : ch8/temptempover.s
+
+# target to generate assembly for a file
+ch8/temptempover.cpp.s:
+	$(MAKE) -f CMakeFiles/temptempover.dir/build.make CMakeFiles/temptempover.dir/ch8/temptempover.cpp.s
+.PHONY : ch8/temptempover.cpp.s
+
+ch8/twoswap.o: ch8/twoswap.cpp.o
+
+.PHONY : ch8/twoswap.o
+
+# target to build an object file
+ch8/twoswap.cpp.o:
+	$(MAKE) -f CMakeFiles/twoswap.dir/build.make CMakeFiles/twoswap.dir/ch8/twoswap.cpp.o
+.PHONY : ch8/twoswap.cpp.o
+
+ch8/twoswap.i: ch8/twoswap.cpp.i
+
+.PHONY : ch8/twoswap.i
+
+# target to preprocess a source file
+ch8/twoswap.cpp.i:
+	$(MAKE) -f CMakeFiles/twoswap.dir/build.make CMakeFiles/twoswap.dir/ch8/twoswap.cpp.i
+.PHONY : ch8/twoswap.cpp.i
+
+ch8/twoswap.s: ch8/twoswap.cpp.s
+
+.PHONY : ch8/twoswap.s
+
+# target to generate assembly for a file
+ch8/twoswap.cpp.s:
+	$(MAKE) -f CMakeFiles/twoswap.dir/build.make CMakeFiles/twoswap.dir/ch8/twoswap.cpp.s
+.PHONY : ch8/twoswap.cpp.s
+
+ch8/twotemps.o: ch8/twotemps.cpp.o
+
+.PHONY : ch8/twotemps.o
+
+# target to build an object file
+ch8/twotemps.cpp.o:
+	$(MAKE) -f CMakeFiles/twotemps.dir/build.make CMakeFiles/twotemps.dir/ch8/twotemps.cpp.o
+.PHONY : ch8/twotemps.cpp.o
+
+ch8/twotemps.i: ch8/twotemps.cpp.i
+
+.PHONY : ch8/twotemps.i
+
+# target to preprocess a source file
+ch8/twotemps.cpp.i:
+	$(MAKE) -f CMakeFiles/twotemps.dir/build.make CMakeFiles/twotemps.dir/ch8/twotemps.cpp.i
+.PHONY : ch8/twotemps.cpp.i
+
+ch8/twotemps.s: ch8/twotemps.cpp.s
+
+.PHONY : ch8/twotemps.s
+
+# target to generate assembly for a file
+ch8/twotemps.cpp.s:
+	$(MAKE) -f CMakeFiles/twotemps.dir/build.make CMakeFiles/twotemps.dir/ch8/twotemps.cpp.s
+.PHONY : ch8/twotemps.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -4376,10 +4616,14 @@ help:
 	@echo "... edit_cache"
 	@echo "... cplusplus_primer"
 	@echo "... main"
+	@echo "... twotemps"
+	@echo "... twoswap"
 	@echo "... swaps"
 	@echo "... strref"
 	@echo "... strquote"
 	@echo "... left"
+	@echo "... funtemp"
+	@echo "... choices"
 	@echo "... pra5_09_forstr2"
 	@echo "... pra7_17_ruler"
 	@echo "... pra7_15_arrobj"
@@ -4415,6 +4659,7 @@ help:
 	@echo "... pra5_14_waiting"
 	@echo "... pra7_05_arrfun1"
 	@echo "... pra7_03_twoarg"
+	@echo "... leftover"
 	@echo "... pra5_12_compstr2"
 	@echo "... pra5_07_plus_one"
 	@echo "... pra5_06_forstr1"
@@ -4451,6 +4696,7 @@ help:
 	@echo "... pra5_08_block"
 	@echo "... pra4_05_instr3"
 	@echo "... pra4_19_addpntrs"
+	@echo "... temptempover"
 	@echo "... pra5_05_bigstep"
 	@echo "... pra3_06_morechar"
 	@echo "... pra3_11_divide"
@@ -4769,6 +5015,9 @@ help:
 	@echo "... ch7/pra7_17_ruler.o"
 	@echo "... ch7/pra7_17_ruler.i"
 	@echo "... ch7/pra7_17_ruler.s"
+	@echo "... ch8/choices.o"
+	@echo "... ch8/choices.i"
+	@echo "... ch8/choices.s"
 	@echo "... ch8/cubes.o"
 	@echo "... ch8/cubes.i"
 	@echo "... ch8/cubes.s"
@@ -4778,12 +5027,18 @@ help:
 	@echo "... ch8/firstref.o"
 	@echo "... ch8/firstref.i"
 	@echo "... ch8/firstref.s"
+	@echo "... ch8/funtemp.o"
+	@echo "... ch8/funtemp.i"
+	@echo "... ch8/funtemp.s"
 	@echo "... ch8/inline.o"
 	@echo "... ch8/inline.i"
 	@echo "... ch8/inline.s"
 	@echo "... ch8/left.o"
 	@echo "... ch8/left.i"
 	@echo "... ch8/left.s"
+	@echo "... ch8/leftover.o"
+	@echo "... ch8/leftover.i"
+	@echo "... ch8/leftover.s"
 	@echo "... ch8/secref.o"
 	@echo "... ch8/secref.i"
 	@echo "... ch8/secref.s"
@@ -4796,6 +5051,15 @@ help:
 	@echo "... ch8/swaps.o"
 	@echo "... ch8/swaps.i"
 	@echo "... ch8/swaps.s"
+	@echo "... ch8/temptempover.o"
+	@echo "... ch8/temptempover.i"
+	@echo "... ch8/temptempover.s"
+	@echo "... ch8/twoswap.o"
+	@echo "... ch8/twoswap.i"
+	@echo "... ch8/twoswap.s"
+	@echo "... ch8/twotemps.o"
+	@echo "... ch8/twotemps.i"
+	@echo "... ch8/twotemps.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -2,10 +2,14 @@
 /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles/cplusplus_primer.dir
 /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles/main.dir
+/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles/twotemps.dir
+/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles/twoswap.dir
 /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles/swaps.dir
 /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles/strref.dir
 /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles/strquote.dir
 /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles/left.dir
+/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles/funtemp.dir
+/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles/choices.dir
 /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles/pra5_09_forstr2.dir
 /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles/pra7_17_ruler.dir
 /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles/pra7_15_arrobj.dir
@@ -41,6 +45,7 @@
 /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles/pra5_14_waiting.dir
 /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles/pra7_05_arrfun1.dir
 /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles/pra7_03_twoarg.dir
+/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles/leftover.dir
 /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles/pra5_12_compstr2.dir
 /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles/pra5_07_plus_one.dir
 /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles/pra5_06_forstr1.dir
@@ -77,6 +82,7 @@
 /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles/pra5_08_block.dir
 /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles/pra4_05_instr3.dir
 /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles/pra4_19_addpntrs.dir
+/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles/temptempover.dir
 /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles/pra5_05_bigstep.dir
 /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles/pra3_06_morechar.dir
 /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles/pra3_11_divide.dir

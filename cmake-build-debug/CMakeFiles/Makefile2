@@ -55,10 +55,14 @@ CMAKE_BINARY_DIR = /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug
 # The main recursive "all" target.
 all: CMakeFiles/cplusplus_primer.dir/all
 all: CMakeFiles/main.dir/all
+all: CMakeFiles/twotemps.dir/all
+all: CMakeFiles/twoswap.dir/all
 all: CMakeFiles/swaps.dir/all
 all: CMakeFiles/strref.dir/all
 all: CMakeFiles/strquote.dir/all
 all: CMakeFiles/left.dir/all
+all: CMakeFiles/funtemp.dir/all
+all: CMakeFiles/choices.dir/all
 all: CMakeFiles/pra5_09_forstr2.dir/all
 all: CMakeFiles/pra7_17_ruler.dir/all
 all: CMakeFiles/pra7_15_arrobj.dir/all
@@ -94,6 +98,7 @@ all: CMakeFiles/pra5_11_compstr1.dir/all
 all: CMakeFiles/pra5_14_waiting.dir/all
 all: CMakeFiles/pra7_05_arrfun1.dir/all
 all: CMakeFiles/pra7_03_twoarg.dir/all
+all: CMakeFiles/leftover.dir/all
 all: CMakeFiles/pra5_12_compstr2.dir/all
 all: CMakeFiles/pra5_07_plus_one.dir/all
 all: CMakeFiles/pra5_06_forstr1.dir/all
@@ -130,6 +135,7 @@ all: CMakeFiles/pra4_13_arrstruc.dir/all
 all: CMakeFiles/pra5_08_block.dir/all
 all: CMakeFiles/pra4_05_instr3.dir/all
 all: CMakeFiles/pra4_19_addpntrs.dir/all
+all: CMakeFiles/temptempover.dir/all
 all: CMakeFiles/pra5_05_bigstep.dir/all
 all: CMakeFiles/pra3_06_morechar.dir/all
 all: CMakeFiles/pra3_11_divide.dir/all
@@ -171,10 +177,14 @@ preinstall:
 # The main recursive "clean" target.
 clean: CMakeFiles/cplusplus_primer.dir/clean
 clean: CMakeFiles/main.dir/clean
+clean: CMakeFiles/twotemps.dir/clean
+clean: CMakeFiles/twoswap.dir/clean
 clean: CMakeFiles/swaps.dir/clean
 clean: CMakeFiles/strref.dir/clean
 clean: CMakeFiles/strquote.dir/clean
 clean: CMakeFiles/left.dir/clean
+clean: CMakeFiles/funtemp.dir/clean
+clean: CMakeFiles/choices.dir/clean
 clean: CMakeFiles/pra5_09_forstr2.dir/clean
 clean: CMakeFiles/pra7_17_ruler.dir/clean
 clean: CMakeFiles/pra7_15_arrobj.dir/clean
@@ -210,6 +220,7 @@ clean: CMakeFiles/pra5_11_compstr1.dir/clean
 clean: CMakeFiles/pra5_14_waiting.dir/clean
 clean: CMakeFiles/pra7_05_arrfun1.dir/clean
 clean: CMakeFiles/pra7_03_twoarg.dir/clean
+clean: CMakeFiles/leftover.dir/clean
 clean: CMakeFiles/pra5_12_compstr2.dir/clean
 clean: CMakeFiles/pra5_07_plus_one.dir/clean
 clean: CMakeFiles/pra5_06_forstr1.dir/clean
@@ -246,6 +257,7 @@ clean: CMakeFiles/pra4_13_arrstruc.dir/clean
 clean: CMakeFiles/pra5_08_block.dir/clean
 clean: CMakeFiles/pra4_05_instr3.dir/clean
 clean: CMakeFiles/pra4_19_addpntrs.dir/clean
+clean: CMakeFiles/temptempover.dir/clean
 clean: CMakeFiles/pra5_05_bigstep.dir/clean
 clean: CMakeFiles/pra3_06_morechar.dir/clean
 clean: CMakeFiles/pra3_11_divide.dir/clean
@@ -286,7 +298,7 @@ clean: CMakeFiles/ex1_10.dir/clean
 CMakeFiles/cplusplus_primer.dir/all:
 	$(MAKE) -f CMakeFiles/cplusplus_primer.dir/build.make CMakeFiles/cplusplus_primer.dir/depend
 	$(MAKE) -f CMakeFiles/cplusplus_primer.dir/build.make CMakeFiles/cplusplus_primer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=4 "Built target cplusplus_primer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=5 "Built target cplusplus_primer"
 .PHONY : CMakeFiles/cplusplus_primer.dir/all
 
 # Build rule for subdir invocation for target.
@@ -313,12 +325,12 @@ CMakeFiles/cplusplus_primer.dir/clean:
 CMakeFiles/main.dir/all:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/depend
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num= "Built target main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=16 "Built target main"
 .PHONY : CMakeFiles/main.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/main.dir/rule
@@ -334,13 +346,67 @@ CMakeFiles/main.dir/clean:
 .PHONY : CMakeFiles/main.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/twotemps.dir
+
+# All Build rule for target.
+CMakeFiles/twotemps.dir/all:
+	$(MAKE) -f CMakeFiles/twotemps.dir/build.make CMakeFiles/twotemps.dir/depend
+	$(MAKE) -f CMakeFiles/twotemps.dir/build.make CMakeFiles/twotemps.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=100 "Built target twotemps"
+.PHONY : CMakeFiles/twotemps.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/twotemps.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/twotemps.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/twotemps.dir/rule
+
+# Convenience name for target.
+twotemps: CMakeFiles/twotemps.dir/rule
+
+.PHONY : twotemps
+
+# clean rule for target.
+CMakeFiles/twotemps.dir/clean:
+	$(MAKE) -f CMakeFiles/twotemps.dir/build.make CMakeFiles/twotemps.dir/clean
+.PHONY : CMakeFiles/twotemps.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/twoswap.dir
+
+# All Build rule for target.
+CMakeFiles/twoswap.dir/all:
+	$(MAKE) -f CMakeFiles/twoswap.dir/build.make CMakeFiles/twoswap.dir/depend
+	$(MAKE) -f CMakeFiles/twoswap.dir/build.make CMakeFiles/twoswap.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=99 "Built target twoswap"
+.PHONY : CMakeFiles/twoswap.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/twoswap.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/twoswap.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/twoswap.dir/rule
+
+# Convenience name for target.
+twoswap: CMakeFiles/twoswap.dir/rule
+
+.PHONY : twoswap
+
+# clean rule for target.
+CMakeFiles/twoswap.dir/clean:
+	$(MAKE) -f CMakeFiles/twoswap.dir/build.make CMakeFiles/twoswap.dir/clean
+.PHONY : CMakeFiles/twoswap.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/swaps.dir
 
 # All Build rule for target.
 CMakeFiles/swaps.dir/all:
 	$(MAKE) -f CMakeFiles/swaps.dir/build.make CMakeFiles/swaps.dir/depend
 	$(MAKE) -f CMakeFiles/swaps.dir/build.make CMakeFiles/swaps.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=99 "Built target swaps"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=96 "Built target swaps"
 .PHONY : CMakeFiles/swaps.dir/all
 
 # Build rule for subdir invocation for target.
@@ -367,7 +433,7 @@ CMakeFiles/swaps.dir/clean:
 CMakeFiles/strref.dir/all:
 	$(MAKE) -f CMakeFiles/strref.dir/build.make CMakeFiles/strref.dir/depend
 	$(MAKE) -f CMakeFiles/strref.dir/build.make CMakeFiles/strref.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=98 "Built target strref"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=95 "Built target strref"
 .PHONY : CMakeFiles/strref.dir/all
 
 # Build rule for subdir invocation for target.
@@ -394,7 +460,7 @@ CMakeFiles/strref.dir/clean:
 CMakeFiles/strquote.dir/all:
 	$(MAKE) -f CMakeFiles/strquote.dir/build.make CMakeFiles/strquote.dir/depend
 	$(MAKE) -f CMakeFiles/strquote.dir/build.make CMakeFiles/strquote.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=97 "Built target strquote"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=94 "Built target strquote"
 .PHONY : CMakeFiles/strquote.dir/all
 
 # Build rule for subdir invocation for target.
@@ -421,7 +487,7 @@ CMakeFiles/strquote.dir/clean:
 CMakeFiles/left.dir/all:
 	$(MAKE) -f CMakeFiles/left.dir/build.make CMakeFiles/left.dir/depend
 	$(MAKE) -f CMakeFiles/left.dir/build.make CMakeFiles/left.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=14 "Built target left"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=15 "Built target left"
 .PHONY : CMakeFiles/left.dir/all
 
 # Build rule for subdir invocation for target.
@@ -440,6 +506,60 @@ left: CMakeFiles/left.dir/rule
 CMakeFiles/left.dir/clean:
 	$(MAKE) -f CMakeFiles/left.dir/build.make CMakeFiles/left.dir/clean
 .PHONY : CMakeFiles/left.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/funtemp.dir
+
+# All Build rule for target.
+CMakeFiles/funtemp.dir/all:
+	$(MAKE) -f CMakeFiles/funtemp.dir/build.make CMakeFiles/funtemp.dir/depend
+	$(MAKE) -f CMakeFiles/funtemp.dir/build.make CMakeFiles/funtemp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=12 "Built target funtemp"
+.PHONY : CMakeFiles/funtemp.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/funtemp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/funtemp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/funtemp.dir/rule
+
+# Convenience name for target.
+funtemp: CMakeFiles/funtemp.dir/rule
+
+.PHONY : funtemp
+
+# clean rule for target.
+CMakeFiles/funtemp.dir/clean:
+	$(MAKE) -f CMakeFiles/funtemp.dir/build.make CMakeFiles/funtemp.dir/clean
+.PHONY : CMakeFiles/funtemp.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/choices.dir
+
+# All Build rule for target.
+CMakeFiles/choices.dir/all:
+	$(MAKE) -f CMakeFiles/choices.dir/build.make CMakeFiles/choices.dir/depend
+	$(MAKE) -f CMakeFiles/choices.dir/build.make CMakeFiles/choices.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=2 "Built target choices"
+.PHONY : CMakeFiles/choices.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/choices.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/choices.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/choices.dir/rule
+
+# Convenience name for target.
+choices: CMakeFiles/choices.dir/rule
+
+.PHONY : choices
+
+# clean rule for target.
+CMakeFiles/choices.dir/clean:
+	$(MAKE) -f CMakeFiles/choices.dir/build.make CMakeFiles/choices.dir/clean
+.PHONY : CMakeFiles/choices.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/pra5_09_forstr2.dir
@@ -475,12 +595,12 @@ CMakeFiles/pra5_09_forstr2.dir/clean:
 CMakeFiles/pra7_17_ruler.dir/all:
 	$(MAKE) -f CMakeFiles/pra7_17_ruler.dir/build.make CMakeFiles/pra7_17_ruler.dir/depend
 	$(MAKE) -f CMakeFiles/pra7_17_ruler.dir/build.make CMakeFiles/pra7_17_ruler.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=95 "Built target pra7_17_ruler"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num= "Built target pra7_17_ruler"
 .PHONY : CMakeFiles/pra7_17_ruler.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/pra7_17_ruler.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/pra7_17_ruler.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/pra7_17_ruler.dir/rule
@@ -502,7 +622,7 @@ CMakeFiles/pra7_17_ruler.dir/clean:
 CMakeFiles/pra7_15_arrobj.dir/all:
 	$(MAKE) -f CMakeFiles/pra7_15_arrobj.dir/build.make CMakeFiles/pra7_15_arrobj.dir/depend
 	$(MAKE) -f CMakeFiles/pra7_15_arrobj.dir/build.make CMakeFiles/pra7_15_arrobj.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=93 "Built target pra7_15_arrobj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=91 "Built target pra7_15_arrobj"
 .PHONY : CMakeFiles/pra7_15_arrobj.dir/all
 
 # Build rule for subdir invocation for target.
@@ -529,7 +649,7 @@ CMakeFiles/pra7_15_arrobj.dir/clean:
 CMakeFiles/pra3_09_fltadd.dir/all:
 	$(MAKE) -f CMakeFiles/pra3_09_fltadd.dir/build.make CMakeFiles/pra3_09_fltadd.dir/depend
 	$(MAKE) -f CMakeFiles/pra3_09_fltadd.dir/build.make CMakeFiles/pra3_09_fltadd.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=23 "Built target pra3_09_fltadd"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=24 "Built target pra3_09_fltadd"
 .PHONY : CMakeFiles/pra3_09_fltadd.dir/all
 
 # Build rule for subdir invocation for target.
@@ -556,7 +676,7 @@ CMakeFiles/pra3_09_fltadd.dir/clean:
 CMakeFiles/pra7_14_topfive.dir/all:
 	$(MAKE) -f CMakeFiles/pra7_14_topfive.dir/build.make CMakeFiles/pra7_14_topfive.dir/depend
 	$(MAKE) -f CMakeFiles/pra7_14_topfive.dir/build.make CMakeFiles/pra7_14_topfive.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=92 "Built target pra7_14_topfive"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=90 "Built target pra7_14_topfive"
 .PHONY : CMakeFiles/pra7_14_topfive.dir/all
 
 # Build rule for subdir invocation for target.
@@ -583,7 +703,7 @@ CMakeFiles/pra7_14_topfive.dir/clean:
 CMakeFiles/pra7_11_travel.dir/all:
 	$(MAKE) -f CMakeFiles/pra7_11_travel.dir/build.make CMakeFiles/pra7_11_travel.dir/depend
 	$(MAKE) -f CMakeFiles/pra7_11_travel.dir/build.make CMakeFiles/pra7_11_travel.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=89 "Built target pra7_11_travel"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=87 "Built target pra7_11_travel"
 .PHONY : CMakeFiles/pra7_11_travel.dir/all
 
 # Build rule for subdir invocation for target.
@@ -610,7 +730,7 @@ CMakeFiles/pra7_11_travel.dir/clean:
 CMakeFiles/pra7_10_strgback.dir/all:
 	$(MAKE) -f CMakeFiles/pra7_10_strgback.dir/build.make CMakeFiles/pra7_10_strgback.dir/depend
 	$(MAKE) -f CMakeFiles/pra7_10_strgback.dir/build.make CMakeFiles/pra7_10_strgback.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=88 "Built target pra7_10_strgback"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=86 "Built target pra7_10_strgback"
 .PHONY : CMakeFiles/pra7_10_strgback.dir/all
 
 # Build rule for subdir invocation for target.
@@ -637,12 +757,12 @@ CMakeFiles/pra7_10_strgback.dir/clean:
 CMakeFiles/pra7_07_arrfun3.dir/all:
 	$(MAKE) -f CMakeFiles/pra7_07_arrfun3.dir/build.make CMakeFiles/pra7_07_arrfun3.dir/depend
 	$(MAKE) -f CMakeFiles/pra7_07_arrfun3.dir/build.make CMakeFiles/pra7_07_arrfun3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num= "Built target pra7_07_arrfun3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=84 "Built target pra7_07_arrfun3"
 .PHONY : CMakeFiles/pra7_07_arrfun3.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/pra7_07_arrfun3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/pra7_07_arrfun3.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/pra7_07_arrfun3.dir/rule
@@ -664,7 +784,7 @@ CMakeFiles/pra7_07_arrfun3.dir/clean:
 CMakeFiles/pra4_03_instr1.dir/all:
 	$(MAKE) -f CMakeFiles/pra4_03_instr1.dir/build.make CMakeFiles/pra4_03_instr1.dir/depend
 	$(MAKE) -f CMakeFiles/pra4_03_instr1.dir/build.make CMakeFiles/pra4_03_instr1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=30 "Built target pra4_03_instr1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=31 "Built target pra4_03_instr1"
 .PHONY : CMakeFiles/pra4_03_instr1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -691,7 +811,7 @@ CMakeFiles/pra4_03_instr1.dir/clean:
 CMakeFiles/switch.dir/all:
 	$(MAKE) -f CMakeFiles/switch.dir/build.make CMakeFiles/switch.dir/depend
 	$(MAKE) -f CMakeFiles/switch.dir/build.make CMakeFiles/switch.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=100 "Built target switch"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=97 "Built target switch"
 .PHONY : CMakeFiles/switch.dir/all
 
 # Build rule for subdir invocation for target.
@@ -718,7 +838,7 @@ CMakeFiles/switch.dir/clean:
 CMakeFiles/pra6_16_sumafile.dir/all:
 	$(MAKE) -f CMakeFiles/pra6_16_sumafile.dir/build.make CMakeFiles/pra6_16_sumafile.dir/depend
 	$(MAKE) -f CMakeFiles/pra6_16_sumafile.dir/build.make CMakeFiles/pra6_16_sumafile.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=79 "Built target pra6_16_sumafile"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=77 "Built target pra6_16_sumafile"
 .PHONY : CMakeFiles/pra6_16_sumafile.dir/all
 
 # Build rule for subdir invocation for target.
@@ -745,7 +865,7 @@ CMakeFiles/pra6_16_sumafile.dir/clean:
 CMakeFiles/pra7_04_lotto.dir/all:
 	$(MAKE) -f CMakeFiles/pra7_04_lotto.dir/build.make CMakeFiles/pra7_04_lotto.dir/depend
 	$(MAKE) -f CMakeFiles/pra7_04_lotto.dir/build.make CMakeFiles/pra7_04_lotto.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=83 "Built target pra7_04_lotto"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=81 "Built target pra7_04_lotto"
 .PHONY : CMakeFiles/pra7_04_lotto.dir/all
 
 # Build rule for subdir invocation for target.
@@ -772,12 +892,12 @@ CMakeFiles/pra7_04_lotto.dir/clean:
 CMakeFiles/pra6_15_outfile.dir/all:
 	$(MAKE) -f CMakeFiles/pra6_15_outfile.dir/build.make CMakeFiles/pra6_15_outfile.dir/depend
 	$(MAKE) -f CMakeFiles/pra6_15_outfile.dir/build.make CMakeFiles/pra6_15_outfile.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=78 "Built target pra6_15_outfile"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num= "Built target pra6_15_outfile"
 .PHONY : CMakeFiles/pra6_15_outfile.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/pra6_15_outfile.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/pra6_15_outfile.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/pra6_15_outfile.dir/rule
@@ -799,7 +919,7 @@ CMakeFiles/pra6_15_outfile.dir/clean:
 CMakeFiles/pra3_14_typecast.dir/all:
 	$(MAKE) -f CMakeFiles/pra3_14_typecast.dir/build.make CMakeFiles/pra3_14_typecast.dir/depend
 	$(MAKE) -f CMakeFiles/pra3_14_typecast.dir/build.make CMakeFiles/pra3_14_typecast.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=28 "Built target pra3_14_typecast"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=29 "Built target pra3_14_typecast"
 .PHONY : CMakeFiles/pra3_14_typecast.dir/all
 
 # Build rule for subdir invocation for target.
@@ -826,12 +946,12 @@ CMakeFiles/pra3_14_typecast.dir/clean:
 CMakeFiles/pra7_08_arrfun4.dir/all:
 	$(MAKE) -f CMakeFiles/pra7_08_arrfun4.dir/build.make CMakeFiles/pra7_08_arrfun4.dir/depend
 	$(MAKE) -f CMakeFiles/pra7_08_arrfun4.dir/build.make CMakeFiles/pra7_08_arrfun4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=86 "Built target pra7_08_arrfun4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num= "Built target pra7_08_arrfun4"
 .PHONY : CMakeFiles/pra7_08_arrfun4.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/pra7_08_arrfun4.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/pra7_08_arrfun4.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/pra7_08_arrfun4.dir/rule
@@ -853,7 +973,7 @@ CMakeFiles/pra7_08_arrfun4.dir/clean:
 CMakeFiles/secref.dir/all:
 	$(MAKE) -f CMakeFiles/secref.dir/build.make CMakeFiles/secref.dir/depend
 	$(MAKE) -f CMakeFiles/secref.dir/build.make CMakeFiles/secref.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=96 "Built target secref"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=93 "Built target secref"
 .PHONY : CMakeFiles/secref.dir/all
 
 # Build rule for subdir invocation for target.
@@ -880,7 +1000,7 @@ CMakeFiles/secref.dir/clean:
 CMakeFiles/pra6_05_and.dir/all:
 	$(MAKE) -f CMakeFiles/pra6_05_and.dir/build.make CMakeFiles/pra6_05_and.dir/depend
 	$(MAKE) -f CMakeFiles/pra6_05_and.dir/build.make CMakeFiles/pra6_05_and.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=73 "Built target pra6_05_and"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=72 "Built target pra6_05_and"
 .PHONY : CMakeFiles/pra6_05_and.dir/all
 
 # Build rule for subdir invocation for target.
@@ -907,7 +1027,7 @@ CMakeFiles/pra6_05_and.dir/clean:
 CMakeFiles/pra6_14_cingolf.dir/all:
 	$(MAKE) -f CMakeFiles/pra6_14_cingolf.dir/build.make CMakeFiles/pra6_14_cingolf.dir/depend
 	$(MAKE) -f CMakeFiles/pra6_14_cingolf.dir/build.make CMakeFiles/pra6_14_cingolf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=77 "Built target pra6_14_cingolf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=76 "Built target pra6_14_cingolf"
 .PHONY : CMakeFiles/pra6_14_cingolf.dir/all
 
 # Build rule for subdir invocation for target.
@@ -934,7 +1054,7 @@ CMakeFiles/pra6_14_cingolf.dir/clean:
 CMakeFiles/pra6_06_more_add.dir/all:
 	$(MAKE) -f CMakeFiles/pra6_06_more_add.dir/build.make CMakeFiles/pra6_06_more_add.dir/depend
 	$(MAKE) -f CMakeFiles/pra6_06_more_add.dir/build.make CMakeFiles/pra6_06_more_add.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=74 "Built target pra6_06_more_add"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=73 "Built target pra6_06_more_add"
 .PHONY : CMakeFiles/pra6_06_more_add.dir/all
 
 # Build rule for subdir invocation for target.
@@ -961,7 +1081,7 @@ CMakeFiles/pra6_06_more_add.dir/clean:
 CMakeFiles/pra6_04_or.dir/all:
 	$(MAKE) -f CMakeFiles/pra6_04_or.dir/build.make CMakeFiles/pra6_04_or.dir/depend
 	$(MAKE) -f CMakeFiles/pra6_04_or.dir/build.make CMakeFiles/pra6_04_or.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=72 "Built target pra6_04_or"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=71 "Built target pra6_04_or"
 .PHONY : CMakeFiles/pra6_04_or.dir/all
 
 # Build rule for subdir invocation for target.
@@ -988,12 +1108,12 @@ CMakeFiles/pra6_04_or.dir/clean:
 CMakeFiles/pra6_02_ifelse.dir/all:
 	$(MAKE) -f CMakeFiles/pra6_02_ifelse.dir/build.make CMakeFiles/pra6_02_ifelse.dir/depend
 	$(MAKE) -f CMakeFiles/pra6_02_ifelse.dir/build.make CMakeFiles/pra6_02_ifelse.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=71 "Built target pra6_02_ifelse"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num= "Built target pra6_02_ifelse"
 .PHONY : CMakeFiles/pra6_02_ifelse.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/pra6_02_ifelse.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/pra6_02_ifelse.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/pra6_02_ifelse.dir/rule
@@ -1015,7 +1135,7 @@ CMakeFiles/pra6_02_ifelse.dir/clean:
 CMakeFiles/pra7_16_recur.dir/all:
 	$(MAKE) -f CMakeFiles/pra7_16_recur.dir/build.make CMakeFiles/pra7_16_recur.dir/depend
 	$(MAKE) -f CMakeFiles/pra7_16_recur.dir/build.make CMakeFiles/pra7_16_recur.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=94 "Built target pra7_16_recur"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=92 "Built target pra7_16_recur"
 .PHONY : CMakeFiles/pra7_16_recur.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1042,7 +1162,7 @@ CMakeFiles/pra7_16_recur.dir/clean:
 CMakeFiles/pra6_01_if.dir/all:
 	$(MAKE) -f CMakeFiles/pra6_01_if.dir/build.make CMakeFiles/pra6_01_if.dir/depend
 	$(MAKE) -f CMakeFiles/pra6_01_if.dir/build.make CMakeFiles/pra6_01_if.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=70 "Built target pra6_01_if"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=69 "Built target pra6_01_if"
 .PHONY : CMakeFiles/pra6_01_if.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1069,7 +1189,7 @@ CMakeFiles/pra6_01_if.dir/clean:
 CMakeFiles/jump.dir/all:
 	$(MAKE) -f CMakeFiles/jump.dir/build.make CMakeFiles/jump.dir/depend
 	$(MAKE) -f CMakeFiles/jump.dir/build.make CMakeFiles/jump.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=13 "Built target jump"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=14 "Built target jump"
 .PHONY : CMakeFiles/jump.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1096,7 +1216,7 @@ CMakeFiles/jump.dir/clean:
 CMakeFiles/enum.dir/all:
 	$(MAKE) -f CMakeFiles/enum.dir/build.make CMakeFiles/enum.dir/depend
 	$(MAKE) -f CMakeFiles/enum.dir/build.make CMakeFiles/enum.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=6 "Built target enum"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=7 "Built target enum"
 .PHONY : CMakeFiles/enum.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1123,7 +1243,7 @@ CMakeFiles/enum.dir/clean:
 CMakeFiles/cinfish.dir/all:
 	$(MAKE) -f CMakeFiles/cinfish.dir/build.make CMakeFiles/cinfish.dir/depend
 	$(MAKE) -f CMakeFiles/cinfish.dir/build.make CMakeFiles/cinfish.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=2 "Built target cinfish"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=3 "Built target cinfish"
 .PHONY : CMakeFiles/cinfish.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1177,7 +1297,7 @@ CMakeFiles/pra4_15_pointer.dir/clean:
 CMakeFiles/pra5_20_nested.dir/all:
 	$(MAKE) -f CMakeFiles/pra5_20_nested.dir/build.make CMakeFiles/pra5_20_nested.dir/depend
 	$(MAKE) -f CMakeFiles/pra5_20_nested.dir/build.make CMakeFiles/pra5_20_nested.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=69 "Built target pra5_20_nested"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=68 "Built target pra5_20_nested"
 .PHONY : CMakeFiles/pra5_20_nested.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1204,7 +1324,7 @@ CMakeFiles/pra5_20_nested.dir/clean:
 CMakeFiles/pra5_16_textin1.dir/all:
 	$(MAKE) -f CMakeFiles/pra5_16_textin1.dir/build.make CMakeFiles/pra5_16_textin1.dir/depend
 	$(MAKE) -f CMakeFiles/pra5_16_textin1.dir/build.make CMakeFiles/pra5_16_textin1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=65 "Built target pra5_16_textin1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=64 "Built target pra5_16_textin1"
 .PHONY : CMakeFiles/pra5_16_textin1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1231,7 +1351,7 @@ CMakeFiles/pra5_16_textin1.dir/clean:
 CMakeFiles/pra5_15_dowhile.dir/all:
 	$(MAKE) -f CMakeFiles/pra5_15_dowhile.dir/build.make CMakeFiles/pra5_15_dowhile.dir/depend
 	$(MAKE) -f CMakeFiles/pra5_15_dowhile.dir/build.make CMakeFiles/pra5_15_dowhile.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=64 "Built target pra5_15_dowhile"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=63 "Built target pra5_15_dowhile"
 .PHONY : CMakeFiles/pra5_15_dowhile.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1312,7 +1432,7 @@ CMakeFiles/pra5_11_compstr1.dir/clean:
 CMakeFiles/pra5_14_waiting.dir/all:
 	$(MAKE) -f CMakeFiles/pra5_14_waiting.dir/build.make CMakeFiles/pra5_14_waiting.dir/depend
 	$(MAKE) -f CMakeFiles/pra5_14_waiting.dir/build.make CMakeFiles/pra5_14_waiting.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=63 "Built target pra5_14_waiting"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=62 "Built target pra5_14_waiting"
 .PHONY : CMakeFiles/pra5_14_waiting.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1339,7 +1459,7 @@ CMakeFiles/pra5_14_waiting.dir/clean:
 CMakeFiles/pra7_05_arrfun1.dir/all:
 	$(MAKE) -f CMakeFiles/pra7_05_arrfun1.dir/build.make CMakeFiles/pra7_05_arrfun1.dir/depend
 	$(MAKE) -f CMakeFiles/pra7_05_arrfun1.dir/build.make CMakeFiles/pra7_05_arrfun1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=84 "Built target pra7_05_arrfun1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=82 "Built target pra7_05_arrfun1"
 .PHONY : CMakeFiles/pra7_05_arrfun1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1366,7 +1486,7 @@ CMakeFiles/pra7_05_arrfun1.dir/clean:
 CMakeFiles/pra7_03_twoarg.dir/all:
 	$(MAKE) -f CMakeFiles/pra7_03_twoarg.dir/build.make CMakeFiles/pra7_03_twoarg.dir/depend
 	$(MAKE) -f CMakeFiles/pra7_03_twoarg.dir/build.make CMakeFiles/pra7_03_twoarg.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=82 "Built target pra7_03_twoarg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=80 "Built target pra7_03_twoarg"
 .PHONY : CMakeFiles/pra7_03_twoarg.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1385,6 +1505,33 @@ pra7_03_twoarg: CMakeFiles/pra7_03_twoarg.dir/rule
 CMakeFiles/pra7_03_twoarg.dir/clean:
 	$(MAKE) -f CMakeFiles/pra7_03_twoarg.dir/build.make CMakeFiles/pra7_03_twoarg.dir/clean
 .PHONY : CMakeFiles/pra7_03_twoarg.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/leftover.dir
+
+# All Build rule for target.
+CMakeFiles/leftover.dir/all:
+	$(MAKE) -f CMakeFiles/leftover.dir/build.make CMakeFiles/leftover.dir/depend
+	$(MAKE) -f CMakeFiles/leftover.dir/build.make CMakeFiles/leftover.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num= "Built target leftover"
+.PHONY : CMakeFiles/leftover.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/leftover.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/leftover.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/leftover.dir/rule
+
+# Convenience name for target.
+leftover: CMakeFiles/leftover.dir/rule
+
+.PHONY : leftover
+
+# clean rule for target.
+CMakeFiles/leftover.dir/clean:
+	$(MAKE) -f CMakeFiles/leftover.dir/build.make CMakeFiles/leftover.dir/clean
+.PHONY : CMakeFiles/leftover.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/pra5_12_compstr2.dir
@@ -1420,7 +1567,7 @@ CMakeFiles/pra5_12_compstr2.dir/clean:
 CMakeFiles/pra5_07_plus_one.dir/all:
 	$(MAKE) -f CMakeFiles/pra5_07_plus_one.dir/build.make CMakeFiles/pra5_07_plus_one.dir/depend
 	$(MAKE) -f CMakeFiles/pra5_07_plus_one.dir/build.make CMakeFiles/pra5_07_plus_one.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=57 "Built target pra5_07_plus_one"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=56 "Built target pra5_07_plus_one"
 .PHONY : CMakeFiles/pra5_07_plus_one.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1447,7 +1594,7 @@ CMakeFiles/pra5_07_plus_one.dir/clean:
 CMakeFiles/pra5_06_forstr1.dir/all:
 	$(MAKE) -f CMakeFiles/pra5_06_forstr1.dir/build.make CMakeFiles/pra5_06_forstr1.dir/depend
 	$(MAKE) -f CMakeFiles/pra5_06_forstr1.dir/build.make CMakeFiles/pra5_06_forstr1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=56 "Built target pra5_06_forstr1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=55 "Built target pra5_06_forstr1"
 .PHONY : CMakeFiles/pra5_06_forstr1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1474,7 +1621,7 @@ CMakeFiles/pra5_06_forstr1.dir/clean:
 CMakeFiles/pra7_09_strgfun.dir/all:
 	$(MAKE) -f CMakeFiles/pra7_09_strgfun.dir/build.make CMakeFiles/pra7_09_strgfun.dir/depend
 	$(MAKE) -f CMakeFiles/pra7_09_strgfun.dir/build.make CMakeFiles/pra7_09_strgfun.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=87 "Built target pra7_09_strgfun"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=85 "Built target pra7_09_strgfun"
 .PHONY : CMakeFiles/pra7_09_strgfun.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1501,7 +1648,7 @@ CMakeFiles/pra7_09_strgfun.dir/clean:
 CMakeFiles/pra6_08_cctypes.dir/all:
 	$(MAKE) -f CMakeFiles/pra6_08_cctypes.dir/build.make CMakeFiles/pra6_08_cctypes.dir/depend
 	$(MAKE) -f CMakeFiles/pra6_08_cctypes.dir/build.make CMakeFiles/pra6_08_cctypes.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=76 "Built target pra6_08_cctypes"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=75 "Built target pra6_08_cctypes"
 .PHONY : CMakeFiles/pra6_08_cctypes.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1555,12 +1702,12 @@ CMakeFiles/firstref.dir/clean:
 CMakeFiles/pra4_01_arrayone.dir/all:
 	$(MAKE) -f CMakeFiles/pra4_01_arrayone.dir/build.make CMakeFiles/pra4_01_arrayone.dir/depend
 	$(MAKE) -f CMakeFiles/pra4_01_arrayone.dir/build.make CMakeFiles/pra4_01_arrayone.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num= "Built target pra4_01_arrayone"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=30 "Built target pra4_01_arrayone"
 .PHONY : CMakeFiles/pra4_01_arrayone.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/pra4_01_arrayone.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/pra4_01_arrayone.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/pra4_01_arrayone.dir/rule
@@ -1609,12 +1756,12 @@ CMakeFiles/filefunc.dir/clean:
 CMakeFiles/pra4_11_structur.dir/all:
 	$(MAKE) -f CMakeFiles/pra4_11_structur.dir/build.make CMakeFiles/pra4_11_structur.dir/depend
 	$(MAKE) -f CMakeFiles/pra4_11_structur.dir/build.make CMakeFiles/pra4_11_structur.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=38 "Built target pra4_11_structur"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num= "Built target pra4_11_structur"
 .PHONY : CMakeFiles/pra4_11_structur.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/pra4_11_structur.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/pra4_11_structur.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/pra4_11_structur.dir/rule
@@ -1690,7 +1837,7 @@ CMakeFiles/pra5_01_forloop.dir/clean:
 CMakeFiles/pra7_02_protos.dir/all:
 	$(MAKE) -f CMakeFiles/pra7_02_protos.dir/build.make CMakeFiles/pra7_02_protos.dir/depend
 	$(MAKE) -f CMakeFiles/pra7_02_protos.dir/build.make CMakeFiles/pra7_02_protos.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=81 "Built target pra7_02_protos"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=79 "Built target pra7_02_protos"
 .PHONY : CMakeFiles/pra7_02_protos.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1717,7 +1864,7 @@ CMakeFiles/pra7_02_protos.dir/clean:
 CMakeFiles/pra5_19_textin4.dir/all:
 	$(MAKE) -f CMakeFiles/pra5_19_textin4.dir/build.make CMakeFiles/pra5_19_textin4.dir/depend
 	$(MAKE) -f CMakeFiles/pra5_19_textin4.dir/build.make CMakeFiles/pra5_19_textin4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=68 "Built target pra5_19_textin4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=67 "Built target pra5_19_textin4"
 .PHONY : CMakeFiles/pra5_19_textin4.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1744,7 +1891,7 @@ CMakeFiles/pra5_19_textin4.dir/clean:
 CMakeFiles/pra4_09_strtype3.dir/all:
 	$(MAKE) -f CMakeFiles/pra4_09_strtype3.dir/build.make CMakeFiles/pra4_09_strtype3.dir/depend
 	$(MAKE) -f CMakeFiles/pra4_09_strtype3.dir/build.make CMakeFiles/pra4_09_strtype3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=36 "Built target pra4_09_strtype3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=37 "Built target pra4_09_strtype3"
 .PHONY : CMakeFiles/pra4_09_strtype3.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1798,7 +1945,7 @@ CMakeFiles/pra4_22_delete.dir/clean:
 CMakeFiles/pra3_13_assign.dir/all:
 	$(MAKE) -f CMakeFiles/pra3_13_assign.dir/build.make CMakeFiles/pra3_13_assign.dir/depend
 	$(MAKE) -f CMakeFiles/pra3_13_assign.dir/build.make CMakeFiles/pra3_13_assign.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=27 "Built target pra3_13_assign"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=28 "Built target pra3_13_assign"
 .PHONY : CMakeFiles/pra3_13_assign.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1879,7 +2026,7 @@ CMakeFiles/arfupt.dir/clean:
 CMakeFiles/pra5_18_textin3.dir/all:
 	$(MAKE) -f CMakeFiles/pra5_18_textin3.dir/build.make CMakeFiles/pra5_18_textin3.dir/depend
 	$(MAKE) -f CMakeFiles/pra5_18_textin3.dir/build.make CMakeFiles/pra5_18_textin3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=67 "Built target pra5_18_textin3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=66 "Built target pra5_18_textin3"
 .PHONY : CMakeFiles/pra5_18_textin3.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1906,7 +2053,7 @@ CMakeFiles/pra5_18_textin3.dir/clean:
 CMakeFiles/inline.dir/all:
 	$(MAKE) -f CMakeFiles/inline.dir/build.make CMakeFiles/inline.dir/depend
 	$(MAKE) -f CMakeFiles/inline.dir/build.make CMakeFiles/inline.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=12 "Built target inline"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=13 "Built target inline"
 .PHONY : CMakeFiles/inline.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1933,7 +2080,7 @@ CMakeFiles/inline.dir/clean:
 CMakeFiles/pra7_01_calling.dir/all:
 	$(MAKE) -f CMakeFiles/pra7_01_calling.dir/build.make CMakeFiles/pra7_01_calling.dir/depend
 	$(MAKE) -f CMakeFiles/pra7_01_calling.dir/build.make CMakeFiles/pra7_01_calling.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=80 "Built target pra7_01_calling"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=78 "Built target pra7_01_calling"
 .PHONY : CMakeFiles/pra7_01_calling.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1960,12 +2107,12 @@ CMakeFiles/pra7_01_calling.dir/clean:
 CMakeFiles/ex1_09.dir/all:
 	$(MAKE) -f CMakeFiles/ex1_09.dir/build.make CMakeFiles/ex1_09.dir/depend
 	$(MAKE) -f CMakeFiles/ex1_09.dir/build.make CMakeFiles/ex1_09.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=7 "Built target ex1_09"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num= "Built target ex1_09"
 .PHONY : CMakeFiles/ex1_09.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ex1_09.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ex1_09.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/ex1_09.dir/rule
@@ -1987,12 +2134,12 @@ CMakeFiles/ex1_09.dir/clean:
 CMakeFiles/pra5_04_formore.dir/all:
 	$(MAKE) -f CMakeFiles/pra5_04_formore.dir/build.make CMakeFiles/pra5_04_formore.dir/depend
 	$(MAKE) -f CMakeFiles/pra5_04_formore.dir/build.make CMakeFiles/pra5_04_formore.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=54 "Built target pra5_04_formore"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num= "Built target pra5_04_formore"
 .PHONY : CMakeFiles/pra5_04_formore.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/pra5_04_formore.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/pra5_04_formore.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/pra5_04_formore.dir/rule
@@ -2014,12 +2161,12 @@ CMakeFiles/pra5_04_formore.dir/clean:
 CMakeFiles/pra4_20_ptrstr.dir/all:
 	$(MAKE) -f CMakeFiles/pra4_20_ptrstr.dir/build.make CMakeFiles/pra4_20_ptrstr.dir/depend
 	$(MAKE) -f CMakeFiles/pra4_20_ptrstr.dir/build.make CMakeFiles/pra4_20_ptrstr.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=46 "Built target pra4_20_ptrstr"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num= "Built target pra4_20_ptrstr"
 .PHONY : CMakeFiles/pra4_20_ptrstr.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/pra4_20_ptrstr.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/pra4_20_ptrstr.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/pra4_20_ptrstr.dir/rule
@@ -2041,7 +2188,7 @@ CMakeFiles/pra4_20_ptrstr.dir/clean:
 CMakeFiles/pra5_17_textin2.dir/all:
 	$(MAKE) -f CMakeFiles/pra5_17_textin2.dir/build.make CMakeFiles/pra5_17_textin2.dir/depend
 	$(MAKE) -f CMakeFiles/pra5_17_textin2.dir/build.make CMakeFiles/pra5_17_textin2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=66 "Built target pra5_17_textin2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=65 "Built target pra5_17_textin2"
 .PHONY : CMakeFiles/pra5_17_textin2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2095,7 +2242,7 @@ CMakeFiles/pra4_14_address.dir/clean:
 CMakeFiles/condit.dir/all:
 	$(MAKE) -f CMakeFiles/condit.dir/build.make CMakeFiles/condit.dir/depend
 	$(MAKE) -f CMakeFiles/condit.dir/build.make CMakeFiles/condit.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=3 "Built target condit"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=4 "Built target condit"
 .PHONY : CMakeFiles/condit.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2122,7 +2269,7 @@ CMakeFiles/condit.dir/clean:
 CMakeFiles/pra3_12_modulus.dir/all:
 	$(MAKE) -f CMakeFiles/pra3_12_modulus.dir/build.make CMakeFiles/pra3_12_modulus.dir/depend
 	$(MAKE) -f CMakeFiles/pra3_12_modulus.dir/build.make CMakeFiles/pra3_12_modulus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=26 "Built target pra3_12_modulus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=27 "Built target pra3_12_modulus"
 .PHONY : CMakeFiles/pra3_12_modulus.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2149,7 +2296,7 @@ CMakeFiles/pra3_12_modulus.dir/clean:
 CMakeFiles/pra4_10_strtype4.dir/all:
 	$(MAKE) -f CMakeFiles/pra4_10_strtype4.dir/build.make CMakeFiles/pra4_10_strtype4.dir/depend
 	$(MAKE) -f CMakeFiles/pra4_10_strtype4.dir/build.make CMakeFiles/pra4_10_strtype4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=37 "Built target pra4_10_strtype4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=38 "Built target pra4_10_strtype4"
 .PHONY : CMakeFiles/pra4_10_strtype4.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2176,12 +2323,12 @@ CMakeFiles/pra4_10_strtype4.dir/clean:
 CMakeFiles/pra5_13_while.dir/all:
 	$(MAKE) -f CMakeFiles/pra5_13_while.dir/build.make CMakeFiles/pra5_13_while.dir/depend
 	$(MAKE) -f CMakeFiles/pra5_13_while.dir/build.make CMakeFiles/pra5_13_while.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=62 "Built target pra5_13_while"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num= "Built target pra5_13_while"
 .PHONY : CMakeFiles/pra5_13_while.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/pra5_13_while.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/pra5_13_while.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/pra5_13_while.dir/rule
@@ -2230,7 +2377,7 @@ CMakeFiles/pra4_24_choices.dir/clean:
 CMakeFiles/pra4_08_strtype2.dir/all:
 	$(MAKE) -f CMakeFiles/pra4_08_strtype2.dir/build.make CMakeFiles/pra4_08_strtype2.dir/depend
 	$(MAKE) -f CMakeFiles/pra4_08_strtype2.dir/build.make CMakeFiles/pra4_08_strtype2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=35 "Built target pra4_08_strtype2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=36 "Built target pra4_08_strtype2"
 .PHONY : CMakeFiles/pra4_08_strtype2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2284,12 +2431,12 @@ CMakeFiles/pra4_13_arrstruc.dir/clean:
 CMakeFiles/pra5_08_block.dir/all:
 	$(MAKE) -f CMakeFiles/pra5_08_block.dir/build.make CMakeFiles/pra5_08_block.dir/depend
 	$(MAKE) -f CMakeFiles/pra5_08_block.dir/build.make CMakeFiles/pra5_08_block.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num= "Built target pra5_08_block"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=57 "Built target pra5_08_block"
 .PHONY : CMakeFiles/pra5_08_block.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/pra5_08_block.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/pra5_08_block.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/pra5_08_block.dir/rule
@@ -2311,7 +2458,7 @@ CMakeFiles/pra5_08_block.dir/clean:
 CMakeFiles/pra4_05_instr3.dir/all:
 	$(MAKE) -f CMakeFiles/pra4_05_instr3.dir/build.make CMakeFiles/pra4_05_instr3.dir/depend
 	$(MAKE) -f CMakeFiles/pra4_05_instr3.dir/build.make CMakeFiles/pra4_05_instr3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=32 "Built target pra4_05_instr3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=33 "Built target pra4_05_instr3"
 .PHONY : CMakeFiles/pra4_05_instr3.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2338,7 +2485,7 @@ CMakeFiles/pra4_05_instr3.dir/clean:
 CMakeFiles/pra4_19_addpntrs.dir/all:
 	$(MAKE) -f CMakeFiles/pra4_19_addpntrs.dir/build.make CMakeFiles/pra4_19_addpntrs.dir/depend
 	$(MAKE) -f CMakeFiles/pra4_19_addpntrs.dir/build.make CMakeFiles/pra4_19_addpntrs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=45 "Built target pra4_19_addpntrs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=46 "Built target pra4_19_addpntrs"
 .PHONY : CMakeFiles/pra4_19_addpntrs.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2359,13 +2506,40 @@ CMakeFiles/pra4_19_addpntrs.dir/clean:
 .PHONY : CMakeFiles/pra4_19_addpntrs.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/temptempover.dir
+
+# All Build rule for target.
+CMakeFiles/temptempover.dir/all:
+	$(MAKE) -f CMakeFiles/temptempover.dir/build.make CMakeFiles/temptempover.dir/depend
+	$(MAKE) -f CMakeFiles/temptempover.dir/build.make CMakeFiles/temptempover.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=98 "Built target temptempover"
+.PHONY : CMakeFiles/temptempover.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/temptempover.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/temptempover.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/temptempover.dir/rule
+
+# Convenience name for target.
+temptempover: CMakeFiles/temptempover.dir/rule
+
+.PHONY : temptempover
+
+# clean rule for target.
+CMakeFiles/temptempover.dir/clean:
+	$(MAKE) -f CMakeFiles/temptempover.dir/build.make CMakeFiles/temptempover.dir/clean
+.PHONY : CMakeFiles/temptempover.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/pra5_05_bigstep.dir
 
 # All Build rule for target.
 CMakeFiles/pra5_05_bigstep.dir/all:
 	$(MAKE) -f CMakeFiles/pra5_05_bigstep.dir/build.make CMakeFiles/pra5_05_bigstep.dir/depend
 	$(MAKE) -f CMakeFiles/pra5_05_bigstep.dir/build.make CMakeFiles/pra5_05_bigstep.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=55 "Built target pra5_05_bigstep"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=54 "Built target pra5_05_bigstep"
 .PHONY : CMakeFiles/pra5_05_bigstep.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2392,7 +2566,7 @@ CMakeFiles/pra5_05_bigstep.dir/clean:
 CMakeFiles/pra3_06_morechar.dir/all:
 	$(MAKE) -f CMakeFiles/pra3_06_morechar.dir/build.make CMakeFiles/pra3_06_morechar.dir/depend
 	$(MAKE) -f CMakeFiles/pra3_06_morechar.dir/build.make CMakeFiles/pra3_06_morechar.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=20 "Built target pra3_06_morechar"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=22 "Built target pra3_06_morechar"
 .PHONY : CMakeFiles/pra3_06_morechar.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2419,7 +2593,7 @@ CMakeFiles/pra3_06_morechar.dir/clean:
 CMakeFiles/pra3_11_divide.dir/all:
 	$(MAKE) -f CMakeFiles/pra3_11_divide.dir/build.make CMakeFiles/pra3_11_divide.dir/depend
 	$(MAKE) -f CMakeFiles/pra3_11_divide.dir/build.make CMakeFiles/pra3_11_divide.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=25 "Built target pra3_11_divide"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=26 "Built target pra3_11_divide"
 .PHONY : CMakeFiles/pra3_11_divide.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2446,12 +2620,12 @@ CMakeFiles/pra3_11_divide.dir/clean:
 CMakeFiles/pra4_02_string.dir/all:
 	$(MAKE) -f CMakeFiles/pra4_02_string.dir/build.make CMakeFiles/pra4_02_string.dir/depend
 	$(MAKE) -f CMakeFiles/pra4_02_string.dir/build.make CMakeFiles/pra4_02_string.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=29 "Built target pra4_02_string"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num= "Built target pra4_02_string"
 .PHONY : CMakeFiles/pra4_02_string.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/pra4_02_string.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/pra4_02_string.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/pra4_02_string.dir/rule
@@ -2473,7 +2647,7 @@ CMakeFiles/pra4_02_string.dir/clean:
 CMakeFiles/pra4_04_instr2.dir/all:
 	$(MAKE) -f CMakeFiles/pra4_04_instr2.dir/build.make CMakeFiles/pra4_04_instr2.dir/depend
 	$(MAKE) -f CMakeFiles/pra4_04_instr2.dir/build.make CMakeFiles/pra4_04_instr2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=31 "Built target pra4_04_instr2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=32 "Built target pra4_04_instr2"
 .PHONY : CMakeFiles/pra4_04_instr2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2527,7 +2701,7 @@ CMakeFiles/CMakeCXXCompilerId.dir/clean:
 CMakeFiles/pra4_07_strtype1.dir/all:
 	$(MAKE) -f CMakeFiles/pra4_07_strtype1.dir/build.make CMakeFiles/pra4_07_strtype1.dir/depend
 	$(MAKE) -f CMakeFiles/pra4_07_strtype1.dir/build.make CMakeFiles/pra4_07_strtype1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=34 "Built target pra4_07_strtype1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=35 "Built target pra4_07_strtype1"
 .PHONY : CMakeFiles/pra4_07_strtype1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2581,12 +2755,12 @@ CMakeFiles/pra5_03_express.dir/clean:
 CMakeFiles/pra4_16_init_ptr.dir/all:
 	$(MAKE) -f CMakeFiles/pra4_16_init_ptr.dir/build.make CMakeFiles/pra4_16_init_ptr.dir/depend
 	$(MAKE) -f CMakeFiles/pra4_16_init_ptr.dir/build.make CMakeFiles/pra4_16_init_ptr.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num= "Built target pra4_16_init_ptr"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=43 "Built target pra4_16_init_ptr"
 .PHONY : CMakeFiles/pra4_16_init_ptr.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/pra4_16_init_ptr.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/pra4_16_init_ptr.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/pra4_16_init_ptr.dir/rule
@@ -2608,7 +2782,7 @@ CMakeFiles/pra4_16_init_ptr.dir/clean:
 CMakeFiles/pra3_07_bondini.dir/all:
 	$(MAKE) -f CMakeFiles/pra3_07_bondini.dir/build.make CMakeFiles/pra3_07_bondini.dir/depend
 	$(MAKE) -f CMakeFiles/pra3_07_bondini.dir/build.make CMakeFiles/pra3_07_bondini.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=21 "Built target pra3_07_bondini"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=23 "Built target pra3_07_bondini"
 .PHONY : CMakeFiles/pra3_07_bondini.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2635,7 +2809,7 @@ CMakeFiles/pra3_07_bondini.dir/clean:
 CMakeFiles/pra3_02_exceed.dir/all:
 	$(MAKE) -f CMakeFiles/pra3_02_exceed.dir/build.make CMakeFiles/pra3_02_exceed.dir/depend
 	$(MAKE) -f CMakeFiles/pra3_02_exceed.dir/build.make CMakeFiles/pra3_02_exceed.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=16 "Built target pra3_02_exceed"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=18 "Built target pra3_02_exceed"
 .PHONY : CMakeFiles/pra3_02_exceed.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2662,7 +2836,7 @@ CMakeFiles/pra3_02_exceed.dir/clean:
 CMakeFiles/cubes.dir/all:
 	$(MAKE) -f CMakeFiles/cubes.dir/build.make CMakeFiles/cubes.dir/depend
 	$(MAKE) -f CMakeFiles/cubes.dir/build.make CMakeFiles/cubes.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=5 "Built target cubes"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=6 "Built target cubes"
 .PHONY : CMakeFiles/cubes.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2689,7 +2863,7 @@ CMakeFiles/cubes.dir/clean:
 CMakeFiles/pra4_06_numstr.dir/all:
 	$(MAKE) -f CMakeFiles/pra4_06_numstr.dir/build.make CMakeFiles/pra4_06_numstr.dir/depend
 	$(MAKE) -f CMakeFiles/pra4_06_numstr.dir/build.make CMakeFiles/pra4_06_numstr.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=33 "Built target pra4_06_numstr"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=34 "Built target pra4_06_numstr"
 .PHONY : CMakeFiles/pra4_06_numstr.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2716,7 +2890,7 @@ CMakeFiles/pra4_06_numstr.dir/clean:
 CMakeFiles/pra7_12_atrctfun.dir/all:
 	$(MAKE) -f CMakeFiles/pra7_12_atrctfun.dir/build.make CMakeFiles/pra7_12_atrctfun.dir/depend
 	$(MAKE) -f CMakeFiles/pra7_12_atrctfun.dir/build.make CMakeFiles/pra7_12_atrctfun.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=90 "Built target pra7_12_atrctfun"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=88 "Built target pra7_12_atrctfun"
 .PHONY : CMakeFiles/pra7_12_atrctfun.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2770,7 +2944,7 @@ CMakeFiles/fun_ptr.dir/clean:
 CMakeFiles/pra3_10_arith.dir/all:
 	$(MAKE) -f CMakeFiles/pra3_10_arith.dir/build.make CMakeFiles/pra3_10_arith.dir/depend
 	$(MAKE) -f CMakeFiles/pra3_10_arith.dir/build.make CMakeFiles/pra3_10_arith.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=24 "Built target pra3_10_arith"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=25 "Built target pra3_10_arith"
 .PHONY : CMakeFiles/pra3_10_arith.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2797,7 +2971,7 @@ CMakeFiles/pra3_10_arith.dir/clean:
 CMakeFiles/pra3_05_chartype.dir/all:
 	$(MAKE) -f CMakeFiles/pra3_05_chartype.dir/build.make CMakeFiles/pra3_05_chartype.dir/depend
 	$(MAKE) -f CMakeFiles/pra3_05_chartype.dir/build.make CMakeFiles/pra3_05_chartype.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=19 "Built target pra3_05_chartype"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=21 "Built target pra3_05_chartype"
 .PHONY : CMakeFiles/pra3_05_chartype.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2824,12 +2998,12 @@ CMakeFiles/pra3_05_chartype.dir/clean:
 CMakeFiles/pra3_08_floatnum.dir/all:
 	$(MAKE) -f CMakeFiles/pra3_08_floatnum.dir/build.make CMakeFiles/pra3_08_floatnum.dir/depend
 	$(MAKE) -f CMakeFiles/pra3_08_floatnum.dir/build.make CMakeFiles/pra3_08_floatnum.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=22 "Built target pra3_08_floatnum"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num= "Built target pra3_08_floatnum"
 .PHONY : CMakeFiles/pra3_08_floatnum.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/pra3_08_floatnum.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/pra3_08_floatnum.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/pra3_08_floatnum.dir/rule
@@ -2851,7 +3025,7 @@ CMakeFiles/pra3_08_floatnum.dir/clean:
 CMakeFiles/pra4_18_arraynew.dir/all:
 	$(MAKE) -f CMakeFiles/pra4_18_arraynew.dir/build.make CMakeFiles/pra4_18_arraynew.dir/depend
 	$(MAKE) -f CMakeFiles/pra4_18_arraynew.dir/build.make CMakeFiles/pra4_18_arraynew.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=44 "Built target pra4_18_arraynew"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=45 "Built target pra4_18_arraynew"
 .PHONY : CMakeFiles/pra4_18_arraynew.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2878,7 +3052,7 @@ CMakeFiles/pra4_18_arraynew.dir/clean:
 CMakeFiles/pra7_06_arrfun2.dir/all:
 	$(MAKE) -f CMakeFiles/pra7_06_arrfun2.dir/build.make CMakeFiles/pra7_06_arrfun2.dir/depend
 	$(MAKE) -f CMakeFiles/pra7_06_arrfun2.dir/build.make CMakeFiles/pra7_06_arrfun2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=85 "Built target pra7_06_arrfun2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=83 "Built target pra7_06_arrfun2"
 .PHONY : CMakeFiles/pra7_06_arrfun2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2905,7 +3079,7 @@ CMakeFiles/pra7_06_arrfun2.dir/clean:
 CMakeFiles/pra7_13_strctptr.dir/all:
 	$(MAKE) -f CMakeFiles/pra7_13_strctptr.dir/build.make CMakeFiles/pra7_13_strctptr.dir/depend
 	$(MAKE) -f CMakeFiles/pra7_13_strctptr.dir/build.make CMakeFiles/pra7_13_strctptr.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=91 "Built target pra7_13_strctptr"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=89 "Built target pra7_13_strctptr"
 .PHONY : CMakeFiles/pra7_13_strctptr.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2932,7 +3106,7 @@ CMakeFiles/pra7_13_strctptr.dir/clean:
 CMakeFiles/pra3_04_hexoct2.dir/all:
 	$(MAKE) -f CMakeFiles/pra3_04_hexoct2.dir/build.make CMakeFiles/pra3_04_hexoct2.dir/depend
 	$(MAKE) -f CMakeFiles/pra3_04_hexoct2.dir/build.make CMakeFiles/pra3_04_hexoct2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=18 "Built target pra3_04_hexoct2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=20 "Built target pra3_04_hexoct2"
 .PHONY : CMakeFiles/pra3_04_hexoct2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2959,7 +3133,7 @@ CMakeFiles/pra3_04_hexoct2.dir/clean:
 CMakeFiles/pra4_17_use_new.dir/all:
 	$(MAKE) -f CMakeFiles/pra4_17_use_new.dir/build.make CMakeFiles/pra4_17_use_new.dir/depend
 	$(MAKE) -f CMakeFiles/pra4_17_use_new.dir/build.make CMakeFiles/pra4_17_use_new.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=43 "Built target pra4_17_use_new"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=44 "Built target pra4_17_use_new"
 .PHONY : CMakeFiles/pra4_17_use_new.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2986,7 +3160,7 @@ CMakeFiles/pra4_17_use_new.dir/clean:
 CMakeFiles/pra6_07_not.dir/all:
 	$(MAKE) -f CMakeFiles/pra6_07_not.dir/build.make CMakeFiles/pra6_07_not.dir/depend
 	$(MAKE) -f CMakeFiles/pra6_07_not.dir/build.make CMakeFiles/pra6_07_not.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=75 "Built target pra6_07_not"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=74 "Built target pra6_07_not"
 .PHONY : CMakeFiles/pra6_07_not.dir/all
 
 # Build rule for subdir invocation for target.
@@ -3040,12 +3214,12 @@ CMakeFiles/pra4_12_assgn_st.dir/clean:
 CMakeFiles/pra6_03_ifelself.dir/all:
 	$(MAKE) -f CMakeFiles/pra6_03_ifelself.dir/build.make CMakeFiles/pra6_03_ifelself.dir/depend
 	$(MAKE) -f CMakeFiles/pra6_03_ifelself.dir/build.make CMakeFiles/pra6_03_ifelself.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num= "Built target pra6_03_ifelself"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=70 "Built target pra6_03_ifelself"
 .PHONY : CMakeFiles/pra6_03_ifelself.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/pra6_03_ifelself.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/pra6_03_ifelself.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/pra6_03_ifelself.dir/rule
@@ -3094,7 +3268,7 @@ CMakeFiles/pra5_10_equal.dir/clean:
 CMakeFiles/pra3_03_hexoct.dir/all:
 	$(MAKE) -f CMakeFiles/pra3_03_hexoct.dir/build.make CMakeFiles/pra3_03_hexoct.dir/depend
 	$(MAKE) -f CMakeFiles/pra3_03_hexoct.dir/build.make CMakeFiles/pra3_03_hexoct.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=17 "Built target pra3_03_hexoct"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=19 "Built target pra3_03_hexoct"
 .PHONY : CMakeFiles/pra3_03_hexoct.dir/all
 
 # Build rule for subdir invocation for target.
@@ -3121,7 +3295,7 @@ CMakeFiles/pra3_03_hexoct.dir/clean:
 CMakeFiles/pra3_01.dir/all:
 	$(MAKE) -f CMakeFiles/pra3_01.dir/build.make CMakeFiles/pra3_01.dir/depend
 	$(MAKE) -f CMakeFiles/pra3_01.dir/build.make CMakeFiles/pra3_01.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=15 "Built target pra3_01"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles --progress-num=17 "Built target pra3_01"
 .PHONY : CMakeFiles/pra3_01.dir/all
 
 # Build rule for subdir invocation for target.

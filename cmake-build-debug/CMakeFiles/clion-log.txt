@@ -94,15 +94,21 @@
     -- src/pra7_15_arrobj.cpp will be compiled to bin/pra7_15_arrobj
     -- src/pra7_16_recur.cpp will be compiled to bin/pra7_16_recur
     -- src/pra7_17_ruler.cpp will be compiled to bin/pra7_17_ruler
+    -- src/choices.cpp will be compiled to bin/choices
     -- src/cubes.cpp will be compiled to bin/cubes
     -- src/filefunc.cpp will be compiled to bin/filefunc
     -- src/firstref.cpp will be compiled to bin/firstref
+    -- src/funtemp.cpp will be compiled to bin/funtemp
     -- src/inline.cpp will be compiled to bin/inline
     -- src/left.cpp will be compiled to bin/left
+    -- src/leftover.cpp will be compiled to bin/leftover
     -- src/secref.cpp will be compiled to bin/secref
     -- src/strquote.cpp will be compiled to bin/strquote
     -- src/strref.cpp will be compiled to bin/strref
     -- src/swaps.cpp will be compiled to bin/swaps
+    -- src/temptempover.cpp will be compiled to bin/temptempover
+    -- src/twoswap.cpp will be compiled to bin/twoswap
+    -- src/twotemps.cpp will be compiled to bin/twotemps
     -- src/CMakeCXXCompilerId.cpp will be compiled to bin/CMakeCXXCompilerId
     -- src/main.cpp will be compiled to bin/main
 -- Configuring done
