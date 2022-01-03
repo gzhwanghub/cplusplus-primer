@@ -1,6 +1,33 @@
 /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/guiru/CLionProjects/cplusplus-primer
+-- The C compiler identification is AppleClang 12.0.0.12000031
+-- The CXX compiler identification is AppleClang 12.0.0.12000031
+-- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc
+-- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /Library/Developer/CommandLineTools/usr/bin/c++
+-- Check for working CXX compiler: /Library/Developer/CommandLineTools/usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
     -- src/ex1_09.cpp will be compiled to bin/ex1_09
     -- src/ex1_10.cpp will be compiled to bin/ex1_10
+    -- src/stock20.cpp will be compiled to bin/stock20
+    -- src/stock00.cpp will be compiled to bin/stock00
+    -- src/stock10.cpp will be compiled to bin/stock10
+    -- src/usestock0.cpp will be compiled to bin/usestock0
+    -- src/usestock2.cpp will be compiled to bin/usestock2
+CMake Error at CMakeLists.txt:8 (add_executable):
+  add_executable cannot create target "usestock2" because another target with
+  the same name already exists.  The existing target is an executable created
+  in source directory "/Users/guiru/CLionProjects/cplusplus-primer".  See
+  documentation for policy CMP0002 for more details.
+
+
+    -- src/usestock2.cpp will be compiled to bin/usestock2
     -- src/pra3_01.cpp will be compiled to bin/pra3_01
     -- src/pra3_02_exceed.cpp will be compiled to bin/pra3_02_exceed
     -- src/pra3_03_hexoct.cpp will be compiled to bin/pra3_03_hexoct
@@ -75,8 +102,6 @@
     -- src/pra6_15_outfile.cpp will be compiled to bin/pra6_15_outfile
     -- src/pra6_16_sumafile.cpp will be compiled to bin/pra6_16_sumafile
     -- src/switch.cpp will be compiled to bin/switch
-    -- src/arfupt.cpp will be compiled to bin/arfupt
-    -- src/fun_ptr.cpp will be compiled to bin/fun_ptr
     -- src/pra7_01_calling.cpp will be compiled to bin/pra7_01_calling
     -- src/pra7_02_protos.cpp will be compiled to bin/pra7_02_protos
     -- src/pra7_03_twoarg.cpp will be compiled to bin/pra7_03_twoarg
@@ -94,23 +119,33 @@
     -- src/pra7_15_arrobj.cpp will be compiled to bin/pra7_15_arrobj
     -- src/pra7_16_recur.cpp will be compiled to bin/pra7_16_recur
     -- src/pra7_17_ruler.cpp will be compiled to bin/pra7_17_ruler
-    -- src/choices.cpp will be compiled to bin/choices
-    -- src/cubes.cpp will be compiled to bin/cubes
-    -- src/filefunc.cpp will be compiled to bin/filefunc
-    -- src/firstref.cpp will be compiled to bin/firstref
-    -- src/funtemp.cpp will be compiled to bin/funtemp
-    -- src/inline.cpp will be compiled to bin/inline
-    -- src/left.cpp will be compiled to bin/left
-    -- src/leftover.cpp will be compiled to bin/leftover
-    -- src/secref.cpp will be compiled to bin/secref
-    -- src/strquote.cpp will be compiled to bin/strquote
-    -- src/strref.cpp will be compiled to bin/strref
-    -- src/swaps.cpp will be compiled to bin/swaps
-    -- src/temptempover.cpp will be compiled to bin/temptempover
-    -- src/twoswap.cpp will be compiled to bin/twoswap
-    -- src/twotemps.cpp will be compiled to bin/twotemps
+    -- src/pra7_18_fun_ptr.cpp will be compiled to bin/pra7_18_fun_ptr
+    -- src/pra7_19_arfupt.cpp will be compiled to bin/pra7_19_arfupt
+    -- src/pra8_01_inline.cpp will be compiled to bin/pra8_01_inline
+    -- src/pra8_02_firstref.cpp will be compiled to bin/pra8_02_firstref
+    -- src/pra8_03_secref.cpp will be compiled to bin/pra8_03_secref
+    -- src/pra8_04_swaps.cpp will be compiled to bin/pra8_04_swaps
+    -- src/pra8_05_cubes.cpp will be compiled to bin/pra8_05_cubes
+    -- src/pra8_06_strref.cpp will be compiled to bin/pra8_06_strref
+    -- src/pra8_07_strquote.cpp will be compiled to bin/pra8_07_strquote
+    -- src/pra8_08_filefunc.cpp will be compiled to bin/pra8_08_filefunc
+    -- src/pra8_09_left.cpp will be compiled to bin/pra8_09_left
+    -- src/pra8_10_leftover.cpp will be compiled to bin/pra8_10_leftover
+    -- src/pra8_11_funtemp.cpp will be compiled to bin/pra8_11_funtemp
+    -- src/pra8_12_twotemps.cpp will be compiled to bin/pra8_12_twotemps
+    -- src/pra8_13_twoswap.cpp will be compiled to bin/pra8_13_twoswap
+    -- src/pra8_14_temptempover.cpp will be compiled to bin/pra8_14_temptempover
+    -- src/pra8_15_choices.cpp will be compiled to bin/pra8_15_choices
+    -- src/auto.cpp will be compiled to bin/auto
+    -- src/external.cpp will be compiled to bin/external
+    -- src/file1.cpp will be compiled to bin/file1
+    -- src/file2.cpp will be compiled to bin/file2
+    -- src/namesp.cpp will be compiled to bin/namesp
+    -- src/namessp.cpp will be compiled to bin/namessp
+    -- src/newplace.cpp will be compiled to bin/newplace
+    -- src/static.cpp will be compiled to bin/static
+    -- src/support.cpp will be compiled to bin/support
     -- src/CMakeCXXCompilerId.cpp will be compiled to bin/CMakeCXXCompilerId
     -- src/main.cpp will be compiled to bin/main
--- Configuring done
--- Generating done
--- Build files have been written to: /Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug
+-- Configuring incomplete, errors occurred!
+See also "/Users/guiru/CLionProjects/cplusplus-primer/cmake-build-debug/CMakeFiles/CMakeOutput.log".
