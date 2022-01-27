@@ -1,0 +1,3 @@
+/Users/guiru/CLionProjects/cplusplus-primer/ch12/build/CMakeFiles/rebuild_cache.dir
+/Users/guiru/CLionProjects/cplusplus-primer/ch12/build/CMakeFiles/edit_cache.dir
+/Users/guiru/CLionProjects/cplusplus-primer/ch12/build/CMakeFiles/ch12.dir

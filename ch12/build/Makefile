@@ -57,10 +57,10 @@ RM = /usr/local/Cellar/cmake/3.21.4/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/guiru/CLionProjects/cplusplus-primer/ch11
+CMAKE_SOURCE_DIR = /Users/guiru/CLionProjects/cplusplus-primer/ch12
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/guiru/CLionProjects/cplusplus-primer/ch11/build
+CMAKE_BINARY_DIR = /Users/guiru/CLionProjects/cplusplus-primer/ch12/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/ch11/build/CMakeFiles /Users/guiru/CLionProjects/cplusplus-primer/ch11/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/ch12/build/CMakeFiles /Users/guiru/CLionProjects/cplusplus-primer/ch12/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/ch11/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guiru/CLionProjects/cplusplus-primer/ch12/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,65 +117,65 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named ch11
+# Target rules for targets named ch12
 
 # Build rule for target.
-ch11: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ch11
-.PHONY : ch11
+ch12: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ch12
+.PHONY : ch12
 
 # fast build rule for target.
-ch11/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch11.dir/build.make CMakeFiles/ch11.dir/build
-.PHONY : ch11/fast
+ch12/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch12.dir/build.make CMakeFiles/ch12.dir/build
+.PHONY : ch12/fast
 
-strngbad.o: strngbad.cpp.o
-.PHONY : strngbad.o
-
-# target to build an object file
-strngbad.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch11.dir/build.make CMakeFiles/ch11.dir/strngbad.cpp.o
-.PHONY : strngbad.cpp.o
-
-strngbad.i: strngbad.cpp.i
-.PHONY : strngbad.i
-
-# target to preprocess a source file
-strngbad.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch11.dir/build.make CMakeFiles/ch11.dir/strngbad.cpp.i
-.PHONY : strngbad.cpp.i
-
-strngbad.s: strngbad.cpp.s
-.PHONY : strngbad.s
-
-# target to generate assembly for a file
-strngbad.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch11.dir/build.make CMakeFiles/ch11.dir/strngbad.cpp.s
-.PHONY : strngbad.cpp.s
-
-vegnews.o: vegnews.cpp.o
-.PHONY : vegnews.o
+placenew2.o: placenew2.cpp.o
+.PHONY : placenew2.o
 
 # target to build an object file
-vegnews.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch11.dir/build.make CMakeFiles/ch11.dir/vegnews.cpp.o
-.PHONY : vegnews.cpp.o
+placenew2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch12.dir/build.make CMakeFiles/ch12.dir/placenew2.cpp.o
+.PHONY : placenew2.cpp.o
 
-vegnews.i: vegnews.cpp.i
-.PHONY : vegnews.i
+placenew2.i: placenew2.cpp.i
+.PHONY : placenew2.i
 
 # target to preprocess a source file
-vegnews.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch11.dir/build.make CMakeFiles/ch11.dir/vegnews.cpp.i
-.PHONY : vegnews.cpp.i
+placenew2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch12.dir/build.make CMakeFiles/ch12.dir/placenew2.cpp.i
+.PHONY : placenew2.cpp.i
 
-vegnews.s: vegnews.cpp.s
-.PHONY : vegnews.s
+placenew2.s: placenew2.cpp.s
+.PHONY : placenew2.s
 
 # target to generate assembly for a file
-vegnews.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch11.dir/build.make CMakeFiles/ch11.dir/vegnews.cpp.s
-.PHONY : vegnews.cpp.s
+placenew2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch12.dir/build.make CMakeFiles/ch12.dir/placenew2.cpp.s
+.PHONY : placenew2.cpp.s
+
+string1.o: string1.cpp.o
+.PHONY : string1.o
+
+# target to build an object file
+string1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch12.dir/build.make CMakeFiles/ch12.dir/string1.cpp.o
+.PHONY : string1.cpp.o
+
+string1.i: string1.cpp.i
+.PHONY : string1.i
+
+# target to preprocess a source file
+string1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch12.dir/build.make CMakeFiles/ch12.dir/string1.cpp.i
+.PHONY : string1.cpp.i
+
+string1.s: string1.cpp.s
+.PHONY : string1.s
+
+# target to generate assembly for a file
+string1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch12.dir/build.make CMakeFiles/ch12.dir/string1.cpp.s
+.PHONY : string1.cpp.s
 
 # Help Target
 help:
@@ -185,13 +185,13 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... ch11"
-	@echo "... strngbad.o"
-	@echo "... strngbad.i"
-	@echo "... strngbad.s"
-	@echo "... vegnews.o"
-	@echo "... vegnews.i"
-	@echo "... vegnews.s"
+	@echo "... ch12"
+	@echo "... placenew2.o"
+	@echo "... placenew2.i"
+	@echo "... placenew2.s"
+	@echo "... string1.o"
+	@echo "... string1.i"
+	@echo "... string1.s"
 .PHONY : help
 
 

@@ -1,33 +1,40 @@
 /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/guiru/CLionProjects/cplusplus-primer
--- The C compiler identification is AppleClang 12.0.0.12000031
--- The CXX compiler identification is AppleClang 12.0.0.12000031
--- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc
--- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc -- works
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Detecting C compile features
--- Detecting C compile features - done
--- Check for working CXX compiler: /Library/Developer/CommandLineTools/usr/bin/c++
--- Check for working CXX compiler: /Library/Developer/CommandLineTools/usr/bin/c++ -- works
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Detecting CXX compile features
--- Detecting CXX compile features - done
     -- src/ex1_09.cpp will be compiled to bin/ex1_09
     -- src/ex1_10.cpp will be compiled to bin/ex1_10
-    -- src/stock20.cpp will be compiled to bin/stock20
+    -- src/CMakeCXXCompilerId.cpp will be compiled to bin/CMakeCXXCompilerId
+    -- src/stack.cpp will be compiled to bin/stack
+    -- src/stacker.cpp will be compiled to bin/stacker
     -- src/stock00.cpp will be compiled to bin/stock00
     -- src/stock10.cpp will be compiled to bin/stock10
+    -- src/stock20.cpp will be compiled to bin/stock20
     -- src/usestock0.cpp will be compiled to bin/usestock0
     -- src/usestock2.cpp will be compiled to bin/usestock2
+    -- src/usestock22.cpp will be compiled to bin/usestock22
 CMake Error at CMakeLists.txt:8 (add_executable):
-  add_executable cannot create target "usestock2" because another target with
-  the same name already exists.  The existing target is an executable created
-  in source directory "/Users/guiru/CLionProjects/cplusplus-primer".  See
-  documentation for policy CMP0002 for more details.
+  add_executable cannot create target "CMakeCXXCompilerId" because another
+  target with the same name already exists.  The existing target is an
+  executable created in source directory
+  "/Users/guiru/CLionProjects/cplusplus-primer".  See documentation for
+  policy CMP0002 for more details.
 
 
-    -- src/usestock2.cpp will be compiled to bin/usestock2
+    -- src/CMakeCXXCompilerId.cpp will be compiled to bin/CMakeCXXCompilerId
+    -- src/stone1.cpp will be compiled to bin/stone1
+    -- src/stonewt1.cpp will be compiled to bin/stonewt1
+    -- src/mytime0.cpp will be compiled to bin/mytime0
+    -- src/mytime1.cpp will be compiled to bin/mytime1
+    -- src/mytime2.cpp will be compiled to bin/mytime2
+    -- src/mytime3.cpp will be compiled to bin/mytime3
+    -- src/randwalk.cpp will be compiled to bin/randwalk
+    -- src/stone.cpp will be compiled to bin/stone
+    -- src/stonewt.cpp will be compiled to bin/stonewt
+    -- src/usetime0.cpp will be compiled to bin/usetime0
+    -- src/usetime1.cpp will be compiled to bin/usetime1
+    -- src/usetime2.cpp will be compiled to bin/usetime2
+    -- src/usetime3.cpp will be compiled to bin/usetime3
+    -- src/vector.cpp will be compiled to bin/vector
+    -- src/strmgbad.cpp will be compiled to bin/strmgbad
+    -- src/vegnews.cpp will be compiled to bin/vegnews
     -- src/pra3_01.cpp will be compiled to bin/pra3_01
     -- src/pra3_02_exceed.cpp will be compiled to bin/pra3_02_exceed
     -- src/pra3_03_hexoct.cpp will be compiled to bin/pra3_03_hexoct
@@ -145,6 +152,14 @@ CMake Error at CMakeLists.txt:8 (add_executable):
     -- src/newplace.cpp will be compiled to bin/newplace
     -- src/static.cpp will be compiled to bin/static
     -- src/support.cpp will be compiled to bin/support
+CMake Error at CMakeLists.txt:8 (add_executable):
+  add_executable cannot create target "CMakeCXXCompilerId" because another
+  target with the same name already exists.  The existing target is an
+  executable created in source directory
+  "/Users/guiru/CLionProjects/cplusplus-primer".  See documentation for
+  policy CMP0002 for more details.
+
+
     -- src/CMakeCXXCompilerId.cpp will be compiled to bin/CMakeCXXCompilerId
     -- src/main.cpp will be compiled to bin/main
 -- Configuring incomplete, errors occurred!

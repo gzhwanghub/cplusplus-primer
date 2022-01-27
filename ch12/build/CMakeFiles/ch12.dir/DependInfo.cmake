@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/guiru/CLionProjects/cplusplus-primer/ch11/strngbad.cpp" "CMakeFiles/ch11.dir/strngbad.cpp.o" "gcc" "CMakeFiles/ch11.dir/strngbad.cpp.o.d"
-  "/Users/guiru/CLionProjects/cplusplus-primer/ch11/vegnews.cpp" "CMakeFiles/ch11.dir/vegnews.cpp.o" "gcc" "CMakeFiles/ch11.dir/vegnews.cpp.o.d"
+  "/Users/guiru/CLionProjects/cplusplus-primer/ch12/placenew2.cpp" "CMakeFiles/ch12.dir/placenew2.cpp.o" "gcc" "CMakeFiles/ch12.dir/placenew2.cpp.o.d"
+  "/Users/guiru/CLionProjects/cplusplus-primer/ch12/string1.cpp" "CMakeFiles/ch12.dir/string1.cpp.o" "gcc" "CMakeFiles/ch12.dir/string1.cpp.o.d"
   )
 
 # Targets to which this target links.

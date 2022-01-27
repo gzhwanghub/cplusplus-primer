@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
   "../bin/ch11"
   "../bin/ch11.pdb"
-  "CMakeFiles/ch11.dir/mytime2.cpp.o"
-  "CMakeFiles/ch11.dir/mytime2.cpp.o.d"
-  "CMakeFiles/ch11.dir/usetime2.cpp.o"
-  "CMakeFiles/ch11.dir/usetime2.cpp.o.d"
+  "CMakeFiles/ch11.dir/strngbad.cpp.o"
+  "CMakeFiles/ch11.dir/strngbad.cpp.o.d"
+  "CMakeFiles/ch11.dir/vegnews.cpp.o"
+  "CMakeFiles/ch11.dir/vegnews.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

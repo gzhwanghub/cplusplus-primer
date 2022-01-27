@@ -69,44 +69,44 @@ include CMakeFiles/ch11.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/ch11.dir/flags.make
 
-CMakeFiles/ch11.dir/mytime2.cpp.o: CMakeFiles/ch11.dir/flags.make
-CMakeFiles/ch11.dir/mytime2.cpp.o: ../mytime2.cpp
-CMakeFiles/ch11.dir/mytime2.cpp.o: CMakeFiles/ch11.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/ch11/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ch11.dir/mytime2.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ch11.dir/mytime2.cpp.o -MF CMakeFiles/ch11.dir/mytime2.cpp.o.d -o CMakeFiles/ch11.dir/mytime2.cpp.o -c /Users/guiru/CLionProjects/cplusplus-primer/ch11/mytime2.cpp
+CMakeFiles/ch11.dir/strngbad.cpp.o: CMakeFiles/ch11.dir/flags.make
+CMakeFiles/ch11.dir/strngbad.cpp.o: ../strngbad.cpp
+CMakeFiles/ch11.dir/strngbad.cpp.o: CMakeFiles/ch11.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/ch11/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ch11.dir/strngbad.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ch11.dir/strngbad.cpp.o -MF CMakeFiles/ch11.dir/strngbad.cpp.o.d -o CMakeFiles/ch11.dir/strngbad.cpp.o -c /Users/guiru/CLionProjects/cplusplus-primer/ch11/strngbad.cpp
 
-CMakeFiles/ch11.dir/mytime2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ch11.dir/mytime2.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/guiru/CLionProjects/cplusplus-primer/ch11/mytime2.cpp > CMakeFiles/ch11.dir/mytime2.cpp.i
+CMakeFiles/ch11.dir/strngbad.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ch11.dir/strngbad.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/guiru/CLionProjects/cplusplus-primer/ch11/strngbad.cpp > CMakeFiles/ch11.dir/strngbad.cpp.i
 
-CMakeFiles/ch11.dir/mytime2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ch11.dir/mytime2.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/guiru/CLionProjects/cplusplus-primer/ch11/mytime2.cpp -o CMakeFiles/ch11.dir/mytime2.cpp.s
+CMakeFiles/ch11.dir/strngbad.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ch11.dir/strngbad.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/guiru/CLionProjects/cplusplus-primer/ch11/strngbad.cpp -o CMakeFiles/ch11.dir/strngbad.cpp.s
 
-CMakeFiles/ch11.dir/usetime2.cpp.o: CMakeFiles/ch11.dir/flags.make
-CMakeFiles/ch11.dir/usetime2.cpp.o: ../usetime2.cpp
-CMakeFiles/ch11.dir/usetime2.cpp.o: CMakeFiles/ch11.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/ch11/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ch11.dir/usetime2.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ch11.dir/usetime2.cpp.o -MF CMakeFiles/ch11.dir/usetime2.cpp.o.d -o CMakeFiles/ch11.dir/usetime2.cpp.o -c /Users/guiru/CLionProjects/cplusplus-primer/ch11/usetime2.cpp
+CMakeFiles/ch11.dir/vegnews.cpp.o: CMakeFiles/ch11.dir/flags.make
+CMakeFiles/ch11.dir/vegnews.cpp.o: ../vegnews.cpp
+CMakeFiles/ch11.dir/vegnews.cpp.o: CMakeFiles/ch11.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/ch11/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ch11.dir/vegnews.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ch11.dir/vegnews.cpp.o -MF CMakeFiles/ch11.dir/vegnews.cpp.o.d -o CMakeFiles/ch11.dir/vegnews.cpp.o -c /Users/guiru/CLionProjects/cplusplus-primer/ch11/vegnews.cpp
 
-CMakeFiles/ch11.dir/usetime2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ch11.dir/usetime2.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/guiru/CLionProjects/cplusplus-primer/ch11/usetime2.cpp > CMakeFiles/ch11.dir/usetime2.cpp.i
+CMakeFiles/ch11.dir/vegnews.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ch11.dir/vegnews.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/guiru/CLionProjects/cplusplus-primer/ch11/vegnews.cpp > CMakeFiles/ch11.dir/vegnews.cpp.i
 
-CMakeFiles/ch11.dir/usetime2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ch11.dir/usetime2.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/guiru/CLionProjects/cplusplus-primer/ch11/usetime2.cpp -o CMakeFiles/ch11.dir/usetime2.cpp.s
+CMakeFiles/ch11.dir/vegnews.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ch11.dir/vegnews.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/guiru/CLionProjects/cplusplus-primer/ch11/vegnews.cpp -o CMakeFiles/ch11.dir/vegnews.cpp.s
 
 # Object files for target ch11
 ch11_OBJECTS = \
-"CMakeFiles/ch11.dir/mytime2.cpp.o" \
-"CMakeFiles/ch11.dir/usetime2.cpp.o"
+"CMakeFiles/ch11.dir/strngbad.cpp.o" \
+"CMakeFiles/ch11.dir/vegnews.cpp.o"
 
 # External object files for target ch11
 ch11_EXTERNAL_OBJECTS =
 
-../bin/ch11: CMakeFiles/ch11.dir/mytime2.cpp.o
-../bin/ch11: CMakeFiles/ch11.dir/usetime2.cpp.o
+../bin/ch11: CMakeFiles/ch11.dir/strngbad.cpp.o
+../bin/ch11: CMakeFiles/ch11.dir/vegnews.cpp.o
 ../bin/ch11: CMakeFiles/ch11.dir/build.make
 ../bin/ch11: CMakeFiles/ch11.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/guiru/CLionProjects/cplusplus-primer/ch11/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../bin/ch11"
